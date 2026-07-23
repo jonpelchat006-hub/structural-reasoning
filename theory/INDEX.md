@@ -1,9 +1,9 @@
 # Theory corpus — full index
 
-The research program has 74 markdown documents and 15 PDFs. Documents marked **[embedded]** have
-their full text in this repository; the rest are maintained in the project knowledge base and are
-listed here so the corpus is complete and navigable. (Backfilling the remaining full texts into the
-repo is a mechanical export.)
+The research program has 74 markdown documents and 15 PDFs. Every document listed here is now
+**[embedded]** — its full text lives in this repository (folding thread under `theory/folding/`,
+framework and ARC/vesica-solver logs under `theory/framework/`). The PDFs remain in the project
+knowledge base and are listed at the end for completeness.
 
 Every folding-thread doc ends with an **honest ledger** (CONFIRMED / CORRECTION / NEGATIVE /
 FRAMEWORK). The stance is uniform: name the claim, test it, believe the number even when it bounds
@@ -66,12 +66,26 @@ the idea.
 
 ---
 
-## Framework — `theory/framework/` (Shovelcat / vesica / ARC solver)
+## Framework — `theory/framework/` (Shovelcat / vesica / ARC solver) [all embedded]
 - SHOVELCAT_THEORY [embedded, full] — the core framework (dual-domain ψ/φ, theta-field blanket, resonance, the alpha formula).
 - SPHERE_GENERATOR [embedded, full] — the closure equation x²=x+1 → golden field (§J.6); the orchard/vesica generator.
 - SPARSE_VESICA_EXPANSION [embedded, full] — the re-basing tower (roof(n)=floor(n+1)); the closure band; multi-witness registration.
-- SPHERE_GENERATOR_TEST — the orchard incidence tests (E–H) that force the golden field.  *(remaining framework result-logs listed below are the ARC/vesica solver internals)*
-- INNER_SHELL, ROOF_RESULTS, VESICA_RESULTS, TRACE_RESULTS, TOPO_LIFT_RESULTS, PRUNE_RESULTS, BOUNCE_SCAN_RESULTS, GEN_DRAW_RESULTS, MINING_NOTES, TRUST_AUDIT_RESULTS, EVAL_SCHEMA_MAP, RESULTS, ISOLATION_TEST — ARC-solver and vesica-generator result logs.
+- SPHERE_GENERATOR_TEST [embedded] — the orchard incidence tests (A–I) that force the golden field.
+
+**ARC-solver & vesica-generator result logs [all embedded]** — the honest ledgers of the model-free ARC program (26 → 66/400 train, 26/400 held-out eval):
+- RESULTS — the front-end "body": signature/resonance/coordinator/bender bricks; the operator-bound ceiling.
+- INNER_SHELL — the primitive set named + mapped; spheres, θ-equilibrium, the discovery engine (81 train), the derivative ladder.
+- ISOLATION_TEST — signature isolation does not predict difficulty; the anchor-availability + twin-transfer tests.
+- TRUST_AUDIT_RESULTS — the trust economy on primitives: 13 theory-guided batches, floor certified to 85% self-expression.
+- ROOF_RESULTS — the first per-task (roof) tool; the ability-draft wired in.
+- VESICA_RESULTS — the cos²θ Born superposition: reproduces, doesn't invent (vocabulary-bound).
+- GEN_DRAW_RESULTS — the learned sprite decoder (stamp2, +9 train / +0 eval): the train→eval gap in one experiment.
+- TRACE_RESULTS — the geo-trace synthesizer v1 (segments between bubbles).
+- TOPO_LIFT_RESULTS — the topology/enclosure lift: best-aimed shot, +2 train / +0 eval.
+- PRUNE_RESULTS — the prune-down (local-rule) direction; the honest both-directions stock-take.
+- BOUNCE_SCAN_RESULTS — the double-bounce roof search: **first non-zero eval gain (+3)**; the broken-spring diagnostic.
+- MINING_NOTES — the ranked idea-list to close the train→eval gap (Tier 0 ψ-domain through Tier 3 self-extension).
+- EVAL_SCHEMA_MAP — the eval geochemistry map: INK-ADD/DRAW is the dominant unsolved class (119 tasks, ~1%).
 - SHOWCASE_README_DRAFT — the author's earlier public-facing draft.
 
 ## PDFs (project files)
