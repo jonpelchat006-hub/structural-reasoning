@@ -26,6 +26,18 @@ the idea.
 - **FOLDING_BLANKET** [embedded] — the interface is a finite blanket of definite size (~36% of residues, CV 0.15), spent down over the fold levels.
 - **FOLDING_SEQUENCE_BUDGET** [embedded] — sequences supply a foldability budget; the margin is graded, ranks folders>failures (AUC 0.73), tracks real S669 ΔΔG (+0.19–0.21), and scales with model size (8M→35M doubles to +0.36).
 
+**Latest thread — the deficit / fill / vortex (Jul 22–23)** [all embedded]
+- **FOLDING_WALL_GRADIENT** — the seam is a cambium, not skin: commitment grades *across* the cut (+0.31, 7/8), not up the wall (the skin gradient is absent).
+- **FOLDING_SATURATION_BUDGET** — packing is pinned to 0.627 ± 0.014 across 1,130–10,100 atoms (a third budget); a dense shell hits the close-packing max; the void is banked at the seam.
+- **FOLDING_PIXEL_TRANSMISSION** — every border has a graded efficiency; similar pixels dissolve; the seam becomes a *leaky* wall (~0.83) only under coarse-graining.
+- **FOLDING_DEFICIT_SITE** — the active site is an *incomplete* void (a half-void with a deficit); the ligand is the replacement B; charge is the A/B imbalance (opposite-charge pocket, 3/5). Explains why the seam never predicted the site.
+- **FOLDING_VORTEX_DEPOSITION** — the domain turn writes on the seam walls (~5.5× enriched), approaches obliquely (~37°), and the wall *is* the outer border moved into position (RSA 0.22→0.05).
+- **FOLDING_VOID_REACH** — the void line is the long-range reach corridor (betweenness 2.1×, 8/8); reach is budgeted/sparse; 25–44% A|B-mixed; enzyme deficits sit on the channel.
+- **FOLDING_CHANNELS** — filling the void doesn't seal it: buried substrates stay porous (AP5A 89% buried keeps 7 channels). The flow reserve is the one budget held above zero (symmorphosis).
+- **FOLDING_SOLVENT_SUPPLY** — water is O(A)+H(B), the amphoteric filler: fills both unpaired acceptors (48%) and donors (33%).
+- **FOLDING_METAL_WELLS** — metals aren't repelled to the edge; they're seized into wells; the magnetic transition metals (Fe/Cu) sit in soft N/S wells at the cage focus — a distinct class.
+- **FOLDING_PAIR_ALIGNMENT** — points defining a center come in pairs; aligned (trans/octahedral) vs non-aligned (planar) is real, but it tracks geometry, not N/S donor identity.
+
 **Earlier folding docs (in project knowledge base)**
 - FOLDING_THE_KNIFE — the cut is a flat plane (~85–98% separable) made of absence.
 - FOLDING_TWO_WALLS — the carbon/shape wall meets the ionic/energy wall at the seam.
