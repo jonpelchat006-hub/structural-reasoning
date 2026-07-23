@@ -38,7 +38,7 @@ the idea.
 - **FOLDING_METAL_WELLS** — metals aren't repelled to the edge; they're seized into wells; the magnetic transition metals (Fe/Cu) sit in soft N/S wells at the cage focus — a distinct class.
 - **FOLDING_PAIR_ALIGNMENT** — points defining a center come in pairs; aligned (trans/octahedral) vs non-aligned (planar) is real, but it tracks geometry, not N/S donor identity.
 
-**Earlier folding docs (in project knowledge base)**
+**Earlier folding docs** [all embedded]
 - FOLDING_THE_KNIFE — the cut is a flat plane (~85–98% separable) made of absence.
 - FOLDING_TWO_WALLS — the carbon/shape wall meets the ionic/energy wall at the seam.
 - FOLDING_ALIASING — the flat knife can't ride the 45° zigzag void; partial-coverage cells.
@@ -66,10 +66,11 @@ the idea.
 
 ---
 
-## Framework — `theory/framework/` (Shovelcat / vesica / ARC solver)  *(in project knowledge base)*
-- SHOVELCAT_THEORY — the core framework (dual-domain ψ/φ, theta-field blanket, resonance, the alpha formula).
-- SPHERE_GENERATOR / SPHERE_GENERATOR_TEST — the closure equation x²=x+1 → golden field (§J.6); the orchard/vesica generator and its tests (E–H).
-- SPARSE_VESICA_EXPANSION — the re-basing tower (roof(n)=floor(n+1)); the closure band; multi-witness registration.
+## Framework — `theory/framework/` (Shovelcat / vesica / ARC solver)
+- SHOVELCAT_THEORY [embedded, full] — the core framework (dual-domain ψ/φ, theta-field blanket, resonance, the alpha formula).
+- SPHERE_GENERATOR [embedded, full] — the closure equation x²=x+1 → golden field (§J.6); the orchard/vesica generator.
+- SPARSE_VESICA_EXPANSION [embedded, full] — the re-basing tower (roof(n)=floor(n+1)); the closure band; multi-witness registration.
+- SPHERE_GENERATOR_TEST — the orchard incidence tests (E–H) that force the golden field.  *(remaining framework result-logs listed below are the ARC/vesica solver internals)*
 - INNER_SHELL, ROOF_RESULTS, VESICA_RESULTS, TRACE_RESULTS, TOPO_LIFT_RESULTS, PRUNE_RESULTS, BOUNCE_SCAN_RESULTS, GEN_DRAW_RESULTS, MINING_NOTES, TRUST_AUDIT_RESULTS, EVAL_SCHEMA_MAP, RESULTS, ISOLATION_TEST — ARC-solver and vesica-generator result logs.
 - SHOWCASE_README_DRAFT — the author's earlier public-facing draft.
 
