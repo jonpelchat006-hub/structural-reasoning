@@ -1,0 +1,687 @@
+{
+ "g50t": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 333.4,
+    "deaths": 1,
+    "level_presses": [],
+    "voluntary_resets": 3
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 341.1,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 9
+   },
+   {
+    "actions": 1015
+   }
+  ],
+  "seconds": 688
+ },
+ "ar25": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 529.5,
+    "deaths": 2,
+    "level_presses": [],
+    "voluntary_resets": 4
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 229.0,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 2
+   },
+   {
+    "actions": 1010
+   }
+  ],
+  "seconds": 769
+ },
+ "cd82": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 444.9,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 5
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 395.6,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 5
+   },
+   {
+    "actions": 1012
+   }
+  ],
+  "seconds": 854
+ },
+ "ft09": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 471.5,
+    "deaths": 2,
+    "level_presses": [],
+    "voluntary_resets": 3
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 391.2,
+    "deaths": 2,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "actions": 1009
+   }
+  ],
+  "seconds": 871
+ },
+ "ka59": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 514.1,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 15
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 357.5,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 12
+   },
+   {
+    "actions": 1029
+   }
+  ],
+  "seconds": 884
+ },
+ "cn04": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 595.0,
+    "deaths": 1,
+    "level_presses": [],
+    "voluntary_resets": 10
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 495.3,
+    "deaths": 1,
+    "level_presses": [],
+    "voluntary_resets": 10
+   },
+   {
+    "actions": 1024
+   }
+  ],
+  "seconds": 1108
+ },
+ "dc22": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 640.3,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 106
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 584.8,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 110
+   },
+   {
+    "actions": 1218
+   }
+  ],
+  "seconds": 1243
+ },
+ "m0r0": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 197.2,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 3
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 281.5,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 3
+   },
+   {
+    "actions": 1008
+   }
+  ],
+  "seconds": 493
+ },
+ "lp85": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 301.3,
+    "deaths": 2,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 356.1,
+    "deaths": 1,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "actions": 1005
+   }
+  ],
+  "seconds": 676
+ },
+ "bp35": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 816.2,
+    "deaths": 6,
+    "level_presses": [],
+    "voluntary_resets": 3
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 738.8,
+    "deaths": 8,
+    "level_presses": [],
+    "voluntary_resets": 4
+   },
+   {
+    "actions": 1023
+   }
+  ],
+  "seconds": 1568
+ },
+ "re86": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 322.0,
+    "deaths": 5,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 218.5,
+    "deaths": 5,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "actions": 1012
+   }
+  ],
+  "seconds": 548
+ },
+ "ls20": {
+  "score": 8.262676616796043,
+  "lives": [
+   {
+    "levels": 2,
+    "presses": 500,
+    "stop": null,
+    "seconds": 270.8,
+    "deaths": 0,
+    "level_presses": [
+     183,
+     263
+    ],
+    "voluntary_resets": 16
+   },
+   {
+    "levels": 2,
+    "presses": 500,
+    "stop": null,
+    "seconds": 515.8,
+    "deaths": 0,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 55
+   },
+   {
+    "actions": 1073
+   }
+  ],
+  "seconds": 806
+ },
+ "lf52": {
+  "score": 0.028409090909090908,
+  "lives": [
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 407.1,
+    "deaths": 0,
+    "level_presses": [
+     253
+    ],
+    "voluntary_resets": 5
+   },
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 574.5,
+    "deaths": 0,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 7
+   },
+   {
+    "actions": 1014
+   }
+  ],
+  "seconds": 989
+ },
+ "s5i5": {
+  "score": 0.009960119680798084,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 272.1,
+    "deaths": 10,
+    "level_presses": [],
+    "voluntary_resets": 0
+   },
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 310.8,
+    "deaths": 6,
+    "level_presses": [
+     328
+    ],
+    "voluntary_resets": 26
+   },
+   {
+    "actions": 1044
+   }
+  ],
+  "seconds": 591
+ },
+ "sk48": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 279.7,
+    "deaths": 1,
+    "level_presses": [],
+    "voluntary_resets": 1
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 301.7,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 2
+   },
+   {
+    "actions": 1006
+   }
+  ],
+  "seconds": 591
+ },
+ "tn36": {
+  "score": 0.06142741966445273,
+  "lives": [
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 193.8,
+    "deaths": 7,
+    "level_presses": [
+     241
+    ],
+    "voluntary_resets": 0
+   },
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 289.8,
+    "deaths": 6,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 9
+   },
+   {
+    "actions": 1024
+   }
+  ],
+  "seconds": 490
+ },
+ "r11l": {
+  "score": 0.04138110285769005,
+  "lives": [
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 697.2,
+    "deaths": 9,
+    "level_presses": [
+     232
+    ],
+    "voluntary_resets": 1
+   },
+   {
+    "levels": 1,
+    "presses": 464,
+    "stop": null,
+    "seconds": 843.1,
+    "deaths": 11,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 0
+   },
+   {
+    "actions": 986
+   }
+  ],
+  "seconds": 1547
+ },
+ "sb26": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 570.2,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 120
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 560.0,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 118
+   },
+   {
+    "actions": 1240
+   }
+  ],
+  "seconds": 1145
+ },
+ "su15": {
+  "score": 1.1192045323158748,
+  "lives": [
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 534.7,
+    "deaths": 10,
+    "level_presses": [
+     29
+    ],
+    "voluntary_resets": 30
+   },
+   {
+    "levels": 1,
+    "presses": 489,
+    "stop": null,
+    "seconds": 361.8,
+    "deaths": 11,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 26
+   },
+   {
+    "actions": 1067
+   }
+  ],
+  "seconds": 906
+ },
+ "tr87": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 368.1,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 5
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 365.7,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 4
+   },
+   {
+    "actions": 1011
+   }
+  ],
+  "seconds": 752
+ },
+ "sp80": {
+  "score": 0.04205462123882795,
+  "lives": [
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 309.4,
+    "deaths": 1,
+    "level_presses": [
+     397
+    ],
+    "voluntary_resets": 24
+   },
+   {
+    "levels": 1,
+    "presses": 500,
+    "stop": null,
+    "seconds": 607.1,
+    "deaths": 1,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 49
+   },
+   {
+    "actions": 1077
+   }
+  ],
+  "seconds": 934
+ },
+ "vc33": {
+  "score": 0.8477563423000783,
+  "lives": [
+   {
+    "levels": 2,
+    "presses": 500,
+    "stop": null,
+    "seconds": 295.2,
+    "deaths": 4,
+    "level_presses": [
+     44,
+     98
+    ],
+    "voluntary_resets": 10
+   },
+   {
+    "levels": 2,
+    "presses": 500,
+    "stop": null,
+    "seconds": 268.4,
+    "deaths": 5,
+    "level_presses": [
+     1
+    ],
+    "voluntary_resets": 5
+   },
+   {
+    "actions": 1026
+   }
+  ],
+  "seconds": 570
+ },
+ "sc25": {
+  "score": 0.0,
+  "lives": null,
+  "seconds": 1457
+ },
+ "tu93": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 391.1,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 107
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 367.4,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 108
+   },
+   {
+    "actions": 1217
+   }
+  ],
+  "seconds": 767
+ },
+ "wa30": {
+  "score": 0.0,
+  "lives": [
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 732.7,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 20
+   },
+   {
+    "levels": 0,
+    "presses": 500,
+    "stop": null,
+    "seconds": 631.9,
+    "deaths": 0,
+    "level_presses": [],
+    "voluntary_resets": 16
+   },
+   {
+    "actions": 1038
+   }
+  ],
+  "seconds": 1373
+ }
+}

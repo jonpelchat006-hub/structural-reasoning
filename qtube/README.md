@@ -9,6 +9,9 @@ official engine actions with zero resets, across three model seeds, using no lan
 demonstration route, supplied display crop or target coordinates. The same document says what this is:
 development on a known public level.
 
+The shape fit that went into the last Kaggle build (`qtube_fit.py`) is in
+[`../arc-agi-3/kaggle-full-core/`](../arc-agi-3/kaggle-full-core/).
+
 **Status:** early experiments on one public game. Run outputs are not included.
 
 ## Files

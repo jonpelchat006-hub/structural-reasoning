@@ -14,6 +14,9 @@ Everything written for the ARC-AGI-3 interactive games during 2026, source and w
   write-up for each idea as it was tried (the eyes, the clocks, sleep, the tunnel chain, the university, the
   daily-run diagnoses). Some of the scripts they name were run in working sessions and are not here.
 - **`writer/vc33/`** has solver attempts produced by the writer loop for one game.
+- **`kaggle-full-core/`** has the last build made for the competition (Nov 2 2026): the notebook, the modules that
+  are new or changed in it (the Kaggle wiring, voices 4 and 5, the prism, the Q-tube shape fit) and its
+  result on the public games. See [its README](kaggle-full-core/README.md).
 
 **What was measured.** The numbers below are quoted from the documents in this folder.
 - `planet/PRIORITY_PROGRESS.md` (Sep 7) records the best reported Kaggle submission to that date as .25.
@@ -134,6 +137,24 @@ weights, result dumps, and the API key (the code reads it from a local file that
 - [`ls20_solver3.py`](early/ls20_solver3.py) — LS20 solver v2 — Jonathan's rule + match-protection + door detection + insertion.
 - [`ls20_solver5.py`](early/ls20_solver5.py) — LS20 solver v4 — the anchor + delta structure (Part XXXVIII, Jonathan's level law):
 - [`ls20_solver6.py`](early/ls20_solver6.py) — LS20 solver v4 — the anchor + delta structure (Part XXXVIII, Jonathan's level law):
+
+**`kaggle-full-core/`**
+
+- [`mika-core.ipynb`](kaggle-full-core/mika-core.ipynb)
+
+**`kaggle-full-core/planet/`**
+
+- [`lm_server.py`](kaggle-full-core/planet/lm_server.py) — lm_server.py - Mika's voice served the way her code already asks for it: Ollama's /api/chat and /api/tags on
+- [`meter.py`](kaggle-full-core/planet/meter.py) — meter.py — THE BUDGET METER AS PINS.
+- [`mika_agent.py`](kaggle-full-core/planet/mika_agent.py) — The competition agent: Mika's full inner core (planet body + core), played through mika_bridge.
+- [`mika_bridge.py`](kaggle-full-core/planet/mika_bridge.py) — mika_bridge.py - Mika's full inner core on any game an arc_agi environment serves (Oct 30 2026).
+- [`mika_core.py`](kaggle-full-core/planet/mika_core.py) — mika_core.py - HER INNER CORE BUILDS EQUATIONS; THE NOTES ARE THE OUTER SHELL (Oct 27 2026).
+- [`mika_prism.py`](kaggle-full-core/planet/mika_prism.py) — mika_prism.py - THE TUBE AND THE PRISM (Nov 2 2026, the last attempt; MIKA_PRISM=1, on top of voice4 + voice5).
+- [`mika_voice4.py`](kaggle-full-core/planet/mika_voice4.py) — mika_voice4.py - a better job for her voice (Oct 30 2026). Switched on by MIKA_VOICE4=1; her body and core are unchanged.
+- [`mika_voice5.py`](kaggle-full-core/planet/mika_voice5.py) — mika_voice5.py - she briefs her voice before she asks it anything (Oct 30 2026). MIKA_VOICE5=1, on top of voice4.
+- [`play.py`](kaggle-full-core/planet/play.py) — play.py — LEARN BY PLAYING: the small eye (eye.py) starts blank and learns the game WHILE the
+- [`qtube_fit.py`](kaggle-full-core/planet/qtube_fit.py) — qtube_fit.py - the Q-tube's matching rule for her relations (Nov 1-2 2026). On only with MIKA_QTUBE=1.
+- [`relations.py`](kaggle-full-core/planet/relations.py) — relations.py — THE RELATION LAYER: lines from one object to another, learned from state edges.
 
 **`notes/`**
 
