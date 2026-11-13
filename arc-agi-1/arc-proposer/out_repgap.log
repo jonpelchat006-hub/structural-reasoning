@@ -1,0 +1,18 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== REPRESENTATION-GAP DIAGNOSTIC (solved 65, unsolved 335) ===
+change-type frequency among UNSOLVED (what we can't yet do), with solved-rate per type:
+  281 unsolved   48 solved  (15% solve-rate)  COUNT_CHANGE
+  216 unsolved   27 solved  (11% solve-rate)  SHAPE_OR_SET_CHANGE
+  203 unsolved   26 solved  (11% solve-rate)  MASK_CHANGE
+  200 unsolved   38 solved  (16% solve-rate)  PALETTE_CHANGE
+  146 unsolved    9 solved  (6% solve-rate)  INK_ADDED
+  107 unsolved   31 solved  (22% solve-rate)  DIM_CHANGE
+   81 unsolved   21 solved  (21% solve-rate)  SHRINK
+   38 unsolved   10 solved  (21% solve-rate)  RECOLOR_ONLY
+   28 unsolved    4 solved  (13% solve-rate)  INK_REMOVED
+   26 unsolved   10 solved  (28% solve-rate)  GROW
+   14 unsolved    8 solved  (36% solve-rate)  MOVED

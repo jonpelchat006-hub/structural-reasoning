@@ -1,0 +1,10 @@
+1caeab9d  gravity∘shiftByFeat  test:fail
+7f4411dc  smoothNeighbor∘scaleByFeat  test:fail
+9172f3a0  identity∘scaleByFeat  test:PASS
+9dfd6313  transpose∘scaleByFeat  test:PASS
+ac0a08a4  identity∘scaleByFeat  test:PASS
+b91ae062  identity∘scaleByFeat  test:PASS
+c59eb873  identity∘scaleByFeat  test:PASS
+e9afcf9a  identity∘shear  test:PASS
+f25fbde4  crop∘scaleByFeat  test:PASS
+derivative-inducer fires on training: {"shiftByFeat":1,"scaleByFeat":7,"shear":1}

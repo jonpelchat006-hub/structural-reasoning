@@ -1,0 +1,79 @@
+{
+ "ranked": {
+  "dims:bigger|obj:same|col:yes|sym:no": [
+   "reflect",
+   "scaleByFeat",
+   "fractal"
+  ],
+  "dims:same|obj:fewer|col:yes|sym:no": [
+   "holeFill",
+   "moveByColor",
+   "scaleByFeat"
+  ],
+  "dims:same|obj:same|col:yes|sym:yes": [
+   "rankRecolor",
+   "shapeRecolor",
+   "holeFill",
+   "colorMap",
+   "reflect"
+  ],
+  "dims:same|obj:same|col:yes|sym:no": [
+   "shapeRecolor",
+   "colorMap",
+   "shift",
+   "rankRecolor"
+  ],
+  "dims:same|obj:same|col:no|sym:yes": [
+   "shiftByFeat",
+   "scaleByFeat",
+   "shear"
+  ],
+  "dims:smaller|obj:same|col:yes|sym:no": [
+   "shapeRecolor",
+   "reflect",
+   "colorMap",
+   "scaleByFeat"
+  ],
+  "dims:same|obj:fewer|col:no|sym:yes": [
+   "gravity"
+  ],
+  "dims:same|obj:same|col:no|sym:no": [
+   "gravity",
+   "shift"
+  ],
+  "dims:bigger|obj:more|col:yes|sym:no": [
+   "reflect"
+  ],
+  "dims:same|obj:more|col:yes|sym:no": [
+   "gravity",
+   "colorMap"
+  ],
+  "dims:same|obj:fewer|col:yes|sym:yes": [
+   "shapeRecolor",
+   "overlay",
+   "gravity",
+   "rankRecolor"
+  ],
+  "dims:smaller|obj:fewer|col:yes|sym:no": [
+   "shapeRecolor"
+  ],
+  "dims:same|obj:more|col:yes|sym:yes": [
+   "fractal"
+  ]
+ },
+ "globalOrder": [
+  "shapeRecolor",
+  "reflect",
+  "gravity",
+  "colorMap",
+  "scaleByFeat",
+  "rankRecolor",
+  "holeFill",
+  "fractal",
+  "shift",
+  "shiftByFeat",
+  "moveByColor",
+  "overlay",
+  "shear"
+ ]
+}

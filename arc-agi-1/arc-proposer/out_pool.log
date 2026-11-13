@@ -1,0 +1,9 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== COMPATIBILITY POOLING ===
+solved by tight pool: 59   + needed full-op fallback: 7   + codon: 4
+= 70/400 (17.5%)
+(pooled/66 = 89% of program-solves came from the small loaded pool)

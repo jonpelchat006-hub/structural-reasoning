@@ -1,0 +1,8 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== TWO-POLE: stack(knot) + induced-move + generative completion(tail) ===
+stack: 66   + induced-move: 1   + generative completion: 0   = 67/400 (16.8%)
+generative wins by rule: {}

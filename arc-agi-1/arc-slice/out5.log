@@ -1,0 +1,12 @@
+[build 0/400]
+[build 100/400]
+[build 200/400]
+[build 300/400]
+
+=== TRANSFER DIAGNOSTIC (ARC-1, 400 tasks) ===
+multi-op templates: 6
+templates seen in >1 task (shared skeletons): 0
+
+GENUINE cross-task transfer solves (leave-one-out): 2
+  1cf80156  <= template from {a740d043}
+  67a3c6ac  <= template from {7468f01a}

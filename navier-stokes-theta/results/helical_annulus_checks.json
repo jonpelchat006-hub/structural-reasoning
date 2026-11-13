@@ -1,0 +1,67 @@
+{
+  "tracker": {
+    "position_error": 2.735861763802916e-07,
+    "turn_error": 2.2918305614405554e-08
+  },
+  "time_step_changes": {
+    "peak_speed": -1.2022076614437438e-05,
+    "sampled_peak_vorticity": -9.109592067346739e-07,
+    "dissipated_energy": 2.9686156689801013e-07
+  },
+  "handedness_changes": {
+    "peak_speed": 8.881784197001252e-16,
+    "sampled_peak_vorticity": 2.6645352591003757e-15,
+    "dissipated_energy": 1.1102230246251565e-16
+  },
+  "max_energy_error": 3.2583787057394176e-10,
+  "max_cfl": 0.16797577836715993,
+  "max_divergence": 1.5061157408697304e-16,
+  "max_net_plane_flux": 7.304974700020788e-16,
+  "grid_comparisons": [
+    {
+      "swirl_fraction": 0.0,
+      "peak_speed": 3.378968540254831,
+      "fine_peak_speed": 3.298192001576878,
+      "peak_speed_relative_grid_change": -0.02449115716711869,
+      "peak_vorticity_relative_grid_change": -0.05384126928083478,
+      "coarse_final_core": -1.1582368067676685,
+      "fine_final_core": -0.8525084313219393
+    },
+    {
+      "swirl_fraction": 0.25,
+      "peak_speed": 2.875934477821956,
+      "fine_peak_speed": 2.812992716953331,
+      "peak_speed_relative_grid_change": -0.022375372850874535,
+      "peak_vorticity_relative_grid_change": -0.018269364920319234,
+      "coarse_final_core": -1.1912124061613694,
+      "fine_final_core": -0.9574128512004828
+    },
+    {
+      "swirl_fraction": 0.75,
+      "peak_speed": 1.7680841578461939,
+      "fine_peak_speed": 1.8081160035562516,
+      "peak_speed_relative_grid_change": 0.022140087047137446,
+      "peak_vorticity_relative_grid_change": 0.01903963484033339,
+      "coarse_final_core": -1.4143216264526604,
+      "fine_final_core": -1.2813515282681227
+    },
+    {
+      "swirl_fraction": 0.95,
+      "peak_speed": 1.599879367253936,
+      "fine_peak_speed": 1.5841422808786982,
+      "peak_speed_relative_grid_change": -0.009934136955494069,
+      "peak_vorticity_relative_grid_change": -0.03256244113512665,
+      "coarse_final_core": -1.101802568871285,
+      "fine_final_core": -1.029236458405519
+    },
+    {
+      "swirl_fraction": 1.0,
+      "peak_speed": 1.6135501185814474,
+      "fine_peak_speed": 1.5930386366090767,
+      "peak_speed_relative_grid_change": -0.012875696484067157,
+      "peak_vorticity_relative_grid_change": -0.01835493037311808,
+      "coarse_final_core": -4.447865462197606e-17,
+      "fine_final_core": 3.517159909479506e-17
+    }
+  ]
+}

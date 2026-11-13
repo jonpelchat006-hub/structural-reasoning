@@ -1,0 +1,8 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== LEARNED EVAL (all 400 attempted, learned priors) — 31.8s ===
+TOTAL: 26/400 (6.50%)
+by stage: {"discovery*":6,"fast":16,"generator":1,"codon":2,"antimatter":1}

@@ -1,0 +1,87 @@
+[
+ {
+  "t": 0.3,
+  "n_gamma": 106,
+  "dist_gradmax_to_gamma": 1.7659334175065686,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 9.879662029679242
+ },
+ {
+  "t": 0.6,
+  "n_gamma": 172,
+  "dist_gradmax_to_gamma": 0.0,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": true,
+  "mean_grad_at_gamma_over_domain": 11.438685660791347
+ },
+ {
+  "t": 0.9,
+  "n_gamma": 154,
+  "dist_gradmax_to_gamma": 0.47196555829745723,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 12.451708176496014
+ },
+ {
+  "t": 1.2,
+  "n_gamma": 114,
+  "dist_gradmax_to_gamma": 0.7962317532798395,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 13.54082070901106
+ },
+ {
+  "t": 1.5,
+  "n_gamma": 64,
+  "dist_gradmax_to_gamma": 0.9529641560620864,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 14.43312203473375
+ },
+ {
+  "t": 1.8,
+  "n_gamma": 58,
+  "dist_gradmax_to_gamma": 1.079426528617932,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 14.775490311071255
+ },
+ {
+  "t": 2.1,
+  "n_gamma": 58,
+  "dist_gradmax_to_gamma": 0.0,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": true,
+  "mean_grad_at_gamma_over_domain": 14.81165641784351
+ },
+ {
+  "t": 2.4,
+  "n_gamma": 34,
+  "dist_gradmax_to_gamma": 1.3603495231756635,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 14.522595255392414
+ },
+ {
+  "t": 2.7,
+  "n_gamma": 4,
+  "dist_gradmax_to_gamma": 1.706723198620796,
+  "frac_gamma_in_top10_grad": 1.0,
+  "frac_gamma_in_top10_heat": 1.0,
+  "gradmax_in_gamma": false,
+  "mean_grad_at_gamma_over_domain": 13.87485208599938
+ },
+ {
+  "t": 3.0,
+  "n_gamma": 0
+ }
+]

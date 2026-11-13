@@ -1,0 +1,40 @@
+[base 0/400]
+[base 50/400]
+[base 100/400]
+[base 150/400]
+[base 200/400]
+[base 250/400]
+[base 300/400]
+[base 350/400]
+[roof 0/400]
+[roof 50/400]
+[roof 100/400]
+[roof 150/400]
+[roof 200/400]
+[roof 250/400]
+[roof 300/400]
+[roof 350/400]
+
+=== BASELINE (400 tasks, 8.8s) ===
+train-solved: 38/400 (9.5%)   test-correct: 38/416 (9.1%)
+by phase: {"brute1":32,"swarm":6}
+solved in 1st half vs 2nd half: 18 vs 20  (roof warming if 2nd > 1st on non-brute)
+non-trivial solves:
+  7468f01a [swarm] largest(bg=0) -> symmetrize(bg=0,axis=2) -> flipH
+  7b6016b9 [swarm] keepRare(bg=3) -> fillHoles(bg=3,fill=2)
+  a740d043 [swarm] trim -> crop(bg=1) -> removeColor(c=1,bg=0)
+  aabf363d [swarm] fillHoles(bg=3,fill=6) -> fillHoles(bg=2,fill=4) -> keepLargest(bg=0,crop=0)
+  d5d6de2d [swarm] fillHoles(bg=0,fill=3) -> keepColor(c=3,bg=0)
+  e3497940 [swarm] symmetrize(bg=0,axis=0) -> keepLargest(bg=5,crop=1)
+
+=== ROOF+FRUSTRATION (400 tasks, 18.3s) ===
+train-solved: 36/400 (9.0%)   test-correct: 37/416 (8.9%)
+by phase: {"brute1":32,"swarm":4}
+solved in 1st half vs 2nd half: 18 vs 18  (roof warming if 2nd > 1st on non-brute)
+non-trivial solves:
+  7468f01a [swarm] crop(bg=0) -> crop(bg=0) -> flipH
+  7b6016b9 [swarm] gravity(bg=3,dir=2) -> swap(a=0,b=3) -> fillHoles(bg=3,fill=2)
+  a740d043 [swarm] keepLargest(bg=2,crop=1) -> crop(bg=1) -> swap(a=0,b=1)
+  d5d6de2d [swarm] fillHoles(bg=0,fill=3) -> keepColor(c=3,bg=0)
+
+=== DELTA: -2 extra tasks solved with roof+frustration ===

@@ -1,0 +1,18 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== NEW COMBINATORS isolated (400 tasks, 30.9s) ===
+combinator exact solves: 4
+combinator + bug-finder solves: 9
+examples:
+  0d3d703e  selectMajority(bg=1,crop=0) -> cmap(1=5,2=6,3=4,4=3,5=1,6=2,8=9,9=8)
+  7468f01a  mapObjects(bg=0,inner=0) -> crop(bg=0)
+  9172f3a0  mapTopK(bg=0,inner=0,by=1,k=1) -> scale(fy=3,fx=3)
+  a740d043  selectMajority(bg=2,crop=1) -> crop(bg=1) -> cmap(1=0)
+  aabf363d  keepTopK(bg=0,by=0,k=1,crop=0) -> cmap(2=4,3=6)
+  b1948b0a  mapTopK(bg=6,inner=0,by=1,k=1) -> cmap(6=2)
+  be94b721  keepTopK(bg=0,by=0,k=1,crop=0) -> crop(bg=0)
+  c8f0f002  mapTopK(bg=1,inner=0,by=1,k=1) -> cmap(7=5)
+  d511f180  selectMajority(bg=1,crop=1) -> cmap(5=8,8=5)

@@ -1,0 +1,22 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== FAST DETERMINISTIC (no swarm, no guards, 400 tasks, 17.4s) ===
+solved: 59/400 (14.8%)  [exact 44 + repair 15]   test 59/416
+repair solves:
+  0d3d703e swap(a=2,b=6) -> cmap(1=5,3=4,4=3,5=1,8=9,9=8)
+  1b2d62fb combinePanels(bg=9,mode=0,out=8) -> cmap(9=0)
+  6430c8c4 combinePanels(bg=0,mode=1,out=2) -> cmap(0=3,2=0)
+  7468f01a flipH -> crop(bg=0)
+  7b6016b9 fillHoles(bg=0,fill=2) -> cmap(0=3)
+  94f9d214 overlayHalves(vertical=1,mode=1,out=1,bg=0) -> cmap(0=2,1=0)
+  a740d043 crop(bg=1) -> cmap(1=0)
+  aabf363d swap(a=2,b=4) -> cmap(2=0,3=6,6=0)
+  b230c067 paintRank(bg=0,by=0) -> cmap(2=1,3=2)
+  bb43febb drawBox(bg=0,col=2) -> cmap(2=5,5=2)
+  d5d6de2d fillHoles(bg=0,fill=3) -> cmap(2=0)
+  ea32f347 paintRank(bg=0,by=0) -> cmap(2=4,3=2)
+  f25fbde4 crop(bg=0) -> scale(fy=2,fx=2)
+  f2829549 combinePanels(bg=0,mode=1,out=1) -> cmap(0=3,1=0)

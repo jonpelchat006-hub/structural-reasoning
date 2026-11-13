@@ -1,0 +1,3289 @@
+[
+  {
+    "n": 24,
+    "dt": 0.01,
+    "duration": 4.0,
+    "stop": 4.0,
+    "swirl_fraction": 0.75,
+    "swirl_sign": -1,
+    "forcing_overlap_before_orthogonalization": -5.847015974508409e-22,
+    "input_energy": 0.15600000000000036,
+    "dissipated_energy": 0.07184516750259345,
+    "max_budget_error": 1.427945262033603e-11,
+    "max_cfl": 0.10632387063214839,
+    "peak_speed": 1.7680841578461948,
+    "sampled_peak_vorticity": 4.849732032315311,
+    "rows": [
+      {
+        "t": 0.1,
+        "energy": 0.0009830468229700493,
+        "max_speed": 0.3842441347536591,
+        "max_vorticity": 0.9778317173128801,
+        "enstrophy": 0.008355990698065354,
+        "stretching": 1.3478286796404278e-06,
+        "divergence_max": 1.363959735084831e-17,
+        "cfl": 0.01686442491394009,
+        "input_energy": 0.001,
+        "dissipated_energy": 1.695317703125224e-05,
+        "radial_energy": 1.5217706120501626e-05,
+        "swirl_energy": 0.0007421445569163868,
+        "axial_energy": 0.00022568455993316104,
+        "max_abs_swirl": 0.24746968161812133,
+        "max_upward_speed": 0.1146000017985231,
+        "max_abs_radial": 0.039475079924392864,
+        "net_plane_flux": 1.9023371614637468e-17,
+        "upward_flux": 0.382341771538032,
+        "cumulative_upward_crossing_volume": 0.01920177415326393,
+        "core_mean_axial": -0.24931035563584325,
+        "core_mean_swirl": -0.03632888273992679,
+        "rising_band_mean_axial": 0.07984035413620541,
+        "rising_band_mean_swirl": -0.21473607402449296,
+        "outer_return_mean_axial": -0.020995461876149705,
+        "outer_return_mean_swirl": -0.014461377872120904,
+        "median_rising_band_pitch": 2.8951045744579353,
+        "effective_energy_volume_fraction": 0.05213230676489123
+      },
+      {
+        "t": 0.2,
+        "energy": 0.003868564698511417,
+        "max_speed": 0.7496389044274631,
+        "max_vorticity": 1.9096394265008256,
+        "enstrophy": 0.03222161551435895,
+        "stretching": 3.929338894922572e-05,
+        "divergence_max": 2.1279959818502613e-17,
+        "cfl": 0.03333211514504347,
+        "input_energy": 0.004,
+        "dissipated_energy": 0.00013143530150079482,
+        "radial_energy": 5.8933993974427654e-05,
+        "swirl_energy": 0.0029391279219690724,
+        "axial_energy": 0.0008705027825679164,
+        "max_abs_swirl": 0.4887651178850234,
+        "max_upward_speed": 0.2247787538022572,
+        "max_abs_radial": 0.07777866453307189,
+        "net_plane_flux": 3.8046743229274936e-17,
+        "upward_flux": 0.7544522628428408,
+        "cumulative_upward_crossing_volume": 0.07612496140171732,
+        "core_mean_axial": -0.48753605907272823,
+        "core_mean_swirl": -0.07311330628620477,
+        "rising_band_mean_axial": 0.15742128360747432,
+        "rising_band_mean_swirl": -0.42595341167432277,
+        "outer_return_mean_axial": -0.041392470783228344,
+        "outer_return_mean_swirl": -0.031077650027875495,
+        "median_rising_band_pitch": 2.6759978123520716,
+        "effective_energy_volume_fraction": 0.05284099207117456
+      },
+      {
+        "t": 0.3,
+        "energy": 0.0075851007644017875,
+        "max_speed": 1.0278226405454136,
+        "max_vorticity": 2.621173460738431,
+        "enstrophy": 0.06177593762966827,
+        "stretching": 0.00023116854012666707,
+        "divergence_max": 2.815183149327535e-17,
+        "cfl": 0.046456429081281225,
+        "input_energy": 0.008000000000000002,
+        "dissipated_energy": 0.00041489923564891264,
+        "radial_energy": 0.0001136076262997032,
+        "swirl_energy": 0.005803094942349828,
+        "axial_energy": 0.0016683981957522564,
+        "max_abs_swirl": 0.6808596946173104,
+        "max_upward_speed": 0.3107825455687956,
+        "max_abs_radial": 0.10822101365325094,
+        "net_plane_flux": 4.565609187512993e-17,
+        "upward_flux": 1.049709608627291,
+        "cumulative_upward_crossing_volume": 0.16732104224892425,
+        "core_mean_axial": -0.670388855722001,
+        "core_mean_swirl": -0.10460159475594229,
+        "rising_band_mean_axial": 0.21884237628829475,
+        "rising_band_mean_swirl": -0.5960429424371958,
+        "outer_return_mean_axial": -0.057570402622507455,
+        "outer_return_mean_swirl": -0.04727977705962262,
+        "median_rising_band_pitch": 2.6695947069442445,
+        "effective_energy_volume_fraction": 0.05366884756759753
+      },
+      {
+        "t": 0.4,
+        "energy": 0.011132831741731202,
+        "max_speed": 1.2127548598892488,
+        "max_vorticity": 3.0963154452480404,
+        "enstrophy": 0.088549915338264,
+        "stretching": 0.0006727544183636643,
+        "divergence_max": 3.271981468096275e-17,
+        "cfl": 0.0559500279247356,
+        "input_energy": 0.011999999999999995,
+        "dissipated_energy": 0.0008671682584015471,
+        "radial_energy": 0.00016418027481519357,
+        "swirl_energy": 0.008579331526569504,
+        "axial_energy": 0.002389319940346505,
+        "max_abs_swirl": 0.8197907685601913,
+        "max_upward_speed": 0.37148339878404163,
+        "max_abs_radial": 0.12972086412692738,
+        "net_plane_flux": -1.5218697291709975e-17,
+        "upward_flux": 1.2625134264547409,
+        "cumulative_upward_crossing_volume": 0.283394522335047,
+        "core_mean_axial": -0.7937750538244644,
+        "core_mean_swirl": -0.13071194370085665,
+        "rising_band_mean_axial": 0.2629808922417139,
+        "rising_band_mean_swirl": -0.7208578676043301,
+        "outer_return_mean_axial": -0.06930474849548567,
+        "outer_return_mean_swirl": -0.06222114420377534,
+        "median_rising_band_pitch": 2.6651873503188206,
+        "effective_energy_volume_fraction": 0.054618286933339484
+      },
+      {
+        "t": 0.5,
+        "energy": 0.014527382685112179,
+        "max_speed": 1.3432198728634606,
+        "max_vorticity": 3.460623681999288,
+        "enstrophy": 0.11289065792460355,
+        "stretching": 0.0014231940393024457,
+        "divergence_max": 3.7863446364119684e-17,
+        "cfl": 0.06345838255512151,
+        "input_energy": 0.01599999999999999,
+        "dissipated_energy": 0.001472617315155601,
+        "radial_energy": 0.00021209785994952097,
+        "swirl_energy": 0.01127295611573922,
+        "axial_energy": 0.003042328709423437,
+        "max_abs_swirl": 0.9297546381085143,
+        "max_upward_speed": 0.4188646244201273,
+        "max_abs_radial": 0.14539624641396717,
+        "net_plane_flux": -1.5218697291709974e-16,
+        "upward_flux": 1.4313870641359532,
+        "cumulative_upward_crossing_volume": 0.418371159282732,
+        "core_mean_axial": -0.8823201261295002,
+        "core_mean_swirl": -0.15541685543951916,
+        "rising_band_mean_axial": 0.2979227168472595,
+        "rising_band_mean_swirl": -0.8208783894535718,
+        "outer_return_mean_axial": -0.0787980846225687,
+        "outer_return_mean_swirl": -0.07684061722267972,
+        "median_rising_band_pitch": 2.6362872112074536,
+        "effective_energy_volume_fraction": 0.0556560358557767
+      },
+      {
+        "t": 0.6,
+        "energy": 0.017782408916617646,
+        "max_speed": 1.455904026029038,
+        "max_vorticity": 3.7690141183697885,
+        "enstrophy": 0.13510577721943665,
+        "stretching": 0.00252863995566323,
+        "divergence_max": 3.6772231775833204e-17,
+        "cfl": 0.0696180774164138,
+        "input_energy": 0.02,
+        "dissipated_energy": 0.00221759108384043,
+        "radial_energy": 0.0002594684229559561,
+        "swirl_energy": 0.013886359893349923,
+        "axial_energy": 0.0036365806003117646,
+        "max_abs_swirl": 1.0200775832296303,
+        "max_upward_speed": 0.4581842122747548,
+        "max_abs_radial": 0.16021230395383257,
+        "net_plane_flux": -3.043739458341995e-17,
+        "upward_flux": 1.5721217563611942,
+        "cumulative_upward_crossing_volume": 0.5687358007654781,
+        "core_mean_axial": -0.9458469510631156,
+        "core_mean_swirl": -0.1802972047633055,
+        "rising_band_mean_axial": 0.3269912489882031,
+        "rising_band_mean_swirl": -0.903834783792451,
+        "outer_return_mean_axial": -0.08698798967710653,
+        "outer_return_mean_swirl": -0.0914815935813147,
+        "median_rising_band_pitch": 2.604502150816743,
+        "effective_energy_volume_fraction": 0.05678461174359349
+      },
+      {
+        "t": 0.7000000000000001,
+        "energy": 0.020909842683494696,
+        "max_speed": 1.537616301414837,
+        "max_vorticity": 3.9973691411161316,
+        "enstrophy": 0.1554629850273461,
+        "stretching": 0.004036233912168982,
+        "divergence_max": 4.51979873666127e-17,
+        "cfl": 0.0747580613241365,
+        "input_energy": 0.02400000000000001,
+        "dissipated_energy": 0.003090157317203549,
+        "radial_energy": 0.0003092295984597978,
+        "swirl_energy": 0.016419451017339378,
+        "axial_energy": 0.004181162067695516,
+        "max_abs_swirl": 1.095395151238221,
+        "max_upward_speed": 0.4975667713879899,
+        "max_abs_radial": 0.17439955585221428,
+        "net_plane_flux": 2.434991566673596e-16,
+        "upward_flux": 1.6936807704529704,
+        "cumulative_upward_crossing_volume": 0.7321559395237653,
+        "core_mean_axial": -0.9900913814342247,
+        "core_mean_swirl": -0.20590241992390096,
+        "rising_band_mean_axial": 0.3520745499139984,
+        "rising_band_mean_swirl": -0.9735501037602808,
+        "outer_return_mean_axial": -0.0944120754789504,
+        "outer_return_mean_swirl": -0.10634010730556823,
+        "median_rising_band_pitch": 2.5850626093622466,
+        "effective_energy_volume_fraction": 0.058009527736646346
+      },
+      {
+        "t": 0.8,
+        "energy": 0.02392011285781018,
+        "max_speed": 1.5925997151551623,
+        "max_vorticity": 4.157041832705542,
+        "enstrophy": 0.17419687503824247,
+        "stretching": 0.005996363288240993,
+        "divergence_max": 4.317567449103516e-17,
+        "cfl": 0.07907951652241166,
+        "input_energy": 0.02800000000000002,
+        "dissipated_energy": 0.004079887143166439,
+        "radial_energy": 0.0003652054493385885,
+        "swirl_energy": 0.018869751842595473,
+        "axial_energy": 0.004685155565876118,
+        "max_abs_swirl": 1.1584036252842957,
+        "max_upward_speed": 0.5332306753764522,
+        "max_abs_radial": 0.18537675028407163,
+        "net_plane_flux": 9.131218375025986e-17,
+        "upward_flux": 1.8023153129626595,
+        "cumulative_upward_crossing_volume": 0.907038452584092,
+        "core_mean_axial": -1.0193390246434682,
+        "core_mean_swirl": -0.2321301607432449,
+        "rising_band_mean_axial": 0.3744666767846285,
+        "rising_band_mean_swirl": -1.0322148929831636,
+        "outer_return_mean_axial": -0.10142462061727507,
+        "outer_return_mean_swirl": -0.12156537002551572,
+        "median_rising_band_pitch": 2.5801522559552144,
+        "effective_energy_volume_fraction": 0.059334542776251734
+      },
+      {
+        "t": 0.9,
+        "energy": 0.02682232380634723,
+        "max_speed": 1.6251747062273754,
+        "max_vorticity": 4.261269120962662,
+        "enstrophy": 0.1915152651744495,
+        "stretching": 0.008456635375029487,
+        "divergence_max": 5.151965117580309e-17,
+        "cfl": 0.08272077585961048,
+        "input_energy": 0.03200000000000003,
+        "dissipated_energy": 0.005177676194931096,
+        "radial_energy": 0.00043198363181066,
+        "swirl_energy": 0.021232615286835812,
+        "axial_energy": 0.005157724887700759,
+        "max_abs_swirl": 1.217210166343389,
+        "max_upward_speed": 0.5660236272541372,
+        "max_abs_radial": 0.19238709758646177,
+        "net_plane_flux": 0.0,
+        "upward_flux": 1.9030239169016732,
+        "cumulative_upward_crossing_volume": 1.0923584328397193,
+        "core_mean_axial": -1.037205031363797,
+        "core_mean_swirl": -0.25846620357547867,
+        "rising_band_mean_axial": 0.3951585056447169,
+        "rising_band_mean_swirl": -1.0812315043629588,
+        "outer_return_mean_axial": -0.10827304432638672,
+        "outer_return_mean_swirl": -0.13728947034026112,
+        "median_rising_band_pitch": 2.5915857296009097,
+        "effective_energy_volume_fraction": 0.06076140655789427
+      },
+      {
+        "t": 1.0,
+        "energy": 0.029624401784735938,
+        "max_speed": 1.6400292700617645,
+        "max_vorticity": 4.324917091043805,
+        "enstrophy": 0.207603604798125,
+        "stretching": 0.01145336224209957,
+        "divergence_max": 6.522449691331644e-17,
+        "cfl": 0.08578533583708027,
+        "input_energy": 0.036000000000000004,
+        "dissipated_energy": 0.006375598216852631,
+        "radial_energy": 0.0005146125260689873,
+        "swirl_energy": 0.023501659757378016,
+        "axial_energy": 0.005608129501288935,
+        "max_abs_swirl": 1.2712724281920857,
+        "max_upward_speed": 0.5965936672259036,
+        "max_abs_radial": 0.1947694747595273,
+        "net_plane_flux": -6.08747891668399e-17,
+        "upward_flux": 1.9991151542838104,
+        "cumulative_upward_crossing_volume": 1.2874892385258898,
+        "core_mean_axial": -1.0468160198151184,
+        "core_mean_swirl": -0.28420091802047037,
+        "rising_band_mean_axial": 0.4149482529281133,
+        "rising_band_mean_swirl": -1.1215978519229302,
+        "outer_return_mean_axial": -0.11513068307702791,
+        "outer_return_mean_swirl": -0.15363570662402037,
+        "median_rising_band_pitch": 2.6207159074973934,
+        "effective_energy_volume_fraction": 0.062290675965563945
+      },
+      {
+        "t": 1.1,
+        "energy": 0.03233322075094163,
+        "max_speed": 1.64194924521931,
+        "max_vorticity": 4.36252715310294,
+        "enstrophy": 0.22262750286577454,
+        "stretching": 0.01500555670097814,
+        "divergence_max": 5.90608293262608e-17,
+        "cfl": 0.08840254103859271,
+        "input_energy": 0.03999999999999998,
+        "dissipated_energy": 0.007666779250953722,
+        "radial_energy": 0.0006181765184541349,
+        "swirl_energy": 0.025669429457984064,
+        "axial_energy": 0.006045614774503432,
+        "max_abs_swirl": 1.3172256750827276,
+        "max_upward_speed": 0.6254720030441845,
+        "max_abs_radial": 0.19368597940259924,
+        "net_plane_flux": -9.131218375025986e-17,
+        "upward_flux": 2.09382473443941,
+        "cumulative_upward_crossing_volume": 1.4921358026303684,
+        "core_mean_axial": -1.0508145073429045,
+        "core_mean_swirl": -0.3086084905544926,
+        "rising_band_mean_axial": 0.4344820010640875,
+        "rising_band_mean_swirl": -1.154106070347839,
+        "outer_return_mean_axial": -0.12211342690642023,
+        "outer_return_mean_swirl": -0.17071903521437676,
+        "median_rising_band_pitch": 2.6683173296319938,
+        "effective_energy_volume_fraction": 0.06392257945163954
+      },
+      {
+        "t": 1.2,
+        "energy": 0.034954717163793676,
+        "max_speed": 1.6353702011446891,
+        "max_vorticity": 4.386175572526199,
+        "enstrophy": 0.23673398991231448,
+        "stretching": 0.0191135776103532,
+        "divergence_max": 6.124207305816136e-17,
+        "cfl": 0.09087559770624892,
+        "input_energy": 0.043999999999999956,
+        "dissipated_energy": 0.009045282838396717,
+        "radial_energy": 0.0007473381893759662,
+        "swirl_energy": 0.027728210381473554,
+        "axial_energy": 0.006479168592944161,
+        "max_abs_swirl": 1.3544863635650524,
+        "max_upward_speed": 0.653775659904523,
+        "max_abs_radial": 0.20057145839879548,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 2.1898144621809537,
+        "cumulative_upward_crossing_volume": 1.706297680779068,
+        "core_mean_axial": -1.051356020998242,
+        "core_mean_swirl": -0.3310602120057265,
+        "rising_band_mean_axial": 0.45426692123604984,
+        "rising_band_mean_swirl": -1.1794539136178306,
+        "outer_return_mean_axial": -0.12928970792144978,
+        "outer_return_mean_swirl": -0.1886432531618976,
+        "median_rising_band_pitch": 2.7345296274471274,
+        "effective_energy_volume_fraction": 0.06565750799362996
+      },
+      {
+        "t": 1.3,
+        "energy": 0.03749399928858869,
+        "max_speed": 1.624009832740278,
+        "max_vorticity": 4.404188955596557,
+        "enstrophy": 0.25005218894904363,
+        "stretching": 0.023761818138007956,
+        "divergence_max": 5.483615251666741e-17,
+        "cfl": 0.09286170769281483,
+        "input_energy": 0.04799999999999993,
+        "dissipated_energy": 0.010506000713881018,
+        "radial_energy": 0.0009059347048545998,
+        "swirl_energy": 0.029670884810769026,
+        "axial_energy": 0.006917179772965063,
+        "max_abs_swirl": 1.3829912037935412,
+        "max_upward_speed": 0.6812020970966679,
+        "max_abs_radial": 0.23086923608743698,
+        "net_plane_flux": -1.217495783336798e-16,
+        "upward_flux": 2.289188414313799,
+        "cumulative_upward_crossing_volume": 1.9302126766449006,
+        "core_mean_axial": -1.0501499535937688,
+        "core_mean_swirl": -0.3510680977665761,
+        "rising_band_mean_axial": 0.474675622682654,
+        "rising_band_mean_swirl": -1.1983085811279366,
+        "outer_return_mean_axial": -0.1366871483818761,
+        "outer_return_mean_swirl": -0.20749664894097689,
+        "median_rising_band_pitch": 2.818853850335053,
+        "effective_energy_volume_fraction": 0.06749601338631485
+      },
+      {
+        "t": 1.4000000000000001,
+        "energy": 0.03995545295766359,
+        "max_speed": 1.610707156775788,
+        "max_vorticity": 4.421079135284381,
+        "enstrophy": 0.26269388855576503,
+        "stretching": 0.02892337930065971,
+        "divergence_max": 7.019812536419252e-17,
+        "cfl": 0.09438701948315917,
+        "input_energy": 0.05199999999999991,
+        "dissipated_energy": 0.012044547045069453,
+        "radial_energy": 0.0010966920149573759,
+        "swirl_energy": 0.03149169722692851,
+        "axial_energy": 0.007367063715777705,
+        "max_abs_swirl": 1.4027245094236767,
+        "max_upward_speed": 0.7078750932225051,
+        "max_abs_radial": 0.2636047686209158,
+        "net_plane_flux": -6.08747891668399e-17,
+        "upward_flux": 2.3934942961728214,
+        "cumulative_upward_crossing_volume": 2.1643011965629735,
+        "core_mean_axial": -1.048531712538965,
+        "core_mean_swirl": -0.3682836343129954,
+        "rising_band_mean_axial": 0.4959491135964698,
+        "rising_band_mean_swirl": -1.2113404544738098,
+        "outer_return_mean_axial": -0.14429685805664888,
+        "outer_return_mean_swirl": -0.22734675668895402,
+        "median_rising_band_pitch": 2.9201784441202494,
+        "effective_energy_volume_fraction": 0.06943838708290216
+      },
+      {
+        "t": 1.5,
+        "energy": 0.0423428435087864,
+        "max_speed": 1.5974675844088426,
+        "max_vorticity": 4.438437568948858,
+        "enstrophy": 0.27475426620592236,
+        "stretching": 0.03456435515943832,
+        "divergence_max": 6.830058878179183e-17,
+        "cfl": 0.09588740443370493,
+        "input_energy": 0.05599999999999988,
+        "dissipated_energy": 0.013657156494197738,
+        "radial_energy": 0.00132108752678161,
+        "swirl_energy": 0.03318682840313911,
+        "axial_energy": 0.007834927578865685,
+        "max_abs_swirl": 1.4138027310625922,
+        "max_upward_speed": 0.7338374930977425,
+        "max_abs_radial": 0.29817760702911306,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 2.503721195336085,
+        "cumulative_upward_crossing_volume": 2.409110503476519,
+        "core_mean_axial": -1.0475329705965102,
+        "core_mean_swirl": -0.3824865799131689,
+        "rising_band_mean_axial": 0.5182009182857621,
+        "rising_band_mean_swirl": -1.2192351960513004,
+        "outer_return_mean_axial": -0.15207571568090922,
+        "outer_return_mean_swirl": -0.2482345213154357,
+        "median_rising_band_pitch": 3.045970762267163,
+        "effective_energy_volume_fraction": 0.07148399528819058
+      },
+      {
+        "t": 1.6,
+        "energy": 0.04465941280005516,
+        "max_speed": 1.585631640903515,
+        "max_vorticity": 4.456215284480175,
+        "enstrophy": 0.28631279949321176,
+        "stretching": 0.04064580720831988,
+        "divergence_max": 5.574150837395173e-17,
+        "cfl": 0.09742487178122222,
+        "input_energy": 0.05999999999999986,
+        "dissipated_energy": 0.015340587203174997,
+        "radial_energy": 0.0015793591900591394,
+        "swirl_energy": 0.034754719958666955,
+        "axial_energy": 0.008325333651329056,
+        "max_abs_swirl": 1.4165435841984046,
+        "max_upward_speed": 0.759054046082156,
+        "max_abs_radial": 0.3340079359253939,
+        "net_plane_flux": -6.08747891668399e-17,
+        "upward_flux": 2.620300546385063,
+        "cumulative_upward_crossing_volume": 2.6652588427292976,
+        "core_mean_axial": -1.047926968188367,
+        "core_mean_swirl": -0.3935869733158367,
+        "rising_band_mean_axial": 0.5414234581050588,
+        "rising_band_mean_swirl": -1.2226893022358558,
+        "outer_return_mean_axial": -0.1599470887673196,
+        "outer_return_mean_swirl": -0.2701683058029719,
+        "median_rising_band_pitch": 3.191198946763308,
+        "effective_energy_volume_fraction": 0.07363057652622322
+      },
+      {
+        "t": 1.7,
+        "energy": 0.046907970388861034,
+        "max_speed": 1.5760672336194002,
+        "max_vorticity": 4.473846981716383,
+        "enstrophy": 0.2974342834841614,
+        "stretching": 0.04712270006439446,
+        "divergence_max": 6.745178947627035e-17,
+        "cfl": 0.09861755908278674,
+        "input_energy": 0.06399999999999983,
+        "dissipated_energy": 0.01709202961461996,
+        "radial_energy": 0.001870632661881707,
+        "swirl_energy": 0.036196143387376506,
+        "axial_energy": 0.008841194339602818,
+        "max_abs_swirl": 1.4155231507302477,
+        "max_upward_speed": 0.783443630724392,
+        "max_abs_radial": 0.37032365157022357,
+        "net_plane_flux": -6.08747891668399e-17,
+        "upward_flux": 2.74311997592482,
+        "cumulative_upward_crossing_volume": 2.9333802145376158,
+        "core_mean_axial": -1.0502480853168925,
+        "core_mean_swirl": -0.40164147172853704,
+        "rising_band_mean_axial": 0.565498095453766,
+        "rising_band_mean_swirl": -1.222393532253408,
+        "outer_return_mean_axial": -0.1678008238547915,
+        "outer_return_mean_swirl": -0.2931185264051821,
+        "median_rising_band_pitch": 3.337949084404614,
+        "effective_energy_volume_fraction": 0.07587368918470622
+      },
+      {
+        "t": 1.8,
+        "energy": 0.04909097850454122,
+        "max_speed": 1.5693163667445653,
+        "max_vorticity": 4.490917470887077,
+        "enstrophy": 0.3081698759131062,
+        "stretching": 0.053940743948158745,
+        "divergence_max": 9.436815078226766e-17,
+        "cfl": 0.09950361481630082,
+        "input_energy": 0.06799999999999981,
+        "dissipated_energy": 0.018909021499206893,
+        "radial_energy": 0.0021931233454767856,
+        "swirl_energy": 0.03751405121238818,
+        "axial_energy": 0.009383803946676258,
+        "max_abs_swirl": 1.4254203352637806,
+        "max_upward_speed": 0.8069095524371994,
+        "max_abs_radial": 0.40620866070018047,
+        "net_plane_flux": 1.217495783336798e-16,
+        "upward_flux": 2.871561537072207,
+        "cumulative_upward_crossing_volume": 3.214071661029113,
+        "core_mean_axial": -1.0548017186400918,
+        "core_mean_swirl": -0.4068681957251734,
+        "rising_band_mean_axial": 0.590210653150845,
+        "rising_band_mean_swirl": -1.2190091496350828,
+        "outer_return_mean_axial": -0.17549365246099818,
+        "outer_return_mean_swirl": -0.31701401625822556,
+        "median_rising_band_pitch": 3.4924224122832763,
+        "effective_energy_volume_fraction": 0.07820644298804623
+      },
+      {
+        "t": 1.9000000000000001,
+        "energy": 0.05121063064249357,
+        "max_speed": 1.5656756896952588,
+        "max_vorticity": 4.5073386940522635,
+        "enstrophy": 0.318558192244361,
+        "stretching": 0.061033333839123176,
+        "divergence_max": 7.515238349880311e-17,
+        "cfl": 0.10013370237741868,
+        "input_energy": 0.07199999999999979,
+        "dissipated_energy": 0.02078936936155002,
+        "radial_energy": 0.0025443690265316817,
+        "swirl_energy": 0.038713273842686156,
+        "axial_energy": 0.009952987773275732,
+        "max_abs_swirl": 1.4282436075838552,
+        "max_upward_speed": 0.8293599978999018,
+        "max_abs_radial": 0.4406981072571018,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 3.004572238089508,
+        "cumulative_upward_crossing_volume": 3.507845956305081,
+        "core_mean_axial": -1.061683448090284,
+        "core_mean_swirl": -0.4096410057791806,
+        "rising_band_mean_axial": 0.6152736789538603,
+        "rising_band_mean_swirl": -1.2131426415191653,
+        "outer_return_mean_axial": -0.18285122842752252,
+        "outer_return_mean_swirl": -0.3417412248757929,
+        "median_rising_band_pitch": 3.65335291446866,
+        "effective_energy_volume_fraction": 0.08061957197536077
+      },
+      {
+        "t": 2.0,
+        "energy": 0.0532689231365471,
+        "max_speed": 1.5652283691450866,
+        "max_vorticity": 4.523189921419291,
+        "enstrophy": 0.32862657700002085,
+        "stretching": 0.06832073227629844,
+        "divergence_max": 6.999973696075088e-17,
+        "cfl": 0.10056637786268355,
+        "input_energy": 0.07599999999999976,
+        "dissipated_energy": 0.022731076867831043,
+        "radial_energy": 0.002921458942925433,
+        "swirl_energy": 0.03980013165239523,
+        "axial_energy": 0.010547332541226438,
+        "max_abs_swirl": 1.4245431474365304,
+        "max_upward_speed": 0.8507155677852059,
+        "max_abs_radial": 0.47290557062894123,
+        "net_plane_flux": 1.826243675005197e-16,
+        "upward_flux": 3.140766235092409,
+        "cumulative_upward_crossing_volume": 3.8150929792580035,
+        "core_mean_axial": -1.0708175585735729,
+        "core_mean_swirl": -0.4104533971995356,
+        "rising_band_mean_axial": 0.6403549969870423,
+        "rising_band_mean_swirl": -1.2053247660935162,
+        "outer_return_mean_axial": -0.1896727653538301,
+        "outer_return_mean_swirl": -0.3671469236018027,
+        "median_rising_band_pitch": 3.818564787926893,
+        "effective_energy_volume_fraction": 0.08310182785641018
+      },
+      {
+        "t": 2.1,
+        "energy": 0.055267718204464154,
+        "max_speed": 1.5678596238361726,
+        "max_vorticity": 4.538437409122892,
+        "enstrophy": 0.33839269309432524,
+        "stretching": 0.07571244110361111,
+        "divergence_max": 6.34589074051931e-17,
+        "cfl": 0.10086083000814515,
+        "input_energy": 0.07999999999999974,
+        "dissipated_energy": 0.02473228180029601,
+        "radial_energy": 0.0033212394348565905,
+        "swirl_energy": 0.04078202243982386,
+        "axial_energy": 0.011164456329783698,
+        "max_abs_swirl": 1.4151653365599772,
+        "max_upward_speed": 0.8709057648245159,
+        "max_abs_radial": 0.5021392010198653,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 3.278548494192121,
+        "cumulative_upward_crossing_volume": 4.136052496810297,
+        "core_mean_axial": -1.0820119989746404,
+        "core_mean_swirl": -0.40985658915503986,
+        "rising_band_mean_axial": 0.6651097545027627,
+        "rising_band_mean_swirl": -1.1959988803639756,
+        "outer_return_mean_axial": -0.19573869159034035,
+        "outer_return_mean_swirl": -0.3930442967145407,
+        "median_rising_band_pitch": 3.9851984566651995,
+        "effective_energy_volume_fraction": 0.08564061479551885
+      },
+      {
+        "t": 2.2,
+        "energy": 0.05720879633834439,
+        "max_speed": 1.5732820567520485,
+        "max_vorticity": 4.552715709841206,
+        "enstrophy": 0.34786648132979564,
+        "stretching": 0.08311235317347168,
+        "divergence_max": 7.097061034625887e-17,
+        "cfl": 0.1010700194780865,
+        "input_energy": 0.08399999999999971,
+        "dissipated_energy": 0.026791203666849728,
+        "radial_energy": 0.0037404878010342917,
+        "swirl_energy": 0.0416670277436836,
+        "axial_energy": 0.011801280793626493,
+        "max_abs_swirl": 1.4011893728847356,
+        "max_upward_speed": 0.8898589766442587,
+        "max_abs_radial": 0.5287525399899557,
+        "net_plane_flux": 0.0,
+        "upward_flux": 3.419369419741242,
+        "cumulative_upward_crossing_volume": 4.470915555556096,
+        "core_mean_axial": -1.0950174271243358,
+        "core_mean_swirl": -0.40838784680633705,
+        "rising_band_mean_axial": 0.6892112678446378,
+        "rising_band_mean_swirl": -1.1855213535415046,
+        "outer_return_mean_axial": -0.20082100479569656,
+        "outer_return_mean_swirl": -0.4192214515079006,
+        "median_rising_band_pitch": 4.157755281997996,
+        "effective_energy_volume_fraction": 0.088222758300846
+      },
+      {
+        "t": 2.3000000000000003,
+        "energy": 0.059093895995847974,
+        "max_speed": 1.5819988783812886,
+        "max_vorticity": 4.5652674618649405,
+        "enstrophy": 0.35705240950392403,
+        "stretching": 0.0904255873312122,
+        "divergence_max": 7.070507113982958e-17,
+        "cfl": 0.10124021549946141,
+        "input_energy": 0.08799999999999969,
+        "dissipated_energy": 0.028906104009831672,
+        "radial_energy": 0.004176051756820907,
+        "swirl_energy": 0.04246356442426698,
+        "axial_energy": 0.012454279814760084,
+        "max_abs_swirl": 1.3838346661042225,
+        "max_upward_speed": 0.9074907293497662,
+        "max_abs_radial": 0.5532560875951091,
+        "net_plane_flux": 1.217495783336798e-16,
+        "upward_flux": 3.560488823321225,
+        "cumulative_upward_crossing_volume": 4.819906187376051,
+        "core_mean_axial": -1.1095758538961689,
+        "core_mean_swirl": -0.4065087843023686,
+        "rising_band_mean_axial": 0.7123754616510486,
+        "rising_band_mean_swirl": -1.1741738274528593,
+        "outer_return_mean_axial": -0.204695317192557,
+        "outer_return_mean_swirl": -0.44545083437103156,
+        "median_rising_band_pitch": 4.334477448080964,
+        "effective_energy_volume_fraction": 0.09083529176947527
+      },
+      {
+        "t": 2.4,
+        "energy": 0.06092473937545411,
+        "max_speed": 1.5919483018959395,
+        "max_vorticity": 4.575046788050941,
+        "enstrophy": 0.3659518237946885,
+        "stretching": 0.09756580959124335,
+        "divergence_max": 8.906303388636869e-17,
+        "cfl": 0.10189828181701431,
+        "input_energy": 0.09199999999999967,
+        "dissipated_energy": 0.03107526063075759,
+        "radial_energy": 0.004624953718416669,
+        "swirl_energy": 0.04318009401108331,
+        "axial_energy": 0.013119691645954131,
+        "max_abs_swirl": 1.373379571275993,
+        "max_upward_speed": 0.9257243903839569,
+        "max_abs_radial": 0.5769252323060651,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 3.7080689244690337,
+        "cumulative_upward_crossing_volume": 5.183321221146714,
+        "core_mean_axial": -1.12544900141588,
+        "core_mean_swirl": -0.4045689218427453,
+        "rising_band_mean_axial": 0.734374984348967,
+        "rising_band_mean_swirl": -1.1621839647158918,
+        "outer_return_mean_axial": -0.20715319652592623,
+        "outer_return_mean_swirl": -0.4714980142459168,
+        "median_rising_band_pitch": 4.48977150729873,
+        "effective_energy_volume_fraction": 0.09346614349619012
+      },
+      {
+        "t": 2.5,
+        "energy": 0.06270304438177413,
+        "max_speed": 1.6024873896395773,
+        "max_vorticity": 4.580925175889381,
+        "enstrophy": 0.3745651563473434,
+        "stretching": 0.10446177647780773,
+        "divergence_max": 9.406573511427036e-17,
+        "cfl": 0.10247434387246676,
+        "input_energy": 0.09599999999999964,
+        "dissipated_energy": 0.03329695562500694,
+        "radial_energy": 0.005084460416654824,
+        "swirl_energy": 0.04382489228940551,
+        "axial_energy": 0.013793691675713789,
+        "max_abs_swirl": 1.3643298042614194,
+        "max_upward_speed": 0.9471962284980938,
+        "max_abs_radial": 0.5985075658254083,
+        "net_plane_flux": 1.217495783336798e-16,
+        "upward_flux": 3.8535188817730743,
+        "cumulative_upward_crossing_volume": 5.561430259214679,
+        "core_mean_axial": -1.1424245861726228,
+        "core_mean_swirl": -0.4028001327408026,
+        "rising_band_mean_axial": 0.755041766451202,
+        "rising_band_mean_swirl": -1.1497491223592307,
+        "outer_return_mean_axial": -0.2080134698375849,
+        "outer_return_mean_swirl": -0.49712874939735213,
+        "median_rising_band_pitch": 4.639668053360661,
+        "effective_energy_volume_fraction": 0.09610462063670697
+      },
+      {
+        "t": 2.6,
+        "energy": 0.06443052444082094,
+        "max_speed": 1.6138526195043263,
+        "max_vorticity": 4.581913176403934,
+        "enstrophy": 0.3828937233213273,
+        "stretching": 0.11106165919650023,
+        "divergence_max": 6.381195362579453e-17,
+        "cfl": 0.10296692763740377,
+        "input_energy": 0.09999999999999962,
+        "dissipated_energy": 0.035569475566554876,
+        "radial_energy": 0.005552120785015579,
+        "swirl_energy": 0.044405875131498185,
+        "axial_energy": 0.014472528524307174,
+        "max_abs_swirl": 1.3534451067494868,
+        "max_upward_speed": 0.9666441485546553,
+        "max_abs_radial": 0.6189764183762384,
+        "net_plane_flux": -3.652487350010394e-16,
+        "upward_flux": 3.9947065940326336,
+        "cumulative_upward_crossing_volume": 5.953882027945904,
+        "core_mean_axial": -1.1603064820548235,
+        "core_mean_swirl": -0.4013372626577208,
+        "rising_band_mean_axial": 0.7742598101812191,
+        "rising_band_mean_swirl": -1.137056851959008,
+        "outer_return_mean_axial": -0.2071315781051346,
+        "outer_return_mean_swirl": -0.5221139172563106,
+        "median_rising_band_pitch": 4.782949012959611,
+        "effective_energy_volume_fraction": 0.09874162940957394
+      },
+      {
+        "t": 2.7,
+        "energy": 0.0661088793716856,
+        "max_speed": 1.6263699819122854,
+        "max_vorticity": 4.577325186591856,
+        "enstrophy": 0.3909408733681144,
+        "stretching": 0.11733388102322796,
+        "divergence_max": 8.346108807079485e-17,
+        "cfl": 0.10337855731010889,
+        "input_energy": 0.10399999999999959,
+        "dissipated_energy": 0.037891120636297036,
+        "radial_energy": 0.006025777845459461,
+        "swirl_energy": 0.04493047341367884,
+        "axial_energy": 0.015152628112547296,
+        "max_abs_swirl": 1.3448778110196407,
+        "max_upward_speed": 0.9840531979510694,
+        "max_abs_radial": 0.6390643954957785,
+        "net_plane_flux": 2.434991566673596e-16,
+        "upward_flux": 4.130400867827377,
+        "cumulative_upward_crossing_volume": 6.360187367799294,
+        "core_mean_axial": -1.1788992035744985,
+        "core_mean_swirl": -0.40025296086111073,
+        "rising_band_mean_axial": 0.7919521696822931,
+        "rising_band_mean_swirl": -1.12429742698105,
+        "outer_return_mean_axial": -0.2044065581289796,
+        "outer_return_mean_swirl": -0.5462324372852152,
+        "median_rising_band_pitch": 4.918093784251235,
+        "effective_energy_volume_fraction": 0.10136964114231761
+      },
+      {
+        "t": 2.8000000000000003,
+        "energy": 0.06773978170718012,
+        "max_speed": 1.6390570884394093,
+        "max_vorticity": 4.5785662276306365,
+        "enstrophy": 0.39871234540778144,
+        "stretching": 0.12326413333773699,
+        "divergence_max": 6.966191139433339e-17,
+        "cfl": 0.10371561551186423,
+        "input_energy": 0.10799999999999957,
+        "dissipated_energy": 0.04026021830140839,
+        "radial_energy": 0.006503561682180798,
+        "swirl_energy": 0.04540554958423644,
+        "axial_energy": 0.01583067044076287,
+        "max_abs_swirl": 1.3367869649166517,
+        "max_upward_speed": 0.9994303124043444,
+        "max_abs_radial": 0.6562006042820367,
+        "net_plane_flux": 1.217495783336798e-16,
+        "upward_flux": 4.262491333537615,
+        "cumulative_upward_crossing_volume": 6.7797855952632045,
+        "core_mean_axial": -1.1979971601000776,
+        "core_mean_swirl": -0.3995925770484196,
+        "rising_band_mean_axial": 0.808066674873922,
+        "rising_band_mean_swirl": -1.1116662458675477,
+        "outer_return_mean_axial": -0.19978548108252484,
+        "outer_return_mean_swirl": -0.5692725875744105,
+        "median_rising_band_pitch": 5.043183365839827,
+        "effective_energy_volume_fraction": 0.10398248537594047
+      },
+      {
+        "t": 2.9,
+        "energy": 0.06932486320077565,
+        "max_speed": 1.6516378680962747,
+        "max_vorticity": 4.6047950964785125,
+        "enstrophy": 0.4062158726295201,
+        "stretching": 0.12884965527878722,
+        "divergence_max": 9.142271836634892e-17,
+        "cfl": 0.10398689148775694,
+        "input_energy": 0.11199999999999954,
+        "dissipated_energy": 0.042675136808406275,
+        "radial_energy": 0.00698386984700151,
+        "swirl_energy": 0.04583734996311736,
+        "axial_energy": 0.01650364339065677,
+        "max_abs_swirl": 1.3272260983872588,
+        "max_upward_speed": 1.012781967774749,
+        "max_abs_radial": 0.670777287306894,
+        "net_plane_flux": 0.0,
+        "upward_flux": 4.396510291763885,
+        "cumulative_upward_crossing_volume": 7.21278456040855,
+        "core_mean_axial": -1.2173852271172647,
+        "core_mean_swirl": -0.39939769524858915,
+        "rising_band_mean_axial": 0.8225640275953621,
+        "rising_band_mean_swirl": -1.099357019641813,
+        "outer_return_mean_axial": -0.19326510434534636,
+        "outer_return_mean_swirl": -0.5910321841214446,
+        "median_rising_band_pitch": 5.155997325930654,
+        "effective_energy_volume_fraction": 0.10657509250362004
+      },
+      {
+        "t": 3.0,
+        "energy": 0.07086570541271481,
+        "max_speed": 1.6639024607270056,
+        "max_vorticity": 4.626997645331646,
+        "enstrophy": 0.4134602744028386,
+        "stretching": 0.13409295063569607,
+        "divergence_max": 8.741866326444622e-17,
+        "cfl": 0.10420158031784024,
+        "input_energy": 0.11599999999999952,
+        "dissipated_energy": 0.04513429459703921,
+        "radial_energy": 0.0074653395533661295,
+        "swirl_energy": 0.04623148856767905,
+        "axial_energy": 0.01716887729166964,
+        "max_abs_swirl": 1.3163772916609722,
+        "max_upward_speed": 1.0240965443700019,
+        "max_abs_radial": 0.6835352321008888,
+        "net_plane_flux": 0.0,
+        "upward_flux": 4.535871678477357,
+        "cumulative_upward_crossing_volume": 7.6594340103924825,
+        "core_mean_axial": -1.2368512657610649,
+        "core_mean_swirl": -0.3997128154113683,
+        "rising_band_mean_axial": 0.8354101588424365,
+        "rising_band_mean_swirl": -1.0875491290896644,
+        "outer_return_mean_axial": -0.1848902975168485,
+        "outer_return_mean_swirl": -0.6113181687175152,
+        "median_rising_band_pitch": 5.254308971494755,
+        "effective_energy_volume_fraction": 0.10914330432873626
+      },
+      {
+        "t": 3.1,
+        "energy": 0.07236383634512261,
+        "max_speed": 1.6757078929007803,
+        "max_vorticity": 4.670748930587459,
+        "enstrophy": 0.4204544167920188,
+        "stretching": 0.13899719740859937,
+        "divergence_max": 1.0176743561399914e-16,
+        "cfl": 0.10436753642792285,
+        "input_energy": 0.1199999999999995,
+        "dissipated_energy": 0.04763616366517658,
+        "radial_energy": 0.007946814266721648,
+        "swirl_energy": 0.04659295889791083,
+        "axial_energy": 0.017824063180490138,
+        "max_abs_swirl": 1.304497506228628,
+        "max_upward_speed": 1.033336412976855,
+        "max_abs_radial": 0.6993433045929437,
+        "net_plane_flux": -2.434991566673596e-16,
+        "upward_flux": 4.6681301587505875,
+        "cumulative_upward_crossing_volume": 8.119701907943607,
+        "core_mean_axial": -1.2562057547605336,
+        "core_mean_swirl": -0.40057648690791914,
+        "rising_band_mean_axial": 0.8465730550381972,
+        "rising_band_mean_swirl": -1.0763937458934354,
+        "outer_return_mean_axial": -0.17474884279996378,
+        "outer_return_mean_swirl": -0.6299463642863575,
+        "median_rising_band_pitch": 5.431543860309054,
+        "effective_energy_volume_fraction": 0.11168382547068996
+      },
+      {
+        "t": 3.2,
+        "energy": 0.07382073273120283,
+        "max_speed": 1.6869809875472384,
+        "max_vorticity": 4.712026336093307,
+        "enstrophy": 0.4272064234911152,
+        "stretching": 0.14356465559911408,
+        "divergence_max": 9.390709237301488e-17,
+        "cfl": 0.10449011042010686,
+        "input_energy": 0.12399999999999947,
+        "dissipated_energy": 0.050179267279612326,
+        "radial_energy": 0.008427306666702664,
+        "swirl_energy": 0.04692616934438756,
+        "axial_energy": 0.018467256720112617,
+        "max_abs_swirl": 1.2918932395530283,
+        "max_upward_speed": 1.0416577459408707,
+        "max_abs_radial": 0.7124895522333571,
+        "net_plane_flux": -7.304974700020788e-16,
+        "upward_flux": 4.791768185809217,
+        "cumulative_upward_crossing_volume": 8.592771137675008,
+        "core_mean_axial": -1.2753007488788937,
+        "core_mean_swirl": -0.40200357597760594,
+        "rising_band_mean_axial": 0.8560232127708406,
+        "rising_band_mean_swirl": -1.0660030790765602,
+        "outer_return_mean_axial": -0.16296272851703802,
+        "outer_return_mean_swirl": -0.646742402287389,
+        "median_rising_band_pitch": 5.611934161533272,
+        "effective_energy_volume_fraction": 0.11419431662527486
+      },
+      {
+        "t": 3.3000000000000003,
+        "energy": 0.07523782565175806,
+        "max_speed": 1.6977204882348456,
+        "max_vorticity": 4.749035390036141,
+        "enstrophy": 0.4337233798639906,
+        "stretching": 0.14779797066123126,
+        "divergence_max": 9.532861174639575e-17,
+        "cfl": 0.1045718212550176,
+        "input_energy": 0.12799999999999956,
+        "dissipated_energy": 0.05276217435954459,
+        "radial_energy": 0.008905960308903694,
+        "swirl_energy": 0.04723499624252474,
+        "axial_energy": 0.019096869100329622,
+        "max_abs_swirl": 1.278878594716002,
+        "max_upward_speed": 1.0495533747098071,
+        "max_abs_radial": 0.7235343705891885,
+        "net_plane_flux": -1.217495783336798e-16,
+        "upward_flux": 4.9060511614099145,
+        "cumulative_upward_crossing_volume": 9.07774203212347,
+        "core_mean_axial": -1.2940408546684787,
+        "core_mean_swirl": -0.40396773478379117,
+        "rising_band_mean_axial": 0.8637365469325633,
+        "rising_band_mean_swirl": -1.0564457270926275,
+        "outer_return_mean_axial": -0.14967697444361217,
+        "outer_return_mean_swirl": -0.6615448283203132,
+        "median_rising_band_pitch": 5.780341413580555,
+        "effective_energy_volume_fraction": 0.11667355665154067
+      },
+      {
+        "t": 3.4,
+        "energy": 0.07661650631769874,
+        "max_speed": 1.7079941639512077,
+        "max_vorticity": 4.780481649347538,
+        "enstrophy": 0.44001156149081955,
+        "stretching": 0.15170313789515363,
+        "divergence_max": 1.5061157408697304e-16,
+        "cfl": 0.10476422531914924,
+        "input_energy": 0.13199999999999967,
+        "dissipated_energy": 0.05538349369406585,
+        "radial_energy": 0.009382012903011534,
+        "swirl_energy": 0.04752284704513223,
+        "axial_energy": 0.019711646369555,
+        "max_abs_swirl": 1.2657329992826902,
+        "max_upward_speed": 1.055596664354135,
+        "max_abs_radial": 0.7330949109347878,
+        "net_plane_flux": -3.652487350010394e-16,
+        "upward_flux": 5.010353222770574,
+        "cumulative_upward_crossing_volume": 9.573646886535094,
+        "core_mean_axial": -1.3123822812411254,
+        "core_mean_swirl": -0.4063920471079211,
+        "rising_band_mean_axial": 0.8696986818114945,
+        "rising_band_mean_swirl": -1.0477491527890297,
+        "outer_return_mean_axial": -0.13504795040349665,
+        "outer_return_mean_swirl": -0.6742109218330669,
+        "median_rising_band_pitch": 5.884700494618135,
+        "effective_energy_volume_fraction": 0.11912155695435254
+      },
+      {
+        "t": 3.5,
+        "energy": 0.07795812926699383,
+        "max_speed": 1.7179276492722408,
+        "max_vorticity": 4.805704666037009,
+        "enstrophy": 0.446077030161744,
+        "stretching": 0.1552924898243069,
+        "divergence_max": 1.0066650386716514e-16,
+        "cfl": 0.10524012032687644,
+        "input_energy": 0.1359999999999998,
+        "dissipated_energy": 0.05804187074521177,
+        "radial_energy": 0.00985476421401741,
+        "swirl_energy": 0.047792725561684936,
+        "axial_energy": 0.020310639491291485,
+        "max_abs_swirl": 1.2526731157104303,
+        "max_upward_speed": 1.0595661780631065,
+        "max_abs_radial": 0.7417425515004166,
+        "net_plane_flux": -3.652487350010394e-16,
+        "upward_flux": 5.113126896638934,
+        "cumulative_upward_crossing_volume": 10.079781163693365,
+        "core_mean_axial": -1.3303206321234102,
+        "core_mean_swirl": -0.4091519817187639,
+        "rising_band_mean_axial": 0.8739097542868683,
+        "rising_band_mean_swirl": -1.0399083599628767,
+        "outer_return_mean_axial": -0.1192335718515221,
+        "outer_return_mean_swirl": -0.6846248615071417,
+        "median_rising_band_pitch": 5.972072304976748,
+        "effective_energy_volume_fraction": 0.12153952388394414
+      },
+      {
+        "t": 3.6,
+        "energy": 0.07926401151271394,
+        "max_speed": 1.7276844225433536,
+        "max_vorticity": 4.824662115688881,
+        "enstrophy": 0.45192634309028173,
+        "stretching": 0.1585863844624399,
+        "divergence_max": 1.0531952989871845e-16,
+        "cfl": 0.10563457250244036,
+        "input_energy": 0.1399999999999999,
+        "dissipated_energy": 0.060735988499917,
+        "radial_energy": 0.010323550869668756,
+        "swirl_energy": 0.04804729228201267,
+        "axial_energy": 0.0208931683610325,
+        "max_abs_swirl": 1.242286157485589,
+        "max_upward_speed": 1.0613990101257031,
+        "max_abs_radial": 0.7526662244724528,
+        "net_plane_flux": 1.217495783336798e-16,
+        "upward_flux": 5.209039364670472,
+        "cumulative_upward_crossing_volume": 10.59597843997441,
+        "core_mean_axial": -1.3478719860121147,
+        "core_mean_swirl": -0.4120898643863329,
+        "rising_band_mean_axial": 0.8763889603282702,
+        "rising_band_mean_swirl": -1.0328984146610196,
+        "outer_return_mean_axial": -0.102387362335803,
+        "outer_return_mean_swirl": -0.692706868660702,
+        "median_rising_band_pitch": 6.045515061932682,
+        "effective_energy_volume_fraction": 0.12392962920349401
+      },
+      {
+        "t": 3.7,
+        "energy": 0.08053542772644583,
+        "max_speed": 1.7374395515312158,
+        "max_vorticity": 4.837792950847809,
+        "enstrophy": 0.4575671297989633,
+        "stretching": 0.16161297136870637,
+        "divergence_max": 9.335893142154033e-17,
+        "cfl": 0.10594163231762949,
+        "input_energy": 0.14400000000000002,
+        "dissipated_energy": 0.06346457228660034,
+        "radial_energy": 0.010787729002223948,
+        "swirl_energy": 0.04828891534069472,
+        "axial_energy": 0.021458783383527164,
+        "max_abs_swirl": 1.2326826274414766,
+        "max_upward_speed": 1.061237892307866,
+        "max_abs_radial": 0.7665689171069022,
+        "net_plane_flux": 3.652487350010394e-16,
+        "upward_flux": 5.2940258262987445,
+        "cumulative_upward_crossing_volume": 11.121222915369463,
+        "core_mean_axial": -1.365053537626345,
+        "core_mean_swirl": -0.4150360507014305,
+        "rising_band_mean_axial": 0.8771780889752909,
+        "rising_band_mean_swirl": -1.0266877899119051,
+        "outer_return_mean_axial": -0.08465722463087967,
+        "outer_return_mean_swirl": -0.698421330830691,
+        "median_rising_band_pitch": 6.10501491361199,
+        "effective_energy_volume_fraction": 0.12629463033751243
+      },
+      {
+        "t": 3.8000000000000003,
+        "energy": 0.08177360278768034,
+        "max_speed": 1.7473523607145167,
+        "max_vorticity": 4.845818289601117,
+        "enstrophy": 0.4630083756254198,
+        "stretching": 0.16440612375527708,
+        "divergence_max": 9.425136886571345e-17,
+        "cfl": 0.10615782583148115,
+        "input_energy": 0.14800000000000013,
+        "dissipated_energy": 0.0662263972257762,
+        "radial_energy": 0.01124666416247493,
+        "swirl_energy": 0.048519710821673494,
+        "axial_energy": 0.02200722780353191,
+        "max_abs_swirl": 1.2262636257159023,
+        "max_upward_speed": 1.0592538734556676,
+        "max_abs_radial": 0.7815776617640341,
+        "net_plane_flux": -1.217495783336798e-16,
+        "upward_flux": 5.3678564011715855,
+        "cumulative_upward_crossing_volume": 11.654409795805456,
+        "core_mean_axial": -1.3818692630662788,
+        "core_mean_swirl": -0.4178302847889533,
+        "rising_band_mean_axial": 0.8763433352039764,
+        "rising_band_mean_swirl": -1.0212496630743595,
+        "outer_return_mean_axial": -0.06618828133721162,
+        "outer_return_mean_swirl": -0.7017819664473598,
+        "median_rising_band_pitch": 6.150585311947406,
+        "effective_energy_volume_fraction": 0.1286374383607209
+      },
+      {
+        "t": 3.9,
+        "energy": 0.08297970365865745,
+        "max_speed": 1.757543950473301,
+        "max_vorticity": 4.849546244494424,
+        "enstrophy": 0.46826036431966883,
+        "stretching": 0.16700213316192997,
+        "divergence_max": 1.2146569178679408e-16,
+        "cfl": 0.10628363902420901,
+        "input_energy": 0.15200000000000025,
+        "dissipated_energy": 0.06902029635520916,
+        "radial_energy": 0.011699726835710321,
+        "swirl_energy": 0.04874157367347604,
+        "axial_energy": 0.02253840314947107,
+        "max_abs_swirl": 1.2191299096598884,
+        "max_upward_speed": 1.055627654906202,
+        "max_abs_radial": 0.7944999592479576,
+        "net_plane_flux": 0.0,
+        "upward_flux": 5.432859704149233,
+        "cumulative_upward_crossing_volume": 12.19446481136417,
+        "core_mean_axial": -1.3983034312878189,
+        "core_mean_swirl": -0.4203376928890505,
+        "rising_band_mean_axial": 0.8739748797910507,
+        "rising_band_mean_swirl": -1.0165691093971512,
+        "outer_return_mean_axial": -0.04712790925857404,
+        "outer_return_mean_swirl": -0.702852831810819,
+        "median_rising_band_pitch": 6.155395934139072,
+        "effective_energy_volume_fraction": 0.13096073900732863
+      },
+      {
+        "t": 4.0,
+        "energy": 0.08415483251168636,
+        "max_speed": 1.7680841578461948,
+        "max_vorticity": 4.849732032315311,
+        "enstrophy": 0.47333433332047287,
+        "stretching": 0.16943600249792592,
+        "divergence_max": 9.728113945954907e-17,
+        "cfl": 0.10632387063214838,
+        "input_energy": 0.15600000000000036,
+        "dissipated_energy": 0.07184516750259345,
+        "radial_energy": 0.012146291454512546,
+        "swirl_energy": 0.04895620171136095,
+        "axial_energy": 0.023052339345812873,
+        "max_abs_swirl": 1.2112008667514835,
+        "max_upward_speed": 1.050540061294564,
+        "max_abs_radial": 0.805864757415691,
+        "net_plane_flux": 6.08747891668399e-16,
+        "upward_flux": 5.497327032561876,
+        "cumulative_upward_crossing_volume": 12.740855726469576,
+        "core_mean_axial": -1.414321626452661,
+        "core_mean_swirl": -0.42245666815297855,
+        "rising_band_mean_axial": 0.8701840954556876,
+        "rising_band_mean_swirl": -1.0126453275421174,
+        "outer_return_mean_axial": -0.027630563508109395,
+        "outer_return_mean_swirl": -0.7017450703820971,
+        "median_rising_band_pitch": 6.231025597304762,
+        "effective_energy_volume_fraction": 0.13326673625503327
+      }
+    ],
+    "cohorts": [
+      {
+        "initial_radius": 0.25,
+        "labels": 64,
+        "median_max_rise": 0.0,
+        "fraction_rise_0_3": 0.0,
+        "fraction_local_return": 0.0,
+        "fraction_boundary_crossing": 0.0,
+        "median_signed_turns": -0.1984480084629616,
+        "median_cumulative_upward_turns": 0.0,
+        "median_max_continuous_upward_turns": 0.0,
+        "median_minimum_upward_radius": null,
+        "median_maximum_upward_radius": 0.0
+      },
+      {
+        "initial_radius": 1.05,
+        "labels": 64,
+        "median_max_rise": 1.0082904202488754,
+        "fraction_rise_0_3": 1.0,
+        "fraction_local_return": 0.0,
+        "fraction_boundary_crossing": 0.0,
+        "median_signed_turns": -0.38877291907281764,
+        "median_cumulative_upward_turns": 0.34649202773487,
+        "median_max_continuous_upward_turns": 0.34649202773487,
+        "median_minimum_upward_radius": 1.0499977274553176,
+        "median_maximum_upward_radius": 1.88471049631057
+      },
+      {
+        "initial_radius": 1.9,
+        "labels": 64,
+        "median_max_rise": 0.0,
+        "fraction_rise_0_3": 0.0,
+        "fraction_local_return": 0.0,
+        "fraction_boundary_crossing": 0.0,
+        "median_signed_turns": -0.09135872755733197,
+        "median_cumulative_upward_turns": 0.041423935928918465,
+        "median_max_continuous_upward_turns": 0.041423935928918465,
+        "median_minimum_upward_radius": 1.4490123569617208,
+        "median_maximum_upward_radius": 1.6181780703162152
+      }
+    ],
+    "sample_paths": [
+      {
+        "t": 1.0,
+        "positions": [
+          [
+            3.391592653589793,
+            3.141592653589793,
+            2.741592653589793
+          ],
+          [
+            3.141592653589793,
+            3.391592653589793,
+            2.741592653589793
+          ],
+          [
+            2.891592653589793,
+            3.141592653589793,
+            2.741592653589793
+          ],
+          [
+            3.141592653589793,
+            2.891592653589793,
+            2.741592653589793
+          ],
+          [
+            4.191592653589793,
+            3.141592653589793,
+            2.741592653589793
+          ],
+          [
+            3.141592653589793,
+            4.191592653589793,
+            2.741592653589793
+          ],
+          [
+            2.0915926535897933,
+            3.141592653589793,
+            2.741592653589793
+          ],
+          [
+            3.141592653589793,
+            2.0915926535897933,
+            2.741592653589793
+          ],
+          [
+            5.0415926535897935,
+            3.141592653589793,
+            2.741592653589793
+          ],
+          [
+            3.141592653589793,
+            5.0415926535897935,
+            2.741592653589793
+          ],
+          [
+            1.2415926535897932,
+            3.1415926535897936,
+            2.741592653589793
+          ],
+          [
+            3.1415926535897927,
+            1.2415926535897932,
+            2.741592653589793
+          ]
+        ]
+      },
+      {
+        "t": 1.1,
+        "positions": [
+          [
+            3.3937052452577454,
+            3.1194923272794117,
+            2.626200198299894
+          ],
+          [
+            3.163693576165946,
+            3.3937052135333303,
+            2.626201431420482
+          ],
+          [
+            2.889480902612783,
+            3.163693522322962,
+            2.626205403659508
+          ],
+          [
+            3.1194923811133846,
+            2.889480870892245,
+            2.6262041705320525
+          ],
+          [
+            4.18720359174832,
+            3.041001393125154,
+            2.7945257248531763
+          ],
+          [
+            3.242183988565563,
+            4.187203732296216,
+            2.794525823262839
+          ],
+          [
+            2.0959811947054705,
+            3.2421838161558907,
+            2.794528291868503
+          ],
+          [
+            3.0410015655345766,
+            2.0959813352524383,
+            2.7945281934650037
+          ],
+          [
+            5.03889406815392,
+            3.1310177946548206,
+            2.729552054227363
+          ],
+          [
+            3.152167508031314,
+            5.038894062858527,
+            2.729552074041167
+          ],
+          [
+            1.244291316839462,
+            3.1521675876486897,
+            2.7295558049794004
+          ],
+          [
+            3.131017715036843,
+            1.2442913115437784,
+            2.7295557851682513
+          ]
+        ]
+      },
+      {
+        "t": 1.2,
+        "positions": [
+          [
+            3.395519835218993,
+            3.0971954814000044,
+            2.5173999943695238
+          ],
+          [
+            3.1859911080432,
+            3.3955196178217593,
+            2.5174022105686973
+          ],
+          [
+            2.887667540637666,
+            3.1859910033334087,
+            2.5174098455774305
+          ],
+          [
+            3.0971955860932345,
+            2.887667323253621,
+            2.5174076293757386
+          ],
+          [
+            4.173585699897598,
+            2.9355985426355575,
+            2.8501220802390885
+          ],
+          [
+            3.3475869154190216,
+            4.173585960394204,
+            2.850122075848272
+          ],
+          [
+            2.109598492360027,
+            3.3475868073169077,
+            2.850127152430565
+          ],
+          [
+            2.935598650736709,
+            2.1095987528556353,
+            2.850127156831115
+          ],
+          [
+            5.0358251361319395,
+            3.1194368529338155,
+            2.716832408100394
+          ],
+          [
+            3.163748437007413,
+            5.035825122975624,
+            2.7168324404299726
+          ],
+          [
+            1.2473602856533552,
+            3.163748639599009,
+            2.7168398474568236
+          ],
+          [
+            3.119436650340971,
+            1.2473602724964012,
+            2.7168398151338877
+          ]
+        ]
+      },
+      {
+        "t": 1.3,
+        "positions": [
+          [
+            3.397235451838369,
+            3.075245312923691,
+            2.4166440776971827
+          ],
+          [
+            3.2079419894615464,
+            3.3972348931286365,
+            2.4166470309016357
+          ],
+          [
+            2.8859534751628035,
+            3.207941807293312,
+            2.416658054874082
+          ],
+          [
+            3.0752454950650145,
+            2.8859529164831317,
+            2.416655101688779
+          ],
+          [
+            4.149933562846597,
+            2.826853120752616,
+            2.90785435315321
+          ],
+          [
+            3.4563324215520144,
+            4.149933914842805,
+            2.907854076065408
+          ],
+          [
+            2.1332499153655617,
+            3.456332572554362,
+            2.907861621036297
+          ],
+          [
+            2.8268529697482743,
+            2.1332502673603284,
+            2.9078618981361455
+          ],
+          [
+            5.032282141689247,
+            3.1068735378061887,
+            2.7034475180110085
+          ],
+          [
+            3.176311727128067,
+            5.032282114182752,
+            2.70344755437446
+          ],
+          [
+            1.2509032698337168,
+            3.176312103963926,
+            2.7034585920232965
+          ],
+          [
+            3.106873160968333,
+            1.2509032423260937,
+            2.7034585556719475
+          ]
+        ]
+      },
+      {
+        "t": 1.4000000000000001,
+        "positions": [
+          [
+            3.398552183011826,
+            3.0537584542990466,
+            2.323404711910063
+          ],
+          [
+            3.229429603820629,
+            3.3985511118435423,
+            2.3234081527844315
+          ],
+          [
+            2.8846386783308886,
+            3.229429275349392,
+            2.3234221826212837
+          ],
+          [
+            3.0537587827343327,
+            2.8846376072130426,
+            2.3234187417991317
+          ],
+          [
+            4.116174265260309,
+            2.717541743675563,
+            2.965310297433565
+          ],
+          [
+            3.5656438584937487,
+            4.116174695966134,
+            2.9653098801747118
+          ],
+          [
+            2.1670084421653484,
+            3.5656444308920676,
+            2.9653193246930525
+          ],
+          [
+            2.717541171272609,
+            2.1670088728678176,
+            2.96531974196635
+          ],
+          [
+            5.02814511671912,
+            3.093359029467721,
+            2.6894171787015013
+          ],
+          [
+            3.1898261947919244,
+            5.0281450641532475,
+            2.6894172122764557
+          ],
+          [
+            1.2550402320714613,
+            3.1898268072566816,
+            2.6894318471077883
+          ],
+          [
+            3.093358416999919,
+            1.2550401795035437,
+            2.689431813551911
+          ]
+        ]
+      },
+      {
+        "t": 1.5,
+        "positions": [
+          [
+            3.399802179853238,
+            3.032805298705993,
+            2.2388211348490956
+          ],
+          [
+            3.250383457612217,
+            3.3998004667159574,
+            2.23882476548818
+          ],
+          [
+            2.883390920531626,
+            3.2503829135525626,
+            2.238841251314535
+          ],
+          [
+            3.032805842732047,
+            2.8833892074607403,
+            2.2388376207645875
+          ],
+          [
+            4.071752515686894,
+            2.607956671032377,
+            3.0241567274826906
+          ],
+          [
+            3.6752289873385133,
+            4.071752994289723,
+            3.024156382512046
+          ],
+          [
+            2.2114293763294675,
+            3.6752301711240607,
+            3.0241673236986584
+          ],
+          [
+            2.6079554872378443,
+            2.2114298549275424,
+            3.0241676686859824
+          ],
+          [
+            5.023279857507036,
+            3.078933547146188,
+            2.674770577785423
+          ],
+          [
+            3.204251618839098,
+            5.0232797661740545,
+            2.67477060611269
+          ],
+          [
+            1.2599053699072225,
+            3.2042525414281737,
+            2.674788818963436
+          ],
+          [
+            3.078932624552322,
+            1.259905278570259,
+            2.674788790663617
+          ]
+        ]
+      },
+      {
+        "t": 1.6,
+        "positions": [
+          [
+            3.401066145197456,
+            3.0124401838740686,
+            2.1622034424394716
+          ],
+          [
+            3.2707492009737713,
+            3.4010636932964164,
+            2.1622070394199584
+          ],
+          [
+            2.8821293921362257,
+            3.270748362930996,
+            2.1622257349145517
+          ],
+          [
+            3.012441021883858,
+            2.8821269403227503,
+            2.162222138074539
+          ],
+          [
+            4.017043139150556,
+            2.4995353399184523,
+            3.0842695642509
+          ],
+          [
+            3.7836503576194875,
+            4.017043652015729,
+            3.0842694367239796
+          ],
+          [
+            2.266137863171605,
+            3.7836522125974286,
+            3.0842814145703255
+          ],
+          [
+            2.4995334849253186,
+            2.2661383760310794,
+            3.0842815421187
+          ],
+          [
+            5.017540425934299,
+            3.0636482867899915,
+            2.659549059845066
+          ],
+          [
+            3.2195368035083236,
+            5.017540281866869,
+            2.659549086475947
+          ],
+          [
+            1.2656446130601813,
+            3.219538127560353,
+            2.6595708744194857
+          ],
+          [
+            3.063646962730127,
+            1.2656444689848831,
+            2.6595708478254974
+          ]
+        ]
+      },
+      {
+        "t": 1.7,
+        "positions": [
+          [
+            3.4021675940179237,
+            2.992736629568255,
+            2.0925443071324272
+          ],
+          [
+            3.2904533307240786,
+            3.40216431029132,
+            2.0925476688534324
+          ],
+          [
+            2.8810305650838894,
+            3.290452104451566,
+            2.092568393954024
+          ],
+          [
+            2.992737855804554,
+            2.881027281472362,
+            2.0925650324392606
+          ],
+          [
+            3.9506541240690987,
+            2.391517800984354,
+            3.146769415183498
+          ],
+          [
+            3.8916679461957737,
+            3.9506546401355336,
+            3.1467696843602866
+          ],
+          [
+            2.332525918608664,
+            3.8916704328775533,
+            3.146782531163615
+          ],
+          [
+            2.3915153142806576,
+            2.3325264346694796,
+            3.146782262012593
+          ],
+          [
+            5.010772169457032,
+            3.047567610865627,
+            2.6438082943667953
+          ],
+          [
+            3.235617388861735,
+            5.010771962220653,
+            2.6438083289171384
+          ],
+          [
+            1.2724126025151112,
+            3.2356192269163246,
+            2.6438337069479654
+          ],
+          [
+            3.047565772798078,
+            1.272412395263774,
+            2.6438336724445115
+          ]
+        ]
+      },
+      {
+        "t": 1.8,
+        "positions": [
+          [
+            3.4029855751134614,
+            2.973504618061264,
+            2.0298687675445266
+          ],
+          [
+            3.309685811442059,
+            3.402981409034117,
+            2.029871612010085
+          ],
+          [
+            2.8802153429107866,
+            3.309683947957235,
+            2.0298936320514684
+          ],
+          [
+            2.9735064815264094,
+            2.8802111769480194,
+            2.0298907878437444
+          ],
+          [
+            3.872247501890177,
+            2.2845332496523785,
+            3.211569255376586
+          ],
+          [
+            3.998652567615314,
+            3.872247978020127,
+            3.211570014744554
+          ],
+          [
+            2.4109314406017273,
+            3.998655568686779,
+            3.2115835775971755
+          ],
+          [
+            2.2845302485534313,
+            2.410931916727859,
+            3.21158281826387
+          ],
+          [
+            5.002815291806742,
+            3.0307713925956046,
+            2.6276197578832168
+          ],
+          [
+            3.2524135063325734,
+            5.002815018627713,
+            2.6276198144222143
+          ],
+          [
+            1.2803691197749905,
+            3.2524159970511315,
+            2.6276488169392334
+          ],
+          [
+            3.030768901855974,
+            1.2803688465691963,
+            2.627648760456977
+          ]
+        ]
+      },
+      {
+        "t": 1.9000000000000001,
+        "positions": [
+          [
+            3.4036084949761958,
+            2.9545325826751574,
+            1.973933133748483
+          ],
+          [
+            3.3286582756707217,
+            3.4036035140732923,
+            1.9739350525957808
+          ],
+          [
+            2.8795949907191773,
+            3.3286558506165598,
+            1.9739576134560768
+          ],
+          [
+            2.9545350014539236,
+            2.879590003623554,
+            1.9739556744552702
+          ],
+          [
+            3.7850550236595066,
+            2.184795139293269,
+            3.271543966403207
+          ],
+          [
+            4.098390708111707,
+            3.7850553961413578,
+            3.2715448213354557
+          ],
+          [
+            2.498123078536615,
+            4.098394427903991,
+            3.271558447513571
+          ],
+          [
+            2.1847914194689713,
+            2.498123451018462,
+            3.2715575926232137
+          ],
+          [
+            4.993528404148739,
+            3.013341893681737,
+            2.6110761812355325
+          ],
+          [
+            3.2698428999097677,
+            4.993528072692627,
+            2.6110762748167606
+          ],
+          [
+            1.2896557100440578,
+            3.269846077101425,
+            2.6111089119261535
+          ],
+          [
+            3.013338716459145,
+            1.2896553785478104,
+            2.6111088184071343
+          ]
+        ]
+      },
+      {
+        "t": 2.0,
+        "positions": [
+          [
+            3.404036395507515,
+            2.935846625386357,
+            1.923846957341282
+          ],
+          [
+            3.3473446742027426,
+            3.4040307480000673,
+            1.9238474661139635
+          ],
+          [
+            2.879169189585016,
+            3.347341882554286,
+            1.9238696304339884
+          ],
+          [
+            2.9358494109179305,
+            2.879163535402549,
+            1.923869104512255
+          ],
+          [
+            3.6866484832322834,
+            2.0895883381974127,
+            3.3318479957944143
+          ],
+          [
+            4.19359746002041,
+            3.6866487046331677,
+            3.3318484284952006
+          ],
+          [
+            2.596528826589112,
+            4.1936019121348105,
+            3.331861926803265
+          ],
+          [
+            2.0895838860462645,
+            2.5965290479971133,
+            3.331861494149004
+          ],
+          [
+            4.982934186819157,
+            2.9952416603568124,
+            2.5943214722707046
+          ],
+          [
+            3.287943026993251,
+            4.98293381217499,
+            2.5943216125255764
+          ],
+          [
+            1.300249833324287,
+            3.28794682757377,
+            2.59435787038495
+          ],
+          [
+            2.9952378597362004,
+            1.30024945863064,
+            2.5943577301902483
+          ]
+        ]
+      },
+      {
+        "t": 2.1,
+        "positions": [
+          [
+            3.404210829014023,
+            2.917467677756184,
+            1.8788399171586592
+          ],
+          [
+            3.365723986567967,
+            3.404204587716092,
+            1.8788388774195508
+          ],
+          [
+            2.8789966856717304,
+            3.3657207669179727,
+            1.8788606691186698
+          ],
+          [
+            2.9174708914112406,
+            2.8789904373087345,
+            1.878861694446685
+          ],
+          [
+            3.5802707315923077,
+            2.000393889981415,
+            3.391471443843094
+          ],
+          [
+            4.282791762546578,
+            3.580270804726771,
+            3.3914712588248817
+          ],
+          [
+            2.702905551661678,
+            4.282796879872046,
+            3.3914845986406004
+          ],
+          [
+            2.0003887726186824,
+            2.702905624807904,
+            3.391484783661544
+          ],
+          [
+            4.970951631862388,
+            2.9764806404204984,
+            2.5774969537874908
+          ],
+          [
+            3.3067039539026784,
+            4.970951238158566,
+            2.577497150523235
+          ],
+          [
+            1.312232260469328,
+            3.306708473542058,
+            2.5775370546269696
+          ],
+          [
+            2.9764761207313195,
+            1.3122318667051165,
+            2.5775368579506943
+          ]
+        ]
+      },
+      {
+        "t": 2.2,
+        "positions": [
+          [
+            3.4040481683438677,
+            2.8994194470479555,
+            1.838265540289931
+          ],
+          [
+            3.3837725039152695,
+            3.404041410391023,
+            1.8382628310144717
+          ],
+          [
+            2.8791610947066384,
+            3.383768798895793,
+            1.8382843095948909
+          ],
+          [
+            2.8994231461683064,
+            2.8791543293940656,
+            1.8382870069698791
+          ],
+          [
+            3.4673266994127476,
+            1.9198933443979236,
+            3.4456331742237714
+          ],
+          [
+            4.363292149042278,
+            3.467326620942945,
+            3.4456325427910968
+          ],
+          [
+            2.8158487731845097,
+            4.36329756228558,
+            3.4456455789070173
+          ],
+          [
+            1.9198879311232984,
+            2.8158486947359243,
+            3.445646210298139
+          ],
+          [
+            4.957383515785641,
+            2.9564203309502965,
+            2.5611498961932737
+          ],
+          [
+            3.3267642054339,
+            4.957383137563629,
+            2.5611501686104114
+          ],
+          [
+            1.3258002237491622,
+            3.3267695293549213,
+            2.561193413915045
+          ],
+          [
+            2.9564150069712953,
+            1.3257998454547217,
+            2.561193141561371
+          ]
+        ]
+      },
+      {
+        "t": 2.3000000000000003,
+        "positions": [
+          [
+            3.403383855159611,
+            2.881610769590284,
+            1.8017537575563918
+          ],
+          [
+            3.401581413650292,
+            3.403376650255972,
+            1.8017493188607547
+          ],
+          [
+            2.879826839800886,
+            3.4015770190873518,
+            1.8017702938778086
+          ],
+          [
+            2.881615158248027,
+            2.8798196273867847,
+            1.8017747231089987
+          ],
+          [
+            3.345588649129724,
+            1.8474099127748294,
+            3.4966071000145305
+          ],
+          [
+            4.435775460270441,
+            3.3455884338025736,
+            3.4966062794357136
+          ],
+          [
+            2.937586063251015,
+            4.43578131419048,
+            3.496619521957584
+          ],
+          [
+            1.8474040588343466,
+            2.9375858479542556,
+            3.496620342458806
+          ],
+          [
+            4.942068191147761,
+            2.9348115933668284,
+            2.5456414830300416
+          ],
+          [
+            3.3483729030357385,
+            4.942067874103026,
+            2.545641829904464
+          ],
+          [
+            1.3411153989641367,
+            3.348379247792226,
+            2.5456880635019803
+          ],
+          [
+            2.9348052485421015,
+            1.3411150818363116,
+            2.5456877166885605
+          ]
+        ]
+      },
+      {
+        "t": 2.4,
+        "positions": [
+          [
+            3.4021354046678534,
+            2.864108424235032,
+            1.7696307893721719
+          ],
+          [
+            3.4190835008241267,
+            3.4021276316094116,
+            1.7696256738300744
+          ],
+          [
+            2.8810774082454085,
+            3.4190780297424954,
+            1.7696472368309961
+          ],
+          [
+            2.864113889398282,
+            2.8810696273111147,
+            1.7696523452384088
+          ],
+          [
+            3.218072216123175,
+            1.7839810115011063,
+            3.5441953199582588
+          ],
+          [
+            4.499204316477204,
+            3.218071863890165,
+            3.5441946081611504
+          ],
+          [
+            3.0651012143445286,
+            4.499210626993511,
+            3.544208170219958
+          ],
+          [
+            1.7839747009787617,
+            3.065100862142534,
+            3.544208881918984
+          ],
+          [
+            4.92487820224316,
+            2.9116792322114478,
+            2.5311851969013377
+          ],
+          [
+            3.3715052442107902,
+            4.924877997511819,
+            2.531185603426419
+          ],
+          [
+            1.3583052640262514,
+            3.371512841548763,
+            2.53123449513175
+          ],
+          [
+            2.9116716347928584,
+            1.3583050592038437,
+            2.53123408865831
+          ]
+        ]
+      },
+      {
+        "t": 2.5,
+        "positions": [
+          [
+            3.400397801929294,
+            2.847264000232348,
+            1.7420554543797042
+          ],
+          [
+            3.4359275828749696,
+            3.400389534398916,
+            1.7420496888286434
+          ],
+          [
+            2.8828169756458535,
+            3.435921052402313,
+            1.7420715997117668
+          ],
+          [
+            2.8472705247857095,
+            2.882808699947457,
+            1.742077360323945
+          ],
+          [
+            3.0891090674101656,
+            1.730620932679461,
+            3.5865304470750226
+          ],
+          [
+            4.552564422162828,
+            3.089108532807887,
+            3.5865300786590355
+          ],
+          [
+            3.1940631411893783,
+            4.552571422164521,
+            3.5865438733840063
+          ],
+          [
+            1.7306139326894487,
+            3.194062606617517,
+            3.5865442416847313
+          ],
+          [
+            4.905690577188335,
+            2.8870443941669,
+            2.517995580636957
+          ],
+          [
+            3.396140083114582,
+            4.905690539108275,
+            2.5179960178896503
+          ],
+          [
+            1.377492818794764,
+            3.396149173504467,
+            2.5180472627215487
+          ],
+          [
+            2.887035303682114,
+            1.3774927806195825,
+            2.518046825504271
+          ]
+        ]
+      },
+      {
+        "t": 2.6,
+        "positions": [
+          [
+            3.3981817636347196,
+            2.8310195721642457,
+            1.7183624744183148
+          ],
+          [
+            3.4521716182012723,
+            3.3981730692701255,
+            1.7183560144389594
+          ],
+          [
+            2.885034814904883,
+            3.452164028600064,
+            1.7183781101754623
+          ],
+          [
+            2.8310271558347857,
+            2.885026112152908,
+            1.7183845672599032
+          ],
+          [
+            2.9586004888015354,
+            1.6862461817647658,
+            3.623218245067979
+          ],
+          [
+            4.596939308943847,
+            2.9585997221139926,
+            3.6232185408288045
+          ],
+          [
+            3.324570752101172,
+            4.596947347124527,
+            3.6232326593323028
+          ],
+          [
+            1.6862381436172982,
+            3.324569985442993,
+            3.6232323634359678
+          ],
+          [
+            4.88446188908964,
+            2.8610054106497467,
+            2.5062353084665006
+          ],
+          [
+            3.422179096825166,
+            4.884462065813463,
+            2.5062357430945594
+          ],
+          [
+            1.3987214482313508,
+            3.42218982118802,
+            2.506289003031506
+          ],
+          [
+            2.8609946861795197,
+            1.3987216248586924,
+            2.5062885684095595
+          ]
+        ]
+      },
+      {
+        "t": 2.7,
+        "positions": [
+          [
+            3.3954851451160173,
+            2.8153108224117487,
+            1.6979985017128825
+          ],
+          [
+            3.4678799302710335,
+            3.395476091032451,
+            1.6979912903840437
+          ],
+          [
+            2.8877330606256995,
+            3.467871280158851,
+            1.6980134362639516
+          ],
+          [
+            2.8153194665714683,
+            2.8877239980039318,
+            1.6980206466221668
+          ],
+          [
+            2.825925554897416,
+            1.6498871861121978,
+            3.6553508932361325
+          ],
+          [
+            4.633298582349056,
+            2.8259245060557934,
+            3.6553521642744724
+          ],
+          [
+            3.4572449672546823,
+            4.633307917884227,
+            3.6553666561778346
+          ],
+          [
+            1.6498778506398013,
+            3.4572439184409736,
+            3.6553653849698824
+          ],
+          [
+            4.861317904488637,
+            2.83384337755934,
+            2.495938627846378
+          ],
+          [
+            3.449341189152847,
+            4.861318344064254,
+            2.495939025189209
+          ],
+          [
+            1.4218654313070906,
+            3.4493536734802763,
+            2.4959939808271074
+          ],
+          [
+            2.833830893114551,
+            1.421865870788064,
+            2.4959935834528095
+          ]
+        ]
+      },
+      {
+        "t": 2.8000000000000003,
+        "positions": [
+          [
+            3.3923040729226255,
+            2.8000695702273686,
+            1.6805055598284304
+          ],
+          [
+            3.4831207046634765,
+            3.3922947268736925,
+            1.6804975293235056
+          ],
+          [
+            2.890915578089467,
+            3.4831109899453407,
+            1.6805196103694886
+          ],
+          [
+            2.8000792789603937,
+            2.8909062234145884,
+            1.6805276417336739
+          ],
+          [
+            2.692996341753701,
+            1.621282249982424,
+            3.682182041085974
+          ],
+          [
+            4.661903854105183,
+            2.6929950156645286,
+            3.68218454945453
+          ],
+          [
+            3.5901731499822573,
+            4.661913816729834,
+            3.682199392841564
+          ],
+          [
+            1.6212722874396115,
+            3.590171823916499,
+            3.682196884262359
+          ],
+          [
+            4.8362270305255075,
+            2.8056486298177257,
+            2.487217152000431
+          ],
+          [
+            3.477536020844492,
+            4.836227782096929,
+            2.4872174635495323
+          ],
+          [
+            1.4469564158589043,
+            3.477550397307134,
+            2.4872738554513405
+          ],
+          [
+            2.8056342532309126,
+            1.4469571673416772,
+            2.4872735438296467
+          ]
+        ]
+      },
+      {
+        "t": 2.9,
+        "positions": [
+          [
+            3.3886382283114562,
+            2.7852241910503626,
+            1.665502976314603
+          ],
+          [
+            3.4979655699526675,
+            3.388628659638804,
+            1.6654940483539935
+          ],
+          [
+            2.894582679729477,
+            3.4979547830426685,
+            1.6655159634408252
+          ],
+          [
+            2.785234971931216,
+            2.8945731024005403,
+            1.6655248940163627
+          ],
+          [
+            2.561086964372399,
+            1.601660584035924,
+            3.704073960544308
+          ],
+          [
+            4.681525913542886,
+            2.56108538967772,
+            3.704077890440831
+          ],
+          [
+            3.722081354686387,
+            4.681536353844747,
+            3.7040931691682726
+          ],
+          [
+            1.6016501438299,
+            3.722079780005695,
+            3.7040892390230726
+          ],
+          [
+            4.8091502865889915,
+            2.7764917038294925,
+            2.480173958361664
+          ],
+          [
+            3.5066930526222877,
+            4.809151397897215,
+            2.4801741250033813
+          ],
+          [
+            1.4740334096355987,
+            3.5067094206959535,
+            2.480231738439783
+          ],
+          [
+            2.776475335630229,
+            1.4740345208653662,
+            2.480231571682745
+          ]
+        ]
+      },
+      {
+        "t": 3.0,
+        "positions": [
+          [
+            3.3844923447377666,
+            2.7707006834790056,
+            1.6526738647019483
+          ],
+          [
+            3.5124885310428624,
+            3.3844826252262816,
+            1.652663950090566
+          ],
+          [
+            2.8987296272235046,
+            3.5124766601230215,
+            1.6526856078913896
+          ],
+          [
+            2.770712548313907,
+            2.8987198990775993,
+            1.6526955268156278
+          ],
+          [
+            2.432971707965169,
+            1.5896427565107851,
+            3.7207052859491854
+          ],
+          [
+            4.693544225361431,
+            2.4329698639796504,
+            3.720710719420357
+          ],
+          [
+            3.8501956571690332,
+            4.693555392542651,
+            3.720726621390722
+          ],
+          [
+            1.5896315894352762,
+            3.850193813181519,
+            3.720721187640608
+          ],
+          [
+            4.780048429916935,
+            2.7464366188145872,
+            2.4748979195250653
+          ],
+          [
+            3.536748261331166,
+            4.780049947845604,
+            2.4748978738215603
+          ],
+          [
+            1.503135680922581,
+            3.5367666825716633,
+            2.4749565397697433
+          ],
+          [
+            2.746418197454929,
+            1.5031371987870354,
+            2.474956585315483
+          ]
+        ]
+      },
+      {
+        "t": 3.1,
+        "positions": [
+          [
+            3.3798752421877065,
+            2.7564238909875245,
+            1.6417550654629722
+          ],
+          [
+            3.5267647478847484,
+            3.379865446956076,
+            1.641744062839958
+          ],
+          [
+            2.903347596485589,
+            3.526751775943325,
+            1.641765378895989
+          ],
+          [
+            2.756436856776416,
+            2.9033377926893023,
+            1.6417763874858375
+          ],
+          [
+            2.3082622835707345,
+            1.584742790616688,
+            3.732684130587137
+          ],
+          [
+            4.698444786568642,
+            2.308260168648936,
+            3.732691087479296
+          ],
+          [
+            3.9749042917555006,
+            4.698456840577635,
+            3.7327076082853567
+          ],
+          [
+            1.5847307367202876,
+            3.974902176807951,
+            3.732700651090309
+          ],
+          [
+            4.748877250406117,
+            2.715542860527669,
+            2.471466894595268
+          ],
+          [
+            3.567642156752591,
+            4.748879221975937,
+            2.471466562574868
+          ],
+          [
+            1.5343074628533113,
+            3.5676626506689484,
+            2.4715261583280155
+          ],
+          [
+            2.715522366509013,
+            1.534309434376794,
+            2.471526490150324
+          ]
+        ]
+      },
+      {
+        "t": 3.2,
+        "positions": [
+          [
+            3.3747974475565847,
+            2.742318648489387,
+            1.6325298559410104
+          ],
+          [
+            3.5408693894743353,
+            3.3747876560808647,
+            1.6325176498248477
+          ],
+          [
+            2.9084260564828637,
+            3.5408552929280885,
+            1.6325385441471272
+          ],
+          [
+            2.7423327388041048,
+            2.90841625655697,
+            1.6325507578519978
+          ],
+          [
+            2.189603371093361,
+            1.5851822057948615,
+            3.7403934092188855
+          ],
+          [
+            4.6980060438273386,
+            2.1896009583175626,
+            3.740401849104085
+          ],
+          [
+            4.093562765047065,
+            4.698019107342606,
+            3.7404190410775375
+          ],
+          [
+            1.5851691424008216,
+            4.093560352220316,
+            3.7404106008808213
+          ],
+          [
+            4.7155825073037265,
+            2.683868057241471,
+            2.4699531342375582
+          ],
+          [
+            3.599317106360373,
+            4.7155849810769155,
+            2.4699524363830507
+          ],
+          [
+            1.5676030157387972,
+            3.599339647686728,
+            2.4700128857641848
+          ],
+          [
+            2.6838455158425276,
+            1.567605489486349,
+            2.4700135833842247
+          ]
+        ]
+      },
+      {
+        "t": 3.3000000000000003,
+        "positions": [
+          [
+            3.369268174814451,
+            2.728310832504862,
+            1.624822987921572
+          ],
+          [
+            3.5548765843467156,
+            3.3692584721236347,
+            1.624809446129626
+          ],
+          [
+            2.9139557882484435,
+            3.5548613311526873,
+            1.624829840802049
+          ],
+          [
+            2.728326079377844,
+            2.9139460772646455,
+            1.6248433917828968
+          ],
+          [
+            2.075804827959583,
+            1.5910097580647988,
+            3.7439637321249286
+          ],
+          [
+            4.692179241313972,
+            2.075802076989354,
+            3.7439736304280062
+          ],
+          [
+            4.207360787056504,
+            4.692193545566178,
+            3.74399146363219
+          ],
+          [
+            1.590995453930937,
+            4.207358035997228,
+            3.7439815650280255
+          ],
+          [
+            4.680096268315845,
+            2.6508668442762504,
+            2.4711233654493903
+          ],
+          [
+            3.632318376411416,
+            4.680099289103918,
+            2.4711221038110267
+          ],
+          [
+            1.6030903420660716,
+            3.632343084387361,
+            2.471183611910932
+          ],
+          [
+            2.6508421362628787,
+            1.6030933628572699,
+            2.4711848732935784
+          ]
+        ]
+      },
+      {
+        "t": 3.4,
+        "positions": [
+          [
+            3.3632922036032427,
+            2.714328427647427,
+            1.6184977248571146
+          ],
+          [
+            3.568858354800145,
+            3.3632826816158174,
+            1.6184826953975893
+          ],
+          [
+            2.9199320055315328,
+            3.568841902077401,
+            1.6185025116801843
+          ],
+          [
+            2.7143448739505005,
+            2.9199224754501474,
+            1.6185175519164607
+          ],
+          [
+            1.9683176864189584,
+            1.6004771073590114,
+            3.744370857274583
+          ],
+          [
+            4.682712751142577,
+            1.9683146541241983,
+            3.744382182535248
+          ],
+          [
+            4.314847950192336,
+            4.682728046567834,
+            3.7444005881079194
+          ],
+          [
+            1.6004618120592107,
+            4.3148449177748605,
+            3.7443892625658397
+          ],
+          [
+            4.642203752063838,
+            2.61555045550463,
+            2.476015125592049
+          ],
+          [
+            3.667634804693086,
+            4.642207366999888,
+            2.4760131973722372
+          ],
+          [
+            1.6409842756816053,
+            3.6676618365701192,
+            2.4760760097527896
+          ],
+          [
+            2.615523423632344,
+            1.640987890650013,
+            2.4760779376976187
+          ]
+        ]
+      },
+      {
+        "t": 3.5,
+        "positions": [
+          [
+            3.3568670134000196,
+            2.700302782036676,
+            1.613454566734701
+          ],
+          [
+            3.582883362194074,
+            3.3568577723023716,
+            1.613437874302895
+          ],
+          [
+            2.926357220005867,
+            3.5828656534886347,
+            1.6134570287529806
+          ],
+          [
+            2.7003204842166615,
+            2.926347971055201,
+            1.6134737335454106
+          ],
+          [
+            1.866808253121223,
+            1.6132387740537466,
+            3.7416243727939986
+          ],
+          [
+            4.669951961806679,
+            1.8668048816090885,
+            3.7416371108218227
+          ],
+          [
+            4.416357094944446,
+            4.669968684326284,
+            3.7416563950380928
+          ],
+          [
+            1.6132220516543319,
+            4.416353723275393,
+            3.741643656788036
+          ],
+          [
+            4.60208540869463,
+            2.5779110752790144,
+            2.484472443596047
+          ],
+          [
+            3.7052742232048477,
+            4.6020896580071415,
+            2.4844697502465163
+          ],
+          [
+            1.6811037959848256,
+            3.70530345249239,
+            2.4845337888137387
+          ],
+          [
+            2.577881846052288,
+            1.6811080453468346,
+            2.484536481875489
+          ]
+        ]
+      },
+      {
+        "t": 3.6,
+        "positions": [
+          [
+            3.3499803976630744,
+            2.686170221804694,
+            1.609631307810769
+          ],
+          [
+            3.5970152931171318,
+            3.3499715471751235,
+            1.609612750072896
+          ],
+          [
+            2.9332436266456847,
+            3.5969962555478583,
+            1.6096311492243212
+          ],
+          [
+            2.6861892527380022,
+            2.933234768588424,
+            1.609649720910056
+          ],
+          [
+            1.770067816944005,
+            1.6295140366643908,
+            3.7356539823201826
+          ],
+          [
+            4.653677715619078,
+            1.7700641726500002,
+            3.735668239673701
+          ],
+          [
+            4.51309756587058,
+            4.6536955901393355,
+            3.735688235154635
+          ],
+          [
+            1.6294961622539483,
+            4.513093921381457,
+            3.7356739776388475
+          ],
+          [
+            4.559898201337047,
+            2.538160974727364,
+            2.4962811879932603
+          ],
+          [
+            3.7450243673087966,
+            4.55990312014422,
+            2.4962776238463844
+          ],
+          [
+            1.7232924926483753,
+            3.7450558073529154,
+            2.4963429636321064
+          ],
+          [
+            2.538129534809195,
+            1.7232974115220256,
+            2.496346527476718
+          ]
+        ]
+      },
+      {
+        "t": 3.7,
+        "positions": [
+          [
+            3.3426086848377676,
+            2.6718741438528952,
+            1.607003996921848
+          ],
+          [
+            3.611310767236937,
+            3.3426003451745956,
+            1.606983340849072
+          ],
+          [
+            2.9406148823905998,
+            3.611290308856803,
+            1.6070008740291233
+          ],
+          [
+            2.671894595484612,
+            2.940606535485909,
+            1.60702154564641
+          ],
+          [
+            1.6795867826338455,
+            1.6473845022670484,
+            3.727784229666972
+          ],
+          [
+            4.635808339969416,
+            1.6795828930123342,
+            3.7278000121112562
+          ],
+          [
+            4.603578717872786,
+            4.635827467074244,
+            3.7278208932924963
+          ],
+          [
+            1.6473653752650692,
+            4.6035748280316025,
+            3.7278051107630215
+          ],
+          [
+            4.51539042346652,
+            2.496444844524996,
+            2.5113867192426214
+          ],
+          [
+            3.786740552827651,
+            4.515396048145891,
+            2.5113821745383045
+          ],
+          [
+            1.7678020988668874,
+            3.7867742207594732,
+            2.511448884763937
+          ],
+          [
+            2.4964111767947785,
+            1.7678077236285747,
+            2.5114534291505755
+          ]
+        ]
+      },
+      {
+        "t": 3.8000000000000003,
+        "positions": [
+          [
+            3.334715615392655,
+            2.6573676176290624,
+            1.6055882747090255
+          ],
+          [
+            3.6258167360198343,
+            3.3347079177137386,
+            1.6055652533436175
+          ],
+          [
+            2.9485072289029177,
+            3.6257947438175275,
+            1.6055817832791062
+          ],
+          [
+            2.6573896029714303,
+            2.9484995243558294,
+            1.6056048217993892
+          ],
+          [
+            1.5941117656502672,
+            1.667754590675906,
+            3.717130645876862
+          ],
+          [
+            4.615439365151943,
+            1.5941075860001244,
+            3.7171480316479006
+          ],
+          [
+            4.689053631883845,
+            4.615460222195707,
+            3.717170277530461
+          ],
+          [
+            1.667733733722435,
+            4.68904945200255,
+            3.7171528917974515
+          ],
+          [
+            4.468260373383033,
+            2.452931109245883,
+            2.5297665390475808
+          ],
+          [
+            3.830254365465651,
+            4.468266741057364,
+            2.529760895834949
+          ],
+          [
+            1.814934347783783,
+            3.8302902692346077,
+            2.5298290337534057
+          ],
+          [
+            2.4528952057675686,
+            1.814940715552237,
+            2.529834676633591
+          ]
+        ]
+      },
+      {
+        "t": 3.9,
+        "positions": [
+          [
+            3.3262518532010903,
+            2.6426164100990137,
+            1.605440455744684
+          ],
+          [
+            3.6405674580743055,
+            3.3262449393368305,
+            1.6054147659438076
+          ],
+          [
+            2.9569699810584833,
+            3.640543797121827,
+            1.6054301169347955
+          ],
+          [
+            2.6426400640835013,
+            2.9569630607462845,
+            1.6054558255166014
+          ],
+          [
+            1.5128369343636368,
+            1.6907723778264234,
+            3.7034972127288364
+          ],
+          [
+            4.592422862488743,
+            1.5128324990465645,
+            3.7035164503515605
+          ],
+          [
+            4.770328578772822,
+            4.592445090975462,
+            3.7035398094239778
+          ],
+          [
+            1.6907501494122443,
+            4.770324143208642,
+            3.7035205719397206
+          ],
+          [
+            4.418241546597674,
+            2.4080208467627298,
+            2.551688223855905
+          ],
+          [
+            3.8751648080588748,
+            4.4182486632163664,
+            2.5516812493290497
+          ],
+          [
+            1.8649557505269057,
+            3.8752027695654534,
+            2.551751218370222
+          ],
+          [
+            2.407982885606182,
+            1.864962867262438,
+            2.551758192582148
+          ]
+        ]
+      },
+      {
+        "t": 4.0,
+        "positions": [
+          [
+            3.317155036813491,
+            2.627602213941376,
+            1.6066576228808218
+          ],
+          [
+            3.6555812709776943,
+            3.3171490580653336,
+            1.6066289247789933
+          ],
+          [
+            2.9660654755729965,
+            3.6555557852851654,
+            1.6066428684284415
+          ],
+          [
+            2.627627692562963,
+            2.966059490844967,
+            1.6066715869519774
+          ],
+          [
+            1.4365271233800891,
+            1.7145918245325007,
+            3.688428954403519
+          ],
+          [
+            4.568604805603759,
+            1.436522454811346,
+            3.688450091684087
+          ],
+          [
+            4.8466386619835005,
+            4.568628335684084,
+            3.6884745908024903
+          ],
+          [
+            1.7145682945140281,
+            4.846633993166977,
+            3.688453453755626
+          ],
+          [
+            4.364940587282512,
+            2.3622101733038545,
+            2.5781524762208408
+          ],
+          [
+            3.920975624526114,
+            4.364948526241148,
+            2.57814396602893
+          ],
+          [
+            1.9182599460342808,
+            3.9210159642952513,
+            2.578216440523238
+          ],
+          [
+            2.362169833922639,
+            1.9182678851377515,
+            2.5782249504358408
+          ]
+        ]
+      }
+    ],
+    "radial_profile": [
+      {
+        "radius": 0.125,
+        "mean_axial": -1.7464404924229007,
+        "mean_swirl": 7.479377415113101e-06
+      },
+      {
+        "radius": 0.375,
+        "mean_axial": -1.3728067682063811,
+        "mean_swirl": -0.4752646865942778
+      },
+      {
+        "radius": 0.625,
+        "mean_axial": -0.34626640990597696,
+        "mean_swirl": -0.618762010357002
+      },
+      {
+        "radius": 0.875,
+        "mean_axial": 0.6383889509401561,
+        "mean_swirl": -0.7796963631107265
+      },
+      {
+        "radius": 1.125,
+        "mean_axial": 1.0449096277396819,
+        "mean_swirl": -1.0602114824180757
+      },
+      {
+        "radius": 1.375,
+        "mean_axial": 0.8213617831919627,
+        "mean_swirl": -1.1773711585687718
+      },
+      {
+        "radius": 1.625,
+        "mean_axial": 0.38510974228708095,
+        "mean_swirl": -1.0101316511645064
+      },
+      {
+        "radius": 1.875,
+        "mean_axial": -0.014933195401062,
+        "mean_swirl": -0.7317896329895851
+      },
+      {
+        "radius": 2.125,
+        "mean_axial": -0.2482076042364024,
+        "mean_swirl": -0.46596968381431453
+      },
+      {
+        "radius": 2.375,
+        "mean_axial": -0.27893125792495255,
+        "mean_swirl": -0.2172758594499771
+      }
+    ]
+  }
+]

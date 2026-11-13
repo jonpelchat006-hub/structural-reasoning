@@ -1,0 +1,13 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== TENSION BEAM BENDER (no model, 400 tasks, 38.2s) ===
+solved (pure structure): 51/400 (12.8%)
+of which depth>=2 (composed/bent): 4
+composed solves:
+  1c786137 (d3) keepSmallest(bg=2,crop=1) -> keepSmallest(bg=4,crop=1) -> keepSmallest(bg=8,crop=1)
+  4c4377d9 (d2) flipV -> tile(ny=2,nx=1,mirror=1)
+  8d5021e8 (d2) rotate(k=2) -> tile(ny=3,nx=2,mirror=1)
+  d9fac9be (d2) keepSmallest(bg=2,crop=1) -> keepSmallest(bg=0,crop=1)

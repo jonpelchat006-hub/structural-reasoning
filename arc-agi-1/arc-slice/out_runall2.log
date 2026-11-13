@@ -1,0 +1,8 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== CONSOLIDATED (test-verified) — 36.9s ===
+TOTAL: 81/400 (20.25%)
+by stage (first to solve): {"fast":61,"generator":6,"codon":3,"discovery":9,"antimatter":1,"cycle":1}

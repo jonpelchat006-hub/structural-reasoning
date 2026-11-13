@@ -1,0 +1,19 @@
+{
+ "fractal": 2,
+ "holeFill": 3,
+ "registerCombine": 9,
+ "rankRecolor": 2,
+ "stamp2": 9,
+ "shapeRecolor": 4,
+ "gravity": 9,
+ "trace": 1,
+ "connect": 6,
+ "shift": 2,
+ "reflect": 11,
+ "rays": 2,
+ "holeRank": 2,
+ "localRule": 1,
+ "scaleByFeat": 5,
+ "colorMap": 6,
+ "shear": 1
+}

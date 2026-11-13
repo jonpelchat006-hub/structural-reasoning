@@ -1,0 +1,8 @@
+[100/400] 2step=8
+[200/400] 2step=12
+[300/400] 2step=16
+
+GEOMETRY CHECK: single-op solves found 34; mean cosθ(best-aligned solving op, T) = 0.735
+(cosθ≈1 ⇒ solving action is matter-aligned with task, validating the angular model)
+
+ANGULAR 2-STEP: solved 18; NET-NEW over combined-79: 2  694f12f3 bb43febb

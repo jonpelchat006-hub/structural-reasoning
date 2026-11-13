@@ -1,0 +1,9 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== BLIND eval (no test peeking, <=450-cell tasks) ===
+blindFirst (commit first train-fit): 27
+blindLOO   (commit LOO-best):         27
+oracle     (a correct prog exists):   27

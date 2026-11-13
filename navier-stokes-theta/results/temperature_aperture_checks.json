@@ -1,0 +1,114 @@
+{
+  "max_energy_error": 1.4786394331167685e-11,
+  "max_mechanical_error": 1.4691668888400233e-11,
+  "min_total_entropy_change": 0.0,
+  "max_cfl": 0.23863860693429273,
+  "maximum_time_step_final_flow_change": 4.09392970912581e-11,
+  "analytic_no_drive_final_flow": 4.209665067361977e-08,
+  "sources_off_late_rms_flow": 0.004300060492486793,
+  "finite_speed_with_drag_transit": {
+    "chi": 1.2,
+    "drag": 0.05,
+    "initial_speed": 1.0,
+    "plate_crossing_speed": 1.3741918829519044,
+    "peak_speed": 1.3746779012575998,
+    "escaped_to_z3": true,
+    "exit_speed": 0.6578926506840985,
+    "exit_time": 6.625834228340712,
+    "final_z": 3.000000000000007,
+    "final_speed": 0.6578926506840985,
+    "max_energy_error": 3.1289415503010787e-12
+  },
+  "refined_lossless_transit": {
+    "chi": 1.2,
+    "drag": 0.0,
+    "initial_speed": 0.25,
+    "plate_crossing_speed": 1.1230745062529741,
+    "peak_speed": 1.1230761113217853,
+    "escaped_to_z3": true,
+    "exit_speed": 0.2500000000000004,
+    "exit_time": 16.75220601380369,
+    "final_z": 3.0000000000000018,
+    "final_speed": 0.2500000000000004,
+    "max_energy_error": 9.576714421477561e-14
+  },
+  "comparisons": [
+    {
+      "name": "hot_base_cool_approach",
+      "coarse_late_flow": 0.0021802825944234536,
+      "fine_late_flow": 0.002168099348636755,
+      "spatial_relative_change": -0.005619320809426488,
+      "time_step_final_flow_change": 7.192597212268836e-15
+    },
+    {
+      "name": "hot_base_slow_cooling",
+      "coarse_late_flow": 0.0010574059124505751,
+      "fine_late_flow": 0.0010413447389657716,
+      "spatial_relative_change": -0.015423493185124185,
+      "time_step_final_flow_change": 1.5590827240341554e-16
+    },
+    {
+      "name": "hot_base_fast_cooling",
+      "coarse_late_flow": 0.0027820032602059726,
+      "fine_late_flow": 0.002784924866088138,
+      "spatial_relative_change": 0.001049078888174597,
+      "time_step_final_flow_change": -3.5686731347794876e-14
+    },
+    {
+      "name": "heat_at_aperture_cool_return",
+      "coarse_late_flow": 0.5040124177126578,
+      "fine_late_flow": 0.5135016354302665,
+      "spatial_relative_change": 0.018479430371546157,
+      "time_step_final_flow_change": -1.5987211554602254e-14
+    },
+    {
+      "name": "heat_after_aperture_cool_return",
+      "coarse_late_flow": 0.5178651593329989,
+      "fine_late_flow": 0.5227004529898648,
+      "spatial_relative_change": 0.009250601619355425,
+      "time_step_final_flow_change": -2.19824158875781e-14
+    },
+    {
+      "name": "heat_at_aperture_slow_cooling",
+      "coarse_late_flow": 0.22831097156103178,
+      "fine_late_flow": 0.2349455448588085,
+      "spatial_relative_change": 0.028238770400025245,
+      "time_step_final_flow_change": -6.994405055138486e-15
+    },
+    {
+      "name": "heat_at_aperture_fast_cooling",
+      "coarse_late_flow": 0.5880132957026085,
+      "fine_late_flow": 0.5975965205661329,
+      "spatial_relative_change": 0.016036279552708404,
+      "time_step_final_flow_change": -1.9539925233402755e-14
+    },
+    {
+      "name": "constant_susceptibility",
+      "coarse_late_flow": 9.790902574634096e-08,
+      "fine_late_flow": 9.795764723964772e-08,
+      "spatial_relative_change": 0.0004963521958404662,
+      "time_step_final_flow_change": -8.867376166568457e-22
+    },
+    {
+      "name": "no_magnet",
+      "coarse_late_flow": 9.790902636334099e-08,
+      "fine_late_flow": 9.795764797979514e-08,
+      "spatial_relative_change": 0.0004963534492394866,
+      "time_step_final_flow_change": -8.999725064576941e-22
+    },
+    {
+      "name": "equal_bath_temperatures",
+      "coarse_late_flow": -1.2059061640191074e-05,
+      "fine_late_flow": -1.1521641452178844e-05,
+      "spatial_relative_change": 0.046644411757024315,
+      "time_step_final_flow_change": -3.443808281079763e-14
+    },
+    {
+      "name": "thermal_sources_off_at_120",
+      "coarse_late_flow": -0.000355231301014692,
+      "fine_late_flow": 0.0003674414429797241,
+      "spatial_relative_change": 1.9667698290480917,
+      "time_step_final_flow_change": 4.09392970912581e-11
+    }
+  ]
+}

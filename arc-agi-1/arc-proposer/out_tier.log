@@ -1,0 +1,11 @@
+tiers: GLOBAL 23 | NEIGHBORHOOD 23 | SINGLE 16
+  global: rotate transpose recolor crop scale tile largest removeColor swap half overlayHalves trim addBorder periodicFill combinePanels cross oddPanel majPanel overlayPanels countEmit floodBorder fractal mirrorConcat
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== IMPACT-TIERED COARSE-TO-FINE ===
+solved 65 + codon 5 = 70/400 (17.5%)
+stop tier: global 43 | +neigh 15 | +single 7
+candidate-enumerations: tiered 849685 vs flat-all-ops 379980  -> -124% fewer (EFFICIENCY)

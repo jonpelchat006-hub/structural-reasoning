@@ -1,0 +1,26 @@
+[
+ {
+  "id": "3618c87e",
+  "kind": "identity_localRule"
+ },
+ {
+  "id": "623ea044",
+  "kind": "identity_rays"
+ },
+ {
+  "id": "a699fb00",
+  "kind": "identity_connect"
+ },
+ {
+  "id": "ac0a08a4",
+  "kind": "identity_scaleByFeat"
+ },
+ {
+  "id": "b91ae062",
+  "kind": "identity_scaleByFeat"
+ },
+ {
+  "id": "e9afcf9a",
+  "kind": "identity_shear"
+ }
+]

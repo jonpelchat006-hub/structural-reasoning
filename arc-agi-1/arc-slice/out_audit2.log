@@ -1,0 +1,11 @@
+
+=== REPLICATION AUDIT (native basis: id, rot90, flipH, recolor, tile, scale, crop) ===
+IS-ATOM (5): rotate flipH recolor scale tile
+
+DERIVABLE from atoms (4):
+  transpose = rot90∘flipH
+  keepColor = recolor(1,2)∘recolor(2,3)
+  removeColor = recolor(0,3)
+  antiTranspose = flipH∘rot90
+
+GAP — no native recipe at depth<=2 (44): flipV largest swap gravity symmetrize keepLargest keepSmallest keepRare keepCommon fillHoles half overlayHalves trim addBorder selectUnique selectMajority mapObjects keepTopK mapTopK paintRank gravityObj keepTouching connect shift denoise periodicFill bboxFill drawBox cropToColor stamp alignLargest moveContact drawRays grow cross colorByShape floodBorder fractal mirrorConcat outline connectObjects completeDiag smoothNeighbor rotateObjects

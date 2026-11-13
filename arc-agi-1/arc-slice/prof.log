@@ -1,0 +1,15 @@
+total bruteDepth1: 9.4s over 400 tasks
+slowest 12:
+  09629e4f  195ms  11x11 (121 cells)  objs=3  pairs=4
+  780d0b14  140ms  20x20 (400 cells)  objs=13  pairs=3
+  6d0160f0  124ms  11x11 (121 cells)  objs=7  pairs=4
+  39e1d7f9  122ms  24x24 (576 cells)  objs=1  pairs=3
+  264363fd  117ms  30x30 (900 cells)  objs=1  pairs=3
+  73251a56  116ms  21x21 (441 cells)  objs=1  pairs=3
+  6ecd11f4  112ms  27x21 (567 cells)  objs=6  pairs=3
+  06df4c85  105ms  20x20 (400 cells)  objs=1  pairs=3
+  3631a71a  105ms  30x30 (900 cells)  objs=145  pairs=4
+  045e512c  103ms  21x21 (441 cells)  objs=3  pairs=3
+  83302e8f  93ms  24x24 (576 cells)  objs=4  pairs=3
+  007bbfb7  87ms  3x3 (9 cells)  objs=1  pairs=5
+top-12 share of total: 15%

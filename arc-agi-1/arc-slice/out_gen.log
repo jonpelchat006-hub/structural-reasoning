@@ -1,0 +1,11 @@
+[100/400]
+[200/400]
+[300/400]
+[400/400]
+
+=== GENERATOR vs transformer ===
+transformer fast-solved: 25
+generator solves (any): 8
+generator NET-NEW (transformer missed): 8
+net-new ids: 22168020 22eb0ac0 253bf280 3aa6fb7a 60b61512 6d75e8bb dbc1a6ce ded97339
+all generator ids: 22168020 22eb0ac0 253bf280 3aa6fb7a 60b61512 6d75e8bb dbc1a6ce ded97339

@@ -1,0 +1,8 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== SEAM-TYPED REPAIR (400 tasks) ===
+stack solved: 53   + seam-repair NEW: 0   = 53/400 (13.3%)
+seam shapes seen on unsolved near-misses: {"uniform_offset":1945,"bimodal":1029,"none":73,"uniform_close":1235,"distributed":213,"spike":663}

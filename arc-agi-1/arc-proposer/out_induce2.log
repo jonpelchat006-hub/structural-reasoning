@@ -1,0 +1,10 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== INDUCTION TEMPLATES ===
+stack: 65   + induced NEW: 1   = 66/400 (16.5%)
+by template: {"move":1}   induced test-correct: 2/2
+induced solves:
+  25ff71a9 [move]

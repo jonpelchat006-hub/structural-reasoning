@@ -18,6 +18,9 @@ Short version, all measured on a content- and compression-matched, six-generator
   same-model controls, pre-registered bars, a real-vs-real control arm — that killed fifteen features in
   one run and turned a confounded 0.952 headline into an honest 0.932.
 
-**Code lives on the author's machine and is to be added** (the EXIF-correct loader `image_io.py`, the
-observers, and the parity-enforcing benchmark harness). The design/measurement docs live in the session
-project; `STATE_OF_THE_DETECTOR.md` here indexes them.
+**Code:** [`code/`](code/) holds the measurement code as it stood on the author's machine: the EXIF-correct
+loader `image_io.py`, the observers, the committee and debate experiments, the PRNU and seam tests and the
+parity-enforcing benchmarks. The benchmark photos, the cached model outputs and the checker web app are not
+included, so the scripts document the method but will not rerun as they are. The design and measurement docs
+are in [`theory/`](theory/): `STATE_OF_THE_DETECTOR.md` is the short state-of note and
+`STATE_OF_THE_DETECTOR_FULL_2026-07-26.md` is the longer version from the day of the rewrite.

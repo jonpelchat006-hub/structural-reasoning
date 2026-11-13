@@ -1,0 +1,11 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== RESONANCE MEMORY — leave-one-out recall (53 solved tasks, 28 families) ===
+recall@1 (memory's top family is correct):  11/53 = 20.8%
+recall@3 (correct family in top 3):         21/53 = 39.6%
+baseline always-guess-"tile": 15.1%   uniform-random@3: 10.7%
+
+wrote arc-learned.json (51 learnings) + 51 geo payloads ready for Mika.

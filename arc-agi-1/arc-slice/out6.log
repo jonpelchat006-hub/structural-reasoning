@@ -1,0 +1,14 @@
+[build 0/400]
+[build 100/400]
+[build 200/400]
+[build 300/400]
+
+=== TRANSFORM-AWARE TRANSFER (ARC-1, 400 tasks) ===
+multi-op templates: 6
+leave-one-out transfer solves: 5   (exact: 2, via D4 transform: 3)
+of which NET-NEW (not single-op solvable): 0
+  1cf80156  <= a740d043  [rot0]
+  496994bd  <= e3497940  [rot90]
+  67a3c6ac  <= 7468f01a  [rot0]
+  68b16354  <= 7468f01a  [rot90]
+  f25ffba3  <= e3497940  [rot90]

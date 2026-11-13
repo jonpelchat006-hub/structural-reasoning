@@ -1,0 +1,11 @@
+[d2 1/400]
+[d2 101/400]
+[d2 201/400]
+[d2 301/400]
+
+=== NESTED depth=2 (400 tasks, 35.1s) ===
+solved: 51/400 (12.8%)   of which use nesting: 3   test 49/416
+nested solves:
+  3aa6fb7a  mapObjects[bg=0]{ recolor(from=0,to=1) }
+  60b61512  mapObjects[bg=0]{ recolor(from=0,to=7) }
+  6d75e8bb  mapObjects[bg=0]{ recolor(from=0,to=2) }

@@ -1,0 +1,10 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== INDUCED-MOVE (operator induction) ===
+stack: 65   + induced-move NEW: 1   = 66/400 (16.5%)
+induced-move test correct: 2/2
+induced-move solves:
+  25ff71a9

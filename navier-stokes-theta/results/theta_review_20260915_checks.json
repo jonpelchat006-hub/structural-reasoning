@@ -1,0 +1,71 @@
+{
+  "taylor_green": {
+    "corrected_pressure_max_error": 5.786663426663958e-16,
+    "corrected_hessian_poisson_relative_error": 2.054450628552183e-15,
+    "current_hessian_relative_error": 1.0
+  },
+  "saved_snapshot": {
+    "file": "theta_tubes_ckpt_48_0.02_0.0_0.6_0.005.npz",
+    "step": 460,
+    "time": 2.3000000000000003,
+    "top_cells": 168,
+    "corrected_hessian_poisson_relative_error": 3.179515604403808e-15,
+    "current_hessian_relative_error": 1.637886363456002,
+    "old_axis_cosine_median": 0.03507664268791486,
+    "physical_pressure_axis_cosine_median": 0.03506307122481249,
+    "old_reported_total_rate_median": 3.5535622995800926,
+    "corrected_inviscid_rate_median": 0.561642497948784,
+    "corrected_with_viscosity_rate_median": 0.5107670361614459
+  },
+  "diffusivity": [
+    {
+      "nu": 0.02,
+      "theta_diffusivity_D": 0.03
+    },
+    {
+      "nu": 0.01,
+      "theta_diffusivity_D": 0.03
+    },
+    {
+      "nu": 0.007,
+      "theta_diffusivity_D": 0.03
+    }
+  ],
+  "restricted_euler_positive_discriminant": {
+    "initial_Q": 0,
+    "initial_R": 1,
+    "constant_discriminant": 6.75,
+    "finite_time_to_infinity": 1.7666387502852354,
+    "quadrature_error_estimate": 2.2357746543022472e-08,
+    "applies_to": "Restricted Euler ODE only, not Navier-Stokes"
+  },
+  "stored_results": [
+    {
+      "n": 64,
+      "nu": 0.02,
+      "peak_enstrophy_reduction_percent": 0.28325865159652963,
+      "peak_vorticity_reduction_percent": 8.81115674178956,
+      "removed_energy_percent": 0.7113640048334684,
+      "max_reported_budget_error": 1.934136695247446e-08
+    },
+    {
+      "n": 64,
+      "nu": 0.01,
+      "peak_enstrophy_reduction_percent": 4.78016438822716,
+      "peak_vorticity_reduction_percent": 12.287822413210026,
+      "removed_energy_percent": 2.222097150486861,
+      "max_reported_budget_error": 1.5751057236279564e-08
+    },
+    {
+      "n": 96,
+      "nu": 0.007,
+      "peak_enstrophy_reduction_percent": 6.246041745494823,
+      "peak_vorticity_reduction_percent": 6.645249789813102,
+      "removed_energy_percent": 1.7237939940326075,
+      "max_reported_budget_error": 1.1531974264400446e-08
+    }
+  ],
+  "static_rE_at_theta3": 8.031194996067258,
+  "static_rE_at_theta_pi": 9.307547971518146,
+  "uniform_wall_equilibrium_at_capped_source": 3.0707963267948966
+}

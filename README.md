@@ -2,6 +2,9 @@
 
 *Work in progress. Independent, self-funded, no institution.*
 
+*November 2026: the rest of the program has been gathered here too. **[RESEARCH_MAP.md](RESEARCH_MAP.md)** is the
+index to everything: every thread, what was measured, what is design or speculation, and where each piece lives.*
+
 This repository collects an ongoing attempt to understand reasoning, folding, and structure
 **from the bottom up** — starting from a geometric/first-principles framework and testing every
 claim against real data. It spans three connected threads: a **model-free ARC-AGI solver**, a
@@ -24,7 +27,7 @@ bending a flexible program against the hard constraint of the worked examples. R
 (16.5%) on train**, every solve generalizing to the held-out test pair, with the ceiling mapped
 three independent ways. Not competitive with the heavy-machinery top of the leaderboard; the point
 is that a fully model-free, interpretable, online-learning system reaches this at all and
-*understands its own ceiling*. (Solver code lives on the author's machine and is to be added.)
+*understands its own ceiling*. (Solver source: [`arc-agi-1/`](arc-agi-1/); the task files are not included.)
 
 ### 2. The folding thread — local vs. nonlocal, measured (this repo runs today)
 The same question — *what is local and knowable vs. global and hard* — worked cleanly in protein
@@ -56,8 +59,35 @@ The geometric framework the above grew from: a dual-domain (ψ/φ) vesica constr
 equation `x² = x + k` whose unit `k=1` forces the golden field ℚ(√5), a recursive "tower" that maps
 to the Cayley–Dickson algebra ladder, and a geometric derivation of the fine-structure constant.
 This is **speculative and self-contained**; it is presented as the *origin and motivation* of the
-tested work, not as established physics. It lives under `theory/shovelcat/` with its own results
+tested work, not as established physics. It lives under `theory/framework/` with its own results
 files, so the reproducible science and the framework are never confused for one another.
+
+---
+
+## The rest of the program (consolidated November 2026)
+
+The three threads above were the first. Everything else the program produced is here as well, as it stood on
+the author's machine: source and write-ups only, without data dumps, model files or anything private. Each
+folder has its own README with a file-by-file index, and **[RESEARCH_MAP.md](RESEARCH_MAP.md)** ties them
+together.
+
+| Folder | Thread |
+|---|---|
+| [`agi/`](agi/) | the cognitive-architecture ("baby brain") experiments |
+| [`detector/`](detector/) | the AI-image detector: measurement code and design docs |
+| [`critical-line/`](critical-line/) | the critical-line paper and its numerical labs (no proof claims) |
+| [`arc-agi-1/`](arc-agi-1/) | source of the model-free ARC-AGI-1 solver (thread 1 above) |
+| [`arc-agi-3/`](arc-agi-3/) | the ARC-AGI-3 work: the planet, PriorAgent, the hybrid, the core card |
+| [`alignment/`](alignment/) | "alignment as water": design notes, with tests in `arc-agi-3/planet/` |
+| [`mika/`](mika/) | the Mika agent's own folder: daily runs, diary, library tools |
+| [`qtube/`](qtube/) | the nested-quaternion model |
+| [`navier-stokes-theta/`](navier-stokes-theta/) | Navier–Stokes theta experiments, with their own claim ledger |
+
+Related public repositories: [pvsnp-lean](https://github.com/jonpelchat006-hub/pvsnp-lean) (a kernel-checked
+Lean library around P vs NP, which is open and which nothing there claims to resolve, plus the floor_flow
+experiments), [erdos-incidence-geometry](https://github.com/jonpelchat006-hub/erdos-incidence-geometry),
+[Shovelcat-Alpha](https://github.com/jonpelchat006-hub/Shovelcat-Alpha) and
+[Shovelcat-Security](https://github.com/jonpelchat006-hub/Shovelcat-Security) (earlier scripts).
 
 ---
 
@@ -70,9 +100,11 @@ results/     Saved .npz outputs from the runs (so figures reproduce without reco
 figures/     Every figure referenced below, regenerable from code/
 theory/
   folding/   The FOLDING_*.md idea-record + honest-ledger docs, and VOID_LINE_PAPER.md
-  shovelcat/ The Shovelcat / vesica / sphere-generator framework and its results
-  arc/       ARC-AGI structural-solver results and notes
+  framework/ The Shovelcat / vesica / sphere-generator framework and the ARC-AGI-1 result logs
 notebooks/   colab_s669_calibration.ipynb — free-GPU big-model calibration
+
+agi/  detector/  critical-line/  arc-agi-1/  arc-agi-3/  alignment/  mika/  qtube/  navier-stokes-theta/
+             The other threads, each with its own README (see RESEARCH_MAP.md)
 ```
 
 ## Reproducing thread 2 (folding + pLM)
@@ -102,7 +134,7 @@ are kept, not hidden — they are the point of the method.
 The reproducible folding/pLM thread runs today. The two things it can't reach on the author's
 hardware (2-core CPU, no GPU) are: **(a)** the large-ESM S669 calibration — the Colab notebook does
 this on free GPU; and **(b)** a fold/no-fold *probability* predictor, which wants the Tsuboyama 2023
-mega-scale dataset. Contributions on either are welcome. The ARC solver code is to be added.
+mega-scale dataset. Contributions on either are welcome. The ARC solver source is in `arc-agi-1/`.
 
 ## On the author
 Independent researcher, no formal affiliation; self-taught and self-funded. Put here in the open

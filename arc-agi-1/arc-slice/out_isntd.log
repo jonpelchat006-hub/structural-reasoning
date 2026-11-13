@@ -1,0 +1,2 @@
+train-fit: 2  test-pass: 2
+families: {"isntPer":1,"isntOdd-color":1}

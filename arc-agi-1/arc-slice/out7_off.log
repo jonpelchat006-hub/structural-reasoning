@@ -1,0 +1,8 @@
+[0/400]
+[100/400]
+[200/400]
+[300/400]
+
+=== BUG-FINDER RUN (repair OFF, 400 tasks, 24.8s) ===
+train-solved: 36/400 (9.0%)   test-correct: 35/416 (8.4%)
+by phase: {"brute1":32,"swarm":4}

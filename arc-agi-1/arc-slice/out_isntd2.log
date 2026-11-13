@@ -1,0 +1,3 @@
+OVERFIT 1cf80156 isntSym2.1/crop
+train-fit: 2  test-pass: 1
+families: {"isntSym2.":1,"isntOdd-color":1}

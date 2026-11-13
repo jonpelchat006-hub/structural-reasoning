@@ -1,0 +1,10 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== RESONANCE TEST: do near signatures share solution family? ===
+solved (labelled) tasks: 53   distinct families: 28
+nearest-signature-neighbour shares family: 10/53 = 18.9%
+random baseline (chance two share family): 3.6%
+-> resonance BEATS baseline (lift 5.20x)

@@ -1,0 +1,11 @@
+{
+  "name": "arc-slice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "run": "tsx src/run.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}

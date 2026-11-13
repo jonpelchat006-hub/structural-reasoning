@@ -1,0 +1,13 @@
+[0/400] lib=0
+[100/400] lib=1
+[200/400] lib=3
+[300/400] lib=7
+
+=== FLOOR-COLLAPSE COMPOUNDING TEST (400 tasks, online) ===
+library primitives generated: 10
+total solved: 48/400 (12.0%)
+solved by REUSE (primitive from an earlier task): 2
+reuse rate 1st half: 0.0%  vs 2nd half: 8.0%  (rising = COMPOUNDING)
+reuse solves:
+  b1948b0a  REUSE swap(a=2,b=6) -> cmap(1=5,3=4,4=3,5=1,8=9,9=8)
+  fafffa47  REUSE overlayHalves(vertical=1,mode=1,out=1,bg=0) -> cmap(0=2,1=0)

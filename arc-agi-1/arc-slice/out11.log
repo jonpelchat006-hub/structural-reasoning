@@ -1,0 +1,10 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== UNIFIED DETERMINISTIC (no swarm, 400 tasks, 37.7s) ===
+TOTAL solved: 42/400 (10.5%)   test-correct: 42/416 (10.1%)
+breakdown: {"base":32,"baseRepair":10,"combo":0,"comboRepair":0}
+solved via combinators (beyond base+bugfinder):
+

@@ -1,0 +1,17 @@
+gen2 solved: 13 | fixture: 8
+MISSING from fixture (REGRESSION): none — no loss
+EXTRA beyond fixture (GAIN): 496994bd* 8eb1be9a* b1948b0a* c8f0f002* f25ffba3*
+--- all gen2 solves ---
+  22168020  TEST  between(only=null,paint=src)
+  22eb0ac0  TEST  between(only=null,paint=src)
+  253bf280  TEST  between(only=null,paint=3)
+  3aa6fb7a  TEST  box(only=null,paint=1,line)
+  496994bd  TEST  symPaint(mode=1)
+  60b61512  train  box(only=null,paint=7,fill)
+  6d75e8bb  TEST  box(only=null,paint=2,fill)
+  8eb1be9a  TEST  periodic(3x6)
+  b1948b0a  TEST  emit/colour(S=7,paint=2,dirs=4,hit)
+  c8f0f002  TEST  emit/colour(S=1,paint=5,dirs=4,edge)
+  dbc1a6ce  TEST  between(only=null,paint=8)
+  ded97339  TEST  between(only=null,paint=src)
+  f25ffba3  TEST  symPaint(mode=1)

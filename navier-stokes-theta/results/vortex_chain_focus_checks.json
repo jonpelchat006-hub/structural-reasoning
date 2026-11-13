@@ -1,0 +1,101 @@
+{
+  "tracker": {
+    "exact_gate_times": [
+      1.1117145531536141,
+      1.4694666622552977,
+      1.7823745196403125
+    ],
+    "maximum_gate_time_error": 1.1155186996347766e-08,
+    "expected_width_ratios": [
+      0.9309493362512627,
+      0.9393364366277243,
+      0.8744746321952062
+    ],
+    "maximum_width_ratio_error": 1.9997367095569984e-09
+  },
+  "total_energy_each_run": 0.236,
+  "maximum_energy_error": 9.459077965345841e-11,
+  "maximum_cfl": 0.1438149221314064,
+  "maximum_divergence": 1.7333942329979975e-16,
+  "maximum_net_flux": 7.304974700020788e-16,
+  "grid_comparison": [
+    {
+      "mode": "single",
+      "coarse_peak_speed": 2.882968870658228,
+      "fine_peak_speed": 2.813723519909795,
+      "relative_peak_speed_difference": -0.024609863143430985,
+      "coarse_gate_counts": [
+        144,
+        48,
+        0
+      ],
+      "fine_gate_counts": [
+        144,
+        48,
+        0
+      ],
+      "coarse_width_ratios": [
+        5.982749695730598,
+        null,
+        null
+      ],
+      "fine_width_ratios": [
+        3.6982504408116497,
+        null,
+        null
+      ]
+    },
+    {
+      "mode": "aligned",
+      "coarse_peak_speed": 2.4889199733126843,
+      "fine_peak_speed": 2.4760068879806223,
+      "relative_peak_speed_difference": -0.005215286514244582,
+      "coarse_gate_counts": [
+        144,
+        144,
+        144
+      ],
+      "fine_gate_counts": [
+        144,
+        144,
+        144
+      ],
+      "coarse_width_ratios": [
+        0.9729521113850829,
+        1.059544125430825,
+        1.0308856939435822
+      ],
+      "fine_width_ratios": [
+        0.9822986710086179,
+        1.0835346040521556,
+        1.0643546015522816
+      ]
+    },
+    {
+      "mode": "reversed",
+      "coarse_peak_speed": 2.286687485552302,
+      "fine_peak_speed": 2.22836976294521,
+      "relative_peak_speed_difference": -0.02617057706348262,
+      "coarse_gate_counts": [
+        0,
+        0,
+        0
+      ],
+      "fine_gate_counts": [
+        0,
+        0,
+        0
+      ],
+      "coarse_width_ratios": [
+        null,
+        null,
+        null
+      ],
+      "fine_width_ratios": [
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

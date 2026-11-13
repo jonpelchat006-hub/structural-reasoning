@@ -1,0 +1,66 @@
+{
+ "train": {
+  "A core move (turn/flip)": [
+   7,
+   7
+  ],
+  "B lands on a symmetric state": [
+   51,
+   15
+  ],
+  "C fills empty slots only": [
+   122,
+   15
+  ],
+  "D recolors or erases only": [
+   34,
+   7
+  ],
+  "E same size, mixed changes": [
+   85,
+   11
+  ],
+  "F output smaller (reads out a part)": [
+   74,
+   21
+  ],
+  "G output larger (expands)": [
+   26,
+   5
+  ],
+  "H size changes vary": [
+   1,
+   0
+  ]
+ },
+ "eval": {
+  "B lands on a symmetric state": [
+   36,
+   11
+  ],
+  "C fills empty slots only": [
+   99,
+   1
+  ],
+  "D recolors or erases only": [
+   50,
+   2
+  ],
+  "E same size, mixed changes": [
+   106,
+   4
+  ],
+  "F output smaller (reads out a part)": [
+   76,
+   10
+  ],
+  "G output larger (expands)": [
+   32,
+   5
+  ],
+  "H size changes vary": [
+   1,
+   1
+  ]
+ }
+}

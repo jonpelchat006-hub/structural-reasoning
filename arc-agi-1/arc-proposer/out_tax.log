@@ -1,0 +1,37 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== MUSCLE TAXONOMY (400 tasks) ===
+solved: 64   unsolved: 336   distinct unsolved signature-clusters: 125
+
+MUSCLE WE HAVE (top solved families):
+    8  tile
+    7  combinePanels
+    4  fillHoles
+    3  paintRank
+    3  swap
+    3  periodicFill
+    3  crop
+    3  connect
+    3  codon:smallest
+    3  rotate
+    3  symmetrize
+    3  overlayHalves
+
+MISSING MUSCLE (biggest unsolved clusters = next groups to build):
+   15 tasks  sig[12102011]  ~needs: OUT_EQ_IN_DIMS, OBJECTS_ALIGNED, CONST_OUT_DIMS
+   15 tasks  sig[21101011]  ~needs: OUT_EQ_IN_DIMS, CONST_OUT_DIMS, CONST_N_OBJ_IN
+    9 tasks  sig[22102011]  ~needs: OUT_EQ_IN_DIMS, OBJECTS_ALIGNED, CONST_OUT_DIMS
+    9 tasks  sig[22102001]  ~needs: OUT_EQ_IN_DIMS, OBJECTS_ALIGNED, CONST_OUT_DIMS
+    9 tasks  sig[01021110]  ~needs: OUT_SMALLER, CONST_N_OBJ_IN, CONST_OUT_DIMS
+    8 tasks  sig[12102021]  ~needs: OUT_EQ_IN_DIMS, OBJECTS_ALIGNED, CONST_OUT_DIMS
+    8 tasks  sig[20100001]  ~needs: OUT_EQ_IN_DIMS, CONST_N_OBJ_IN, UNIQUE_COLOR
+    7 tasks  sig[21121011]  ~needs: OUT_EQ_IN_DIMS, CONST_OUT_DIMS, CONST_N_OBJ_IN
+    7 tasks  sig[22102021]  ~needs: OUT_EQ_IN_DIMS, OBJECTS_ALIGNED, CONST_OUT_DIMS
+    7 tasks  sig[21101001]  ~needs: OUT_EQ_IN_DIMS, CONST_OUT_DIMS, CONST_N_OBJ_IN
+    7 tasks  sig[10120011]  ~needs: OUT_EQ_IN_DIMS, CONST_N_OBJ_IN, UNIQUE_COLOR
+    7 tasks  sig[02002110]  ~needs: OUT_SMALLER, OBJECTS_ALIGNED, CONST_OUT_DIMS
+
+top-10 clusters cover 94/336 unsolved (28%) -> ~10 more muscle groups address most of the gap

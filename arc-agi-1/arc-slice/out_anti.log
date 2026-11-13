@@ -1,0 +1,8 @@
+antimatter solves (train+test pass): 6 / train-fit 7
+NET-NEW over 76 baseline (test-generalizing): 1
+net-new ids: 8efcae92
+--- breakdown by predicate/action ---
+  largest/crop           3
+  smallest/crop          1
+  mostHoles/crop         1
+  rareColor/crop         1

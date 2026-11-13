@@ -1,0 +1,17 @@
+
+=== BUG-FINDER ISOLATED (brute1 + repair, no swarm, 400 tasks, 26.1s) ===
+brute1 exact: 32   + bug-finder repair: 12   = 44 total
+held-out TEST correct: 44/416 (10.6%)
+bug-finder solves:
+  0b148d64  keepRare(bg=0) -> crop(bg=0)
+  0d3d703e  identity -> cmap(1=5,2=6,3=4,4=3,5=1,6=2,8=9,9=8)
+  23b5c85d  keepRare(bg=0) -> crop(bg=0)
+  7468f01a  flipH -> crop(bg=0)
+  7b6016b9  fillHoles(bg=0,fill=2) -> cmap(0=3)
+  94f9d214  overlayHalves(vertical=1,mode=1,out=1,bg=0) -> cmap(0=2,1=0)
+  a740d043  identity -> crop(bg=1) -> cmap(1=0)
+  a87f7484  keepCommon(bg=0) -> crop(bg=0)
+  aabf363d  identity -> cmap(2=4,3=6,4=0,6=0)
+  d5d6de2d  fillHoles(bg=0,fill=3) -> cmap(2=0)
+  f25fbde4  crop(bg=0) -> scale(fy=2,fx=2)
+  fafffa47  overlayHalves(vertical=1,mode=1,out=1,bg=0) -> cmap(0=2,1=0)

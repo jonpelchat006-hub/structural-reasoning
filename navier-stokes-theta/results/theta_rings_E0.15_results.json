@@ -1,0 +1,417 @@
+{
+ "E0": 0.15,
+ "nu": 0.02,
+ "n": 48,
+ "rows": [
+  {
+   "t": 0.4,
+   "grad_max": 8.573919014210144,
+   "load": {
+    "median_rate": {
+     "about_compressive(0)": 0.2692143109464824,
+     "about_intermediate(1)": 2.552658299775566,
+     "about_extensional(2)": 0.03166164370203579
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.0,
+     "about_intermediate(1)": 1.0,
+     "about_extensional(2)": 0.0
+    },
+    "radii": {
+     "r0": 0.6619931933332164,
+     "r1": 0.08289834466745712,
+     "r2": 0.7448915380006736
+    },
+    "anchor_share": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "ratio_2nd_over_fastest": [
+     0.10853672923767219,
+     0.06497824113313876,
+     0.1714538271709409
+    ],
+    "rational_lock": {
+     "median_dist": 0.05812993742899447,
+     "control": 0.022966932120498967,
+     "frac_within_0p02": 0.18181818181818182,
+     "control_frac": 0.4318181818181818
+    },
+    "fastest_is_about_line_between_equal_pair": 1.0,
+    "closest_pair_share": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   "bulk": {
+    "median_rate": {
+     "about_compressive(0)": 0.11049723331370491,
+     "about_intermediate(1)": 1.3015773667374804,
+     "about_extensional(2)": 0.15292545382845857
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.0696551724137931,
+     "about_intermediate(1)": 0.8512643678160919,
+     "about_extensional(2)": 0.07908045977011494
+    },
+    "radii": {
+     "r0": 0.6937198781463206,
+     "r1": 0.0757423957304103,
+     "r2": 0.719773532280073
+    },
+    "anchor_share": [
+     0.006206896551724138,
+     0.9124137931034483,
+     0.08137931034482758
+    ],
+    "ratio_2nd_over_fastest": [
+     0.18866934327838852,
+     0.07133969672183783,
+     0.38085388744478654
+    ],
+    "rational_lock": {
+     "median_dist": 0.031659169867494286,
+     "control": 0.02306315444655188,
+     "frac_within_0p02": 0.36689655172413793,
+     "control_frac": 0.44413793103448274
+    },
+    "fastest_is_about_line_between_equal_pair": 0.864367816091954,
+    "closest_pair_share": [
+     0.008735632183908045,
+     0.9806896551724138,
+     0.010574712643678161
+    ]
+   }
+  },
+  {
+   "t": 0.8,
+   "grad_max": 7.458829033527581,
+   "load": {
+    "median_rate": {
+     "about_compressive(0)": 0.9445103844054188,
+     "about_intermediate(1)": 0.6978018533503507,
+     "about_extensional(2)": 0.36226656761740655
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.5,
+     "about_intermediate(1)": 0.42592592592592593,
+     "about_extensional(2)": 0.07407407407407407
+    },
+    "radii": {
+     "r0": 0.8130014831330505,
+     "r1": 0.3411778606104846,
+     "r2": 0.47182362252256593
+    },
+    "anchor_share": [
+     0.0,
+     0.7777777777777778,
+     0.2222222222222222
+    ],
+    "ratio_2nd_over_fastest": [
+     0.5620068702795518,
+     0.1155452683461044,
+     0.738218359420424
+    ],
+    "rational_lock": {
+     "median_dist": 0.04082602516437675,
+     "control": 0.02236994429942793,
+     "frac_within_0p02": 0.3148148148148148,
+     "control_frac": 0.4444444444444444
+    },
+    "fastest_is_about_line_between_equal_pair": 0.6666666666666666,
+    "closest_pair_share": [
+     0.6111111111111112,
+     0.3888888888888889,
+     0.0
+    ]
+   },
+   "bulk": {
+    "median_rate": {
+     "about_compressive(0)": 0.15375305989308674,
+     "about_intermediate(1)": 0.9348841023663836,
+     "about_extensional(2)": 0.20534387523308253
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.10987978963185575,
+     "about_intermediate(1)": 0.7481217129977461,
+     "about_extensional(2)": 0.14199849737039819
+    },
+    "radii": {
+     "r0": 0.6908464625783247,
+     "r1": 0.08887971774786985,
+     "r2": 0.7223162848962323
+    },
+    "anchor_share": [
+     0.021412471825694966,
+     0.8335837716003005,
+     0.1450037565740045
+    ],
+    "ratio_2nd_over_fastest": [
+     0.27461673444469753,
+     0.11745838916442511,
+     0.5528937340702726
+    ],
+    "rational_lock": {
+     "median_dist": 0.026458823958269845,
+     "control": 0.02247658525714996,
+     "frac_within_0p02": 0.39800901577761083,
+     "control_frac": 0.45492111194590534
+    },
+    "fastest_is_about_line_between_equal_pair": 0.7781743050338091,
+    "closest_pair_share": [
+     0.04244928625093914,
+     0.9430879038317055,
+     0.014462809917355372
+    ]
+   }
+  },
+  {
+   "t": 1.2,
+   "grad_max": 7.36530839236399,
+   "load": {
+    "median_rate": {
+     "about_compressive(0)": 0.4606868670558226,
+     "about_intermediate(1)": 0.7824154120382857,
+     "about_extensional(2)": 0.1997856654232758
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.19047619047619047,
+     "about_intermediate(1)": 0.8095238095238095,
+     "about_extensional(2)": 0.0
+    },
+    "radii": {
+     "r0": 0.8093709379674452,
+     "r1": 0.3114705904488387,
+     "r2": 0.49790034751860696
+    },
+    "anchor_share": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "ratio_2nd_over_fastest": [
+     0.6165519761325142,
+     0.3625932666349896,
+     0.7232991405296437
+    ],
+    "rational_lock": {
+     "median_dist": 0.01946622438452794,
+     "control": 0.024439381722725667,
+     "frac_within_0p02": 0.5079365079365079,
+     "control_frac": 0.40476190476190477
+    },
+    "fastest_is_about_line_between_equal_pair": 0.6190476190476191,
+    "closest_pair_share": [
+     0.5714285714285714,
+     0.42857142857142855,
+     0.0
+    ]
+   },
+   "bulk": {
+    "median_rate": {
+     "about_compressive(0)": 0.1949650111487493,
+     "about_intermediate(1)": 0.7718801626290004,
+     "about_extensional(2)": 0.27378767186687447
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.1412867765923052,
+     "about_intermediate(1)": 0.6614936954413191,
+     "about_extensional(2)": 0.19721952796637568
+    },
+    "radii": {
+     "r0": 0.70067922455689,
+     "r1": 0.1027729792326843,
+     "r2": 0.7133636723705644
+    },
+    "anchor_share": [
+     0.06821855803427093,
+     0.7730358874878759,
+     0.1587455544778532
+    ],
+    "ratio_2nd_over_fastest": [
+     0.3377344185328248,
+     0.14734310169994633,
+     0.5925325915951855
+    ],
+    "rational_lock": {
+     "median_dist": 0.02455839428177882,
+     "control": 0.02283813201184476,
+     "frac_within_0p02": 0.4245069511800841,
+     "control_frac": 0.44544131910766244
+    },
+    "fastest_is_about_line_between_equal_pair": 0.7146783058519237,
+    "closest_pair_share": [
+     0.06385386356288393,
+     0.8827998706757194,
+     0.0533462657613967
+    ]
+   }
+  },
+  {
+   "t": 1.6,
+   "grad_max": 6.921696213915739,
+   "load": {
+    "median_rate": {
+     "about_compressive(0)": 0.3697076134252178,
+     "about_intermediate(1)": 0.8620016945846098,
+     "about_extensional(2)": 0.14230937577987687
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.1103448275862069,
+     "about_intermediate(1)": 0.8758620689655172,
+     "about_extensional(2)": 0.013793103448275862
+    },
+    "radii": {
+     "r0": 0.8039579302788148,
+     "r1": 0.27853369485191065,
+     "r2": 0.5254242354269042
+    },
+    "anchor_share": [
+     0.0,
+     0.9862068965517241,
+     0.013793103448275862
+    ],
+    "ratio_2nd_over_fastest": [
+     0.4022529101032292,
+     0.20355386521493585,
+     0.5471047681775205
+    ],
+    "rational_lock": {
+     "median_dist": 0.028837680466096804,
+     "control": 0.02660733553936101,
+     "frac_within_0p02": 0.38620689655172413,
+     "control_frac": 0.4413793103448276
+    },
+    "fastest_is_about_line_between_equal_pair": 0.4896551724137931,
+    "closest_pair_share": [
+     0.6206896551724138,
+     0.3793103448275862,
+     0.0
+    ]
+   },
+   "bulk": {
+    "median_rate": {
+     "about_compressive(0)": 0.237278383341226,
+     "about_intermediate(1)": 0.6725115388373277,
+     "about_extensional(2)": 0.29466465656118435
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.17593313974077485,
+     "about_intermediate(1)": 0.624194348041646,
+     "about_extensional(2)": 0.19987251221757915
+    },
+    "radii": {
+     "r0": 0.70985138404799,
+     "r1": 0.11865770311789967,
+     "r2": 0.7043298411462754
+    },
+    "anchor_share": [
+     0.1260712515050641,
+     0.7120192648204547,
+     0.16190948367448119
+    ],
+    "ratio_2nd_over_fastest": [
+     0.3608989729730624,
+     0.16859756647618432,
+     0.6192038167352567
+    ],
+    "rational_lock": {
+     "median_dist": 0.0234685223186617,
+     "control": 0.022764153891341676,
+     "frac_within_0p02": 0.43119201076563496,
+     "control_frac": 0.44181599263403926
+    },
+    "fastest_is_about_line_between_equal_pair": 0.6632906013173737,
+    "closest_pair_share": [
+     0.08414193639776188,
+     0.8573553367802252,
+     0.05850272682201289
+    ]
+   }
+  },
+  {
+   "t": 2.0,
+   "grad_max": 6.48514553298272,
+   "load": {
+    "median_rate": {
+     "about_compressive(0)": 0.29954841235419816,
+     "about_intermediate(1)": 0.9522430579378874,
+     "about_extensional(2)": 0.1193129757422278
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.22641509433962265,
+     "about_intermediate(1)": 0.7735849056603774,
+     "about_extensional(2)": 0.0
+    },
+    "radii": {
+     "r0": 0.7998607958131551,
+     "r1": 0.25791972756501674,
+     "r2": 0.5419410682481386
+    },
+    "anchor_share": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "ratio_2nd_over_fastest": [
+     0.3568146060231285,
+     0.12666674414016763,
+     0.5606479049819423
+    ],
+    "rational_lock": {
+     "median_dist": 0.020827477474547773,
+     "control": 0.02410057778750263,
+     "frac_within_0p02": 0.4779874213836478,
+     "control_frac": 0.44654088050314467
+    },
+    "fastest_is_about_line_between_equal_pair": 0.44654088050314467,
+    "closest_pair_share": [
+     0.4276729559748428,
+     0.5723270440251572,
+     0.0
+    ]
+   },
+   "bulk": {
+    "median_rate": {
+     "about_compressive(0)": 0.27944891901433466,
+     "about_intermediate(1)": 0.624150881958783,
+     "about_extensional(2)": 0.30057316464154343
+    },
+    "fastest_share": {
+     "about_compressive(0)": 0.20504953659316075,
+     "about_intermediate(1)": 0.5882390540108661,
+     "about_extensional(2)": 0.20671140939597316
+    },
+    "radii": {
+     "r0": 0.7197218455747254,
+     "r1": 0.13252332803943304,
+     "r2": 0.6937776021429813
+    },
+    "anchor_share": [
+     0.1526366251198466,
+     0.692553531479706,
+     0.15480984340044743
+    ],
+    "ratio_2nd_over_fastest": [
+     0.3770072761849529,
+     0.17804883986279835,
+     0.6450022082131925
+    ],
+    "rational_lock": {
+     "median_dist": 0.023200806878271196,
+     "control": 0.022935062943137186,
+     "frac_within_0p02": 0.4443592201981464,
+     "control_frac": 0.44563758389261743
+    },
+    "fastest_is_about_line_between_equal_pair": 0.6281240012783637,
+    "closest_pair_share": [
+     0.11530840524129114,
+     0.8237136465324385,
+     0.060977948226270375
+    ]
+   }
+  }
+ ]
+}

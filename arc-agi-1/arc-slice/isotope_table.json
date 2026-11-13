@@ -1,0 +1,933 @@
+{
+ "generated": "2026-07-01T21:45:11.806Z",
+ "range": [
+  0,
+  400
+ ],
+ "isotopes": [
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 14,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|-1|0>5,0|0|-1>5,0|0|0>5,0|0|3>3,0|0|7>7,0|3|0>5,0|4|-1>5,0|4|0>5,0|7|0>5,3|0|0>5,4|-1|-1>5,7|-1|0>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 11,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|-1|0>5,0|0|-1>5,0|0|0>5,0|0|3>3,0|0|7>7,0|3|0>5,0|7|0>5,3|0|0>5,4|0|-1>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 2,
+   "geom": "single",
+   "mapSize": 7,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|0|0>5,0|3|3>3,0|7|7>7,3|0|0>5,4|-1|-1>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 3,
+   "geom": "opposed",
+   "mapSize": 13,
+   "residualCells": 107,
+   "mapSig": "0|-1|0>5,0|-1|7>5,0|0|-1>5,0|0|0>5,0|0|3>5,0|0|7>5,0|3|-1>3,0|3|0>3,0|7|-1>7,0|7|0>7,3|0|3>5,4|-1|4>5,7|0|7>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 12,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|0|-1>5,0|0|0>5,0|0|3>5,0|0|4>5,0|0|7>5,0|3|0>3,0|7|0>7,3|0|0>5,4|-1|-1>5,7|0|-1>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 17,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|-1|0>5,0|-1|4>5,0|-1|7>5,0|0|-1>5,0|0|0>5,0|0|3>5,0|0|4>5,0|0|7>5,0|3|-1>3,0|3|0>3,0|7|-1>7,0|7|0>7,3|0|0>5,4|-1|-1>5,7|0|-1>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 6,
+   "geom": "oblique",
+   "mapSize": 10,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|0|-1>5,0|0|0>5,0|0|3>5,0|0|7>5,0|3|0>3,0|7|0>7,3|0|0>5,4|-1|-1>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "32e9702f",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.9321,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 7,
+   "geom": "oblique",
+   "mapSize": 14,
+   "residualCells": 107,
+   "mapSig": "0|-1|-1>5,0|-1|0>5,0|-1|7>5,0|0|-1>5,0|0|0>5,0|0|3>5,0|0|7>5,0|3|-1>3,0|3|0>3,0|7|-1>7,0|7|0>7,3|0|0>5,4|-1|0>5,7|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "4cd1b7b2",
+   "pre": "anchor",
+   "anchorOps": [
+    "completeDiag",
+    "recolor"
+   ],
+   "anchorScore": 0.8542,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 7,
+   "mapSig": "1|-1|-1>2,1|2|-1>3,1|2|3>4,1|2|4>3,2|4|3>1,4|4|-1>1",
+   "survived": false
+  },
+  {
+   "task": "4cd1b7b2",
+   "pre": "anchor",
+   "anchorOps": [
+    "completeDiag",
+    "recolor"
+   ],
+   "anchorScore": 0.8542,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 7,
+   "mapSig": "1|0|0>2,1|2|0>3,1|2|3>4,1|2|4>3,2|4|3>1,4|4|0>1",
+   "survived": false
+  },
+  {
+   "task": "4cd1b7b2",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.8542,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 15,
+   "residualCells": 16,
+   "mapSig": "0|-1|-1>1,0|-1|1>2,0|-1|3>4,0|0|0>4,0|0|1>2,0|0|3>1,0|1|-1>3,0|1|0>4,0|1|4>3,0|2|-1>4,0|2|0>3,0|2|1>3,0|2|4>1,0|3|3>2,0|4|-1>2",
+   "survived": false
+  },
+  {
+   "task": "4cd1b7b2",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.8542,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 7,
+   "geom": "oblique",
+   "mapSize": 14,
+   "residualCells": 16,
+   "mapSig": "0|-1|-1>1,0|-1|0>2,0|-1|1>4,0|0|1>1,0|0|2>4,0|0|4>2,0|1|-1>3,0|1|0>4,0|1|1>3,0|2|-1>4,0|2|1>1,0|2|3>3,0|3|-1>2,0|4|-1>2",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|-1|-1>6,3|-1|0>5,3|0|0>8,6|-1|-1>4,6|-1|0>3,6|0|0>7",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|-1|-1>5,3|-1|0>6,3|0|-1>8,6|-1|-1>3,6|-1|0>4,6|0|-1>7",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|-1|0>8,3|0|-1>6,3|0|0>5,6|-1|0>7,6|0|-1>4,6|0|0>3",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|-1|-1>8,3|0|-1>5,3|0|0>6,6|-1|-1>7,6|0|-1>3,6|0|0>4",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|0|0>6,3|0|3>5,3|3|3>8,6|0|0>4,6|0|6>3,6|6|6>7",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|0|0>5,3|0|3>6,3|3|0>8,6|0|0>3,6|0|6>4,6|6|0>7",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|0|3>8,3|3|0>6,3|3|3>5,6|0|6>7,6|6|0>4,6|6|6>3",
+   "survived": false
+  },
+  {
+   "task": "66e6c45b",
+   "pre": "anchor",
+   "anchorOps": [
+    "shift",
+    "completeSym"
+   ],
+   "anchorScore": 0.8125,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 6,
+   "residualCells": 6,
+   "mapSig": "3|0|0>8,3|3|0>5,3|3|3>6,6|0|0>7,6|6|0>3,6|6|6>4",
+   "survived": false
+  },
+  {
+   "task": "a406ac07",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepSmallest"
+   ],
+   "anchorScore": 0.8133,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 7,
+   "residualCells": 56,
+   "mapSig": "0|3|3>3,0|4|4>4,0|5|5>5,0|6|6>6,0|7|7>7,0|8|8>8,0|9|9>9",
+   "survived": true
+  },
+  {
+   "task": "a406ac07",
+   "pre": "id",
+   "anchorOps": [],
+   "anchorScore": 0.8133,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 7,
+   "residualCells": 56,
+   "mapSig": "0|3|3>3,0|4|4>4,0|5|5>5,0|6|6>6,0|7|7>7,0|8|8>8,0|9|9>9",
+   "survived": true
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 1,
+   "geom": "opposed",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|2>6,2|2|4>4,2|4|-1>6,3|-1|3>2,3|3|-1>2,3|3|6>6,3|6|-1>2,4|-1|4>7,4|2|-1>7,4|4|-1>3,5|-1|5>1,5|5|8>8,5|8|-1>1,6|-1|6>1,6|3|-1>1,7|7|-1>5,8|-1|8>9,8|5|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|2>6,2|2|3>4,2|4|-1>6,3|-1|3>2,3|3|2>2,3|3|4>6,3|6|-1>2,4|-1|-1>7,4|2|3>7,4|4|3>3,5|-1|5>1,5|5|7>8,5|8|-1>1,6|-1|-1>1,6|3|4>1,7|7|5>5,8|-1|-1>9,8|5|7>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|-1>6,2|2|-1>4,2|4|3>6,3|-1|-1>2,3|3|-1>6,3|3|4>2,3|6|4>2,4|-1|2>7,4|2|-1>7,4|4|6>3,5|-1|-1>1,5|5|-1>8,5|8|7>1,6|-1|3>1,6|3|-1>1,7|7|8>5,8|-1|5>9,8|5|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 17,
+   "residualCells": 18,
+   "mapSig": "2|-1|3>6,2|2|-1>6,2|4|-1>4,3|-1|4>2,3|3|-1>2,3|6|-1>6,4|-1|-1>7,4|-1|6>3,4|4|2>7,5|-1|7>1,5|5|-1>1,5|8|-1>8,6|-1|-1>1,6|6|3>1,7|-1|8>5,8|-1|-1>9,8|8|5>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|-1>6,2|2|-1>6,2|4|2>4,3|-1|-1>2,3|-1|4>2,3|3|-1>2,3|6|3>6,4|-1|3>7,4|-1|6>3,4|4|-1>7,5|-1|-1>1,5|5|-1>1,5|8|5>8,6|-1|4>1,6|6|-1>1,7|-1|8>5,8|-1|7>9,8|8|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|3>6,2|2|-1>6,2|4|-1>4,3|-1|2>2,3|-1|4>2,3|3|-1>2,3|6|-1>6,4|-1|-1>7,4|-1|3>3,4|4|-1>7,5|-1|7>1,5|5|-1>1,5|8|-1>8,6|-1|-1>1,6|6|-1>1,7|-1|5>5,8|-1|-1>9,8|8|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 3,
+   "geom": "opposed",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|3>6,2|2|-1>6,2|3|-1>4,3|-1|4>2,3|2|4>2,3|3|-1>2,3|4|-1>6,4|-1|2>7,4|3|-1>7,4|3|6>3,5|-1|7>1,5|5|-1>1,5|7|-1>8,6|-1|3>1,6|4|-1>1,7|5|8>5,8|-1|5>9,8|7|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|3>6,2|2|-1>6,2|3|-1>4,3|-1|4>2,3|2|2>2,3|3|-1>2,3|4|-1>6,4|-1|-1>7,4|3|-1>7,4|3|3>3,5|-1|7>1,5|5|-1>1,5|7|-1>8,6|-1|-1>1,6|4|-1>1,7|5|5>5,8|-1|-1>9,8|7|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "adj",
+   "d1": 3,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|-1|-1>6,2|-1|2>4,2|3|-1>6,3|-1|-1>2,3|-1|3>6,3|4|-1>2,3|4|4>2,4|-1|3>7,4|2|-1>7,4|6|6>3,5|-1|-1>1,5|-1|5>8,5|7|-1>1,6|-1|4>1,6|3|-1>1,7|8|8>5,8|-1|7>9,8|5|-1>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 1,
+   "geom": "opposed",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|2>6,2|2|4>4,2|4|0>6,3|0|3>2,3|3|0>2,3|3|6>6,3|6|0>2,4|0|4>7,4|2|0>7,4|4|0>3,5|0|5>1,5|5|8>8,5|8|0>1,6|0|6>1,6|3|0>1,7|7|0>5,8|0|8>9,8|5|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|2>6,2|2|3>4,2|4|0>6,3|0|3>2,3|3|2>2,3|3|4>6,3|6|0>2,4|0|0>7,4|2|3>7,4|4|3>3,5|0|5>1,5|5|7>8,5|8|0>1,6|0|0>1,6|3|4>1,7|7|5>5,8|0|0>9,8|5|7>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|0>6,2|2|0>4,2|4|3>6,3|0|0>2,3|3|0>6,3|3|4>2,3|6|4>2,4|0|2>7,4|2|0>7,4|4|6>3,5|0|0>1,5|5|0>8,5|8|7>1,6|0|3>1,6|3|0>1,7|7|8>5,8|0|5>9,8|5|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 17,
+   "residualCells": 18,
+   "mapSig": "2|0|3>6,2|2|0>6,2|4|0>4,3|0|4>2,3|3|0>2,3|6|0>6,4|0|0>7,4|0|6>3,4|4|2>7,5|0|7>1,5|5|0>1,5|8|0>8,6|0|0>1,6|6|3>1,7|0|8>5,8|0|0>9,8|8|5>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|0>6,2|2|0>6,2|4|2>4,3|0|0>2,3|0|4>2,3|3|0>2,3|6|3>6,4|0|3>7,4|0|6>3,4|4|0>7,5|0|0>1,5|5|0>1,5|8|5>8,6|0|4>1,6|6|0>1,7|0|8>5,8|0|7>9,8|8|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|3>6,2|2|0>6,2|4|0>4,3|0|2>2,3|0|4>2,3|3|0>2,3|6|0>6,4|0|0>7,4|0|3>3,4|4|0>7,5|0|7>1,5|5|0>1,5|8|0>8,6|0|0>1,6|6|0>1,7|0|5>5,8|0|0>9,8|8|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 2,
+   "d2": 3,
+   "geom": "opposed",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|3>6,2|2|0>6,2|3|0>4,3|0|4>2,3|2|4>2,3|3|0>2,3|4|0>6,4|0|2>7,4|3|0>7,4|3|6>3,5|0|7>1,5|5|0>1,5|7|0>8,6|0|3>1,6|4|0>1,7|5|8>5,8|0|5>9,8|7|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 2,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|3>6,2|2|0>6,2|3|0>4,3|0|4>2,3|2|2>2,3|3|0>2,3|4|0>6,4|0|0>7,4|3|0>7,4|3|3>3,5|0|7>1,5|5|0>1,5|7|0>8,6|0|0>1,6|4|0>1,7|5|5>5,8|0|0>9,8|7|0>9",
+   "survived": false
+  },
+  {
+   "task": "ca8de6ea",
+   "pre": "anchor",
+   "anchorOps": [
+    "trim",
+    "cross"
+   ],
+   "anchorScore": 0.3333,
+   "mode": "ray",
+   "d1": 3,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 18,
+   "residualCells": 18,
+   "mapSig": "2|0|0>6,2|0|2>4,2|3|0>6,3|0|0>2,3|0|3>6,3|4|0>2,3|4|4>2,4|0|3>7,4|2|0>7,4|6|6>3,5|0|0>1,5|0|5>8,5|7|0>1,6|0|4>1,6|3|0>1,7|8|8>5,8|0|7>9,8|5|0>9",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 1,
+   "geom": "opposed",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|-1|2>8,1|-1|8>0,2|0|3>8,2|1|2>8,2|2|-1>5,3|2|-1>5,3|8|-1>0,7|9|-1>0,8|8|-1>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|-1|0>8,1|-1|1>0,2|0|-1>8,2|1|2>8,2|2|3>5,3|2|-1>5,3|8|3>0,7|9|7>0,8|8|2>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|2|1>8,1|8|-1>0,2|-1|8>5,2|2|8>8,2|3|2>8,3|-1|-1>0,3|-1|2>5,7|-1|-1>0,8|-1|-1>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 1,
+   "d2": 4,
+   "geom": "oblique",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|2|-1>8,1|8|-1>0,2|-1|8>5,2|2|1>8,2|3|1>8,3|-1|-1>0,3|-1|2>5,7|-1|-1>0,8|-1|-1>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|-1|-1>0,1|1|-1>8,2|2|-1>8,2|8|0>8,2|8|2>5,3|-1|3>0,3|2|-1>5,7|-1|5>0,8|-1|2>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "adj",
+   "d1": 2,
+   "d2": 7,
+   "geom": "oblique",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|-1|2>0,1|1|2>8,2|2|-1>8,2|8|-1>5,2|8|3>8,3|-1|-1>0,3|2|-1>5,7|-1|-1>0,8|-1|-1>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 1,
+   "geom": "opposed",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|0|2>8,1|0|8>0,2|0|3>8,2|1|2>8,2|2|0>5,3|2|0>5,3|8|0>0,7|9|0>0,8|8|0>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "ray",
+   "d1": 0,
+   "d2": 3,
+   "geom": "orthogonal",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|0|0>8,1|0|1>0,2|0|0>8,2|1|2>8,2|2|3>5,3|2|0>5,3|8|3>0,7|9|7>0,8|8|2>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "ray",
+   "d1": 1,
+   "d2": 2,
+   "geom": "orthogonal",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|2|1>8,1|8|0>0,2|0|8>5,2|2|8>8,2|3|2>8,3|0|0>0,3|0|2>5,7|0|0>0,8|0|0>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "ray",
+   "d1": 2,
+   "d2": 5,
+   "geom": "oblique",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|0|0>0,1|1|0>8,2|2|0>8,2|8|0>8,2|8|2>5,3|0|3>0,3|2|0>5,7|0|5>0,8|0|2>5",
+   "survived": false
+  },
+  {
+   "task": "f5aa3634",
+   "pre": "anchor",
+   "anchorOps": [
+    "keepTopK",
+    "drawRays",
+    "crop"
+   ],
+   "anchorScore": 0.6852,
+   "mode": "ray",
+   "d1": 2,
+   "d2": 7,
+   "geom": "oblique",
+   "mapSize": 9,
+   "residualCells": 9,
+   "mapSig": "1|0|2>0,1|1|2>8,2|2|0>8,2|8|0>5,2|8|3>8,3|0|0>0,3|2|0>5,7|0|0>0,8|0|0>5",
+   "survived": false
+  }
+ ],
+ "families": [
+  {
+   "family": "id/adj/orthogonal",
+   "synthesized": 3,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  },
+  {
+   "family": "id/adj/single",
+   "synthesized": 1,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 1
+  },
+  {
+   "family": "id/adj/opposed",
+   "synthesized": 1,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 1
+  },
+  {
+   "family": "id/adj/oblique",
+   "synthesized": 5,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  },
+  {
+   "family": "anchor/adj/orthogonal",
+   "synthesized": 10,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 4
+  },
+  {
+   "family": "anchor/ray/orthogonal",
+   "synthesized": 11,
+   "survived": 1,
+   "halfLife": 0.091,
+   "tasks": 5
+  },
+  {
+   "family": "id/ray/orthogonal",
+   "synthesized": 1,
+   "survived": 1,
+   "halfLife": 1,
+   "tasks": 1
+  },
+  {
+   "family": "anchor/adj/opposed",
+   "synthesized": 3,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  },
+  {
+   "family": "anchor/adj/oblique",
+   "synthesized": 7,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  },
+  {
+   "family": "anchor/ray/opposed",
+   "synthesized": 3,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  },
+  {
+   "family": "anchor/ray/oblique",
+   "synthesized": 6,
+   "survived": 0,
+   "halfLife": 0,
+   "tasks": 2
+  }
+ ],
+ "islandsOfStability": []
+}

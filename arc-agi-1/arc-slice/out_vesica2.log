@@ -1,0 +1,7 @@
+[100/400] vesica net-new=0
+[200/400] vesica net-new=1
+
+=== VESICA two-sphere composition ===
+NET-NEW over 79 baseline (test-generalizing): 2
+  6d75e8bb(anti∘matter:box)
+  8efcae92(anti∘matter:emit.c(1))

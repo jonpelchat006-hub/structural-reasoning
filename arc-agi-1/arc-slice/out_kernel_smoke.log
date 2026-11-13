@@ -1,0 +1,22 @@
+[1/20] 0s
+=== KERNEL TIER on data (20 tasks, 4s) ===
+train-fit programs (stage chosen without test): 8
+  K1 total: 8   K2 leave-one-out: 6   K3 stable answer: 6
+  KERNEL-ACCEPTED (K1&K2&K3): 6
+test precision  — train-fit alone: 8/8 = 100.0%
+                — kernel-accepted: 6/6 = 100.0%
+                — kernel-rejected: 2/2 = 100.0%
+test solves lost by the gate (correct but rejected): 2
+wrong answers blocked by the gate: 0
+leaderboard (kernel-accepted & test-correct, cheapest replay first):
+  0520fde7 fast 0.006ms
+  007bbfb7 fast 0.007ms
+  0ca9ddb6 discovery 0.007ms
+  08ed6ac7 fast 0.015ms
+  0dfd9992 fast 0.015ms
+  00d62c1b fast 0.033ms
+npm notice
+npm notice New major version of npm available! 10.9.8 -> 12.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.1.0
+npm notice To update run: npm install -g npm@12.1.0
+npm notice

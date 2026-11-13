@@ -1,0 +1,546 @@
+{
+ "version": "24",
+ "updated": "2026-07-02T19:46:41.156Z",
+ "eventsReplayed": 96,
+ "entries": {
+  "32e9702f": {
+   "id": "32e9702f",
+   "seenBy": [
+    "isotope"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "isotope"
+   ],
+   "touches": 8,
+   "isFailure": true,
+   "mass": 8,
+   "velocity": 0.1,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "4cd1b7b2": {
+   "id": "4cd1b7b2",
+   "seenBy": [
+    "isotope"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "isotope"
+   ],
+   "touches": 4,
+   "isFailure": true,
+   "mass": 4,
+   "velocity": 0.16666666666666666,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "66e6c45b": {
+   "id": "66e6c45b",
+   "seenBy": [
+    "isotope"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "isotope"
+   ],
+   "touches": 8,
+   "isFailure": true,
+   "mass": 8,
+   "velocity": 0.1,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "a406ac07": {
+   "id": "a406ac07",
+   "seenBy": [
+    "isotope",
+    "closer2"
+   ],
+   "solvedBy": [
+    "isotope",
+    "closer2"
+   ],
+   "failedBy": [],
+   "touches": 6,
+   "isFailure": false,
+   "mass": 18,
+   "velocity": 0.05,
+   "shell": "inner",
+   "stopped": true,
+   "committed": true
+  },
+  "ca8de6ea": {
+   "id": "ca8de6ea",
+   "seenBy": [
+    "isotope"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "isotope"
+   ],
+   "touches": 18,
+   "isFailure": true,
+   "mass": 18,
+   "velocity": 0.05,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "f5aa3634": {
+   "id": "f5aa3634",
+   "seenBy": [
+    "isotope"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "isotope"
+   ],
+   "touches": 11,
+   "isFailure": true,
+   "mass": 11,
+   "velocity": 0.07692307692307693,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "21f83797": {
+   "id": "21f83797",
+   "seenBy": [
+    "dna:dnas",
+    "dna:dnas2"
+   ],
+   "solvedBy": [
+    "dna:dnas",
+    "dna:dnas2"
+   ],
+   "failedBy": [],
+   "touches": 2,
+   "isFailure": false,
+   "mass": 6,
+   "velocity": 0.125,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "5ffb2104": {
+   "id": "5ffb2104",
+   "seenBy": [
+    "dna:dnas",
+    "multistrand"
+   ],
+   "solvedBy": [],
+   "failedBy": [
+    "dna:dnas",
+    "multistrand"
+   ],
+   "touches": 2,
+   "isFailure": true,
+   "mass": 2,
+   "velocity": 0.25,
+   "shell": "outer",
+   "stopped": false,
+   "committed": false
+  },
+  "60c09cac": {
+   "id": "60c09cac",
+   "seenBy": [
+    "dna:dnas",
+    "multistrand"
+   ],
+   "solvedBy": [
+    "dna:dnas",
+    "multistrand"
+   ],
+   "failedBy": [],
+   "touches": 2,
+   "isFailure": false,
+   "mass": 6,
+   "velocity": 0.125,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "84db8fc4": {
+   "id": "84db8fc4",
+   "seenBy": [
+    "dna:dnas",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "dna:dnas",
+    "multistrand",
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 3,
+   "isFailure": false,
+   "mass": 9,
+   "velocity": 0.09090909090909091,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "903d1b4a": {
+   "id": "903d1b4a",
+   "seenBy": [
+    "dna:dnas",
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "dna:dnas",
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 4,
+   "isFailure": false,
+   "mass": 12,
+   "velocity": 0.07142857142857142,
+   "shell": "inner",
+   "stopped": true,
+   "committed": true
+  },
+  "9ddd00f0": {
+   "id": "9ddd00f0",
+   "seenBy": [
+    "dna:dnas",
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "roleclosure"
+   ],
+   "failedBy": [
+    "dna:dnas",
+    "dna:dnas2",
+    "multistrand"
+   ],
+   "touches": 4,
+   "isFailure": true,
+   "mass": 6,
+   "velocity": 0.125,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "e872b94a": {
+   "id": "e872b94a",
+   "seenBy": [
+    "dna:dnas",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "dna:dnas",
+    "multistrand",
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 3,
+   "isFailure": false,
+   "mass": 9,
+   "velocity": 0.09090909090909091,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "195ba7dc": {
+   "id": "195ba7dc",
+   "seenBy": [
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 4,
+   "isFailure": false,
+   "mass": 12,
+   "velocity": 0.07142857142857142,
+   "shell": "inner",
+   "stopped": true,
+   "committed": true
+  },
+  "8ee62060": {
+   "id": "8ee62060",
+   "seenBy": [
+    "dna:dnas2"
+   ],
+   "solvedBy": [
+    "dna:dnas2"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "cd3c21df": {
+   "id": "cd3c21df",
+   "seenBy": [
+    "dna:dnas2"
+   ],
+   "solvedBy": [
+    "dna:dnas2"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "f823c43c": {
+   "id": "f823c43c",
+   "seenBy": [
+    "dna:dnas2",
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "dna:dnas2"
+   ],
+   "failedBy": [
+    "multistrand",
+    "roleclosure"
+   ],
+   "touches": 3,
+   "isFailure": true,
+   "mass": 5,
+   "velocity": 0.14285714285714285,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "fc754716": {
+   "id": "fc754716",
+   "seenBy": [
+    "dna:dnas2"
+   ],
+   "solvedBy": [
+    "dna:dnas2"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "0c786b71": {
+   "id": "0c786b71",
+   "seenBy": [
+    "multistrand",
+    "roleclosure",
+    "dna"
+   ],
+   "solvedBy": [
+    "multistrand",
+    "roleclosure",
+    "dna"
+   ],
+   "failedBy": [],
+   "touches": 3,
+   "isFailure": false,
+   "mass": 8,
+   "velocity": 0.1,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "5b6cbef5": {
+   "id": "5b6cbef5",
+   "seenBy": [
+    "multistrand",
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "multistrand",
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 2,
+   "isFailure": false,
+   "mass": 6,
+   "velocity": 0.125,
+   "shell": "inner",
+   "stopped": false,
+   "committed": true
+  },
+  "d282b262": {
+   "id": "d282b262",
+   "seenBy": [
+    "multistrand"
+   ],
+   "solvedBy": [
+    "multistrand"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "34b99a2b": {
+   "id": "34b99a2b",
+   "seenBy": [
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "358ba94e": {
+   "id": "358ba94e",
+   "seenBy": [
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "5d2a5c43": {
+   "id": "5d2a5c43",
+   "seenBy": [
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "be03b35f": {
+   "id": "be03b35f",
+   "seenBy": [
+    "roleclosure"
+   ],
+   "solvedBy": [
+    "roleclosure"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 3,
+   "velocity": 0.2,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  },
+  "0c9aba6e": {
+   "id": "0c9aba6e",
+   "seenBy": [
+    "dna"
+   ],
+   "solvedBy": [
+    "dna"
+   ],
+   "failedBy": [],
+   "touches": 1,
+   "isFailure": false,
+   "mass": 2.2,
+   "velocity": 0.23809523809523808,
+   "shell": "middle",
+   "stopped": false,
+   "committed": false
+  }
+ },
+ "paths": {
+  "anchor+ray[1,2]": {
+   "path": "anchor+ray[1,2]",
+   "uses": 4,
+   "tasks": [
+    "a406ac07"
+   ],
+   "cost": 0.2
+  },
+  "rotate>tile": {
+   "path": "rotate>tile",
+   "uses": 1,
+   "tasks": [
+    "0c786b71"
+   ],
+   "cost": 0.5
+  },
+  "swap>combinePanels>identity>swap>fillHoles": {
+   "path": "swap>combinePanels>identity>swap>fillHoles",
+   "uses": 1,
+   "tasks": [
+    "0c9aba6e"
+   ],
+   "cost": 0.5
+  }
+ },
+ "wires": {
+  "rotate>tile": {
+   "edge": "rotate>tile",
+   "conductance": 0.42000000000000004,
+   "uses": 1
+  },
+  "swap>combinePanels": {
+   "edge": "swap>combinePanels",
+   "conductance": 0.28,
+   "uses": 1
+  },
+  "combinePanels>identity": {
+   "edge": "combinePanels>identity",
+   "conductance": 0.07,
+   "uses": 1
+  },
+  "identity>swap": {
+   "edge": "identity>swap",
+   "conductance": 0.21000000000000002,
+   "uses": 1
+  },
+  "swap>fillHoles": {
+   "edge": "swap>fillHoles",
+   "conductance": 0.42000000000000004,
+   "uses": 1
+  }
+ }
+}

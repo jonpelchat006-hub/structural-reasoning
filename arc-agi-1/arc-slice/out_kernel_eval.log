@@ -1,0 +1,28 @@
+[1/400] 0s
+[51/400] 6s
+[101/400] 12s
+[151/400] 17s
+[201/400] 22s
+[251/400] 29s
+[301/400] 34s
+[351/400] 40s
+=== KERNEL TIER on data-eval (400 tasks, 45s) ===
+train-fit programs (stage chosen without test): 34
+  K1 total: 34   K2 leave-one-out: 21   K3 stable answer: 21
+  KERNEL-ACCEPTED (K1&K2&K3): 21
+test precision  — train-fit alone: 27/34 = 79.4%
+                — kernel-accepted: 20/21 = 95.2%
+                — kernel-rejected: 7/13 = 53.8%
+test solves lost by the gate (correct but rejected): 7
+wrong answers blocked by the gate: 6
+leaderboard (kernel-accepted & test-correct, cheapest replay first):
+  aa18de87 generator 0.001ms
+  34b99a2b fast 0.003ms
+  506d28a5 fast 0.003ms
+  5b6cbef5 fast 0.003ms
+  60c09cac fast 0.003ms
+  d19f7514 fast 0.003ms
+  195ba7dc fast 0.004ms
+  31d5ba1a fast 0.004ms
+  66f2d22f fast 0.004ms
+  d4b1c2b1 discovery 0.004ms

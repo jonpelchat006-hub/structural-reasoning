@@ -1,0 +1,9 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== 4-PROBE COARSE MAP + MEASURED ROUTING ===
+solved (axis-routed): 60  + codon: 5  = 65/400 (16.3%)
+dominant-axis distribution: {"SIZE":102,"STRUCT":112,"COLOR":152,"GEOM":10}
+coarse depth (residual after best single probe = ~#objectives): {"0(direct)":42,"3+(far)":78,"1(close)":148,"2(mid)":108}

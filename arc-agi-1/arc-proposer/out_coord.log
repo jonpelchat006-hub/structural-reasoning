@@ -1,0 +1,10 @@
+[0/400]
+[100/400]
+[200/400]
+[300/400]
+
+=== NON-LLM COORDINATOR (online learning, 400 tasks) ===
+solved (pure structure, zero model): 53/400 (13.3%)
+warm hits (memory's plan predicted the solving branch): 15/53 (28.3%)
+warm-rate 1st half: 24.0%  vs 2nd half: 32.1%  (rising = the colony LEARNING)
+banked 51 learnings to arc-learned.json (+ geo payloads for Mika).

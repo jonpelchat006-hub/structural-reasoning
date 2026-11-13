@@ -1,0 +1,22 @@
+[epoch1 0/400]
+[epoch1 100/400]
+[epoch1 200/400]
+[epoch1 300/400]
+[epoch2 0/400]
+[epoch2 100/400]
+[epoch2 200/400]
+[epoch2 300/400]
+
+=== MORPH EXPERIMENT (ARC-1, 400 tasks, 20.8s) ===
+epoch-1 solved: 38   templates learned (len>=2 shapes): 6
+epoch-2 solved: 38/400 (9.5%)
+  brute1: 32   MORPH (cross-task transfer): 6   swarm: 0
+  morph solves 1st-half vs 2nd-half: 2 vs 4
+held-out TEST correct: 38/416 (9.1%)
+morph (transferred) solves:
+  7468f01a [morph] largest(bg=0) -> symmetrize(axis=2,bg=0) -> flipH
+  7b6016b9 [morph] keepRare(bg=3) -> fillHoles(bg=3,fill=2)
+  a740d043 [morph] trim -> crop(bg=1) -> removeColor(c=1,bg=0)
+  aabf363d [morph] fillHoles(bg=3,fill=6) -> fillHoles(bg=2,fill=4) -> keepLargest(crop=0,bg=0)
+  d5d6de2d [morph] fillHoles(bg=0,fill=3) -> keepColor(c=3,bg=0)
+  e3497940 [morph] symmetrize(axis=0,bg=0) -> keepLargest(crop=1,bg=5)

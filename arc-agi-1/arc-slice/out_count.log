@@ -1,0 +1,14 @@
+[1/400]
+[101/400]
+[201/400]
+[301/400]
+
+=== FAST + CODON (400 tasks, 25.1s) ===
+fast: 65   + codon: 5   + nested: 0   = 70/400 (17.5%)
+codon wins by type: {"smallest.cropTo":3,"all.delete":1,"REL:surv(color).crop":1}
+codon solves:
+  23b5c85d  smallest.cropTo
+  5582e5ca  all.delete
+  c909285e  REL:surv(color).crop
+  d9fac9be  smallest.cropTo
+  de1cd16c  smallest.cropTo

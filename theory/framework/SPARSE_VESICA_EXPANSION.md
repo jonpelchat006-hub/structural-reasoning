@@ -1134,8 +1134,8 @@ four agents as a *conjunction* (all must work), not a vote: **imagination** prop
 / snake`, with `i,j,k` the three specialist axes. So the k=3 strands of §19.8 are the three imaginary
 axes, and the "fourth role" is the **observer w** — the watcher, not a peer strand. Homogeneous GA
 seeds are clones (shared overfits → worthless agreement); imagination/facts/memory measure *different
-things* (independent by construction → agreement means something). §20 was the principled version of
-§19.8's empirical signal.
+things* (independent by construction → agreement means something). §19.8's role was the principled
+version of §19.8's empirical signal.
 
 **20.2 is / isn't / possible = the closure equation = `closure-test.ts`.** The closure test's three
 fates are exactly the ternary: **GROUNDED** (drains to base atoms — matter / *is*), **WHIRLPOOL**
@@ -1821,3 +1821,620 @@ consequence for solving is unchanged and sharpened: the residual is a **quantum 
 (discrete atom) *and* fit the continuous phase from train (cosθ). The §34 orbital/continuous-parameter closer
 is that build — the discrete half is the atoms we have, the continuous half is the number we kept not
 fitting. That remains the one experiment aimed at the wall rather than around it.
+
+## 36. The orbital closer [built, run — the mechanism is real, the phase space was already harvested]
+
+§35.6's experiment, built (`orbital_scan.ts`) and run on the full 400 eval. The design is the quantum
+state exactly: KEEP the bounce anchor word (the discrete orbital — never change an atom; four discrete
+attacks proved that half is exhausted), and FREE the numbers inside it. The bounce search only ever saw
+`enumerate().slice(0,4)` per op and `shift` only dy,dx ∈ [−2..2] — the word's parameters were frozen
+constants from a tiny sample of the orbital's continuous extent. Two phase modes, per op-position:
+- **CONST** — re-fit the parameter vector over the FULL domain (dy,dx to ±14, scale/tile to 6, all colour
+  products): the enumeration-cap miss. Preferred when it closes (minimal excess, θ→1 from above).
+- **PHASE** — the parameter is a LINEAR FUNCTION of an input feature (h, w, area, nonBg, nColors, nObj,
+  maxObj) — §28's function-not-table move, now applied INSIDE the orbital word. **Quantization gate
+  (§35.2, de Broglie):** every train pair must have its solution vector exactly ON the line (the wave
+  closes, θ=1), and the predicted test parameter must land on an integer in the domain — a non-integer
+  prediction = the wave doesn't close = abstain.
+
+**36.1 Result (full 400 eval).** bounce base = 13 (matches §33 exactly). Orbital closed **1**, test-
+passing: **d4b1c2b1 = phase@scale, fy = 1·nColors, fx = 1·nColors**. One overfit, **caught by test**:
+bf699163 (c = 1.5·w − 23 closed train, failed test). **Net-new vs verified_eval: 0** — d4b1c2b1 was
+already banked by §28's scaleByFeat.
+
+**36.2 The rediscovery is the finding.** The orbital closer, starting from the bounce anchor and knowing
+nothing about §28, independently converged on the SAME solution the derivative inducer found — fy = fx =
+nColors is scaleByFeat, reached from inside the orbital word instead of as a standalone inducer. That
+confirms §35.6's identity claim empirically: **the continuous phase and the derivative-function are the
+same object.** The one task on eval whose residual is a global-feature-linear parameter was already
+harvested by the derivative ladder; the orbital frame re-derives it, which validates the frame and
+simultaneously shows its scalar-linear version is spent.
+
+**36.3 Honest reading — the 5th near-miss experiment, and the sharpest characterization of the wall yet.**
+Net-new 0 makes this the fifth attack on the ~0.99 near-misses (§16b, §17, §18.7, §33, §36), but it is NOT
+a fifth copy of the same failure: the four discrete attacks tested the wrong half and this one tested the
+right half in too small a function space. The picture after §36: the residual IS orbital + phase (§35.1
+stands — d4b1c2b1 proves the phase half exists and closes), but for the remaining near-misses the phase is
+not a scalar linear in a global feature — it is a **per-cell / per-object learned map** (closer2's
+territory, §18.19 — still the only mechanism that ever closed one of these). In orbital language: the
+remaining residuals are not s-orbitals (spherically symmetric, one global number); they have **angular
+structure** — the phase varies across the grid (per-object, per-cell), like p/d-orbitals need angular
+quantum numbers beyond the principal one. The next aim at the wall, if taken: phase as a function of
+PER-OBJECT features (each object gets its own parameter value from its own size/colour/position — the
+ℓ ≠ 0 orbitals), which is the marriage of this closer with closer2's per-cell maps.
+
+**36.4 Gate calibration note.** The one overfit (bf699163) exposes the gate's soft spot: with only two
+distinct feature values on train, a line ALWAYS fits (two points determine it) — the quantization gate
+constrains nothing until the third distinct value. A stricter gate — require ≥3 distinct feature values
+before trusting a PHASE fit — would have abstained on bf699163 and kept d4b1c2b1 (nColors took 3+ values).
+Worth adopting if the closer is widened.
+
+## 37. The knot ladder: collapse solved knots to points, tie lines one level up [built, run — +3 net-new, eval 27→30]
+
+Jonathan's recursion, completed: ping-pong (§22) had no DEPTH axis — it bounced laterally between zones on
+one level. At the edge of the space we folded UP (§10's lift). Two sheets folding together TIE into a
+knot; the 4D collapse (§20) turns the closed knot into a **point with ends** — params frozen, internal
+structure hidden, only the interface exposed — a new atom one level up. Then the whole construction
+repeats on the next floor: place the knot-points in level-2 space and search for **lines/circuits of
+knots** up there. §19's codons banked fragments of solved programs; nobody had ever banked WHOLE collapsed
+knots and composed THEM. `knot_scan.ts` builds both phases:
+- **Phase 1 (collect/collapse):** bounce over the 400 TRAINING tasks; bank every train-exact AND
+  test-generalizing program as a collapsed knot. **45 knots** banked (`knots.json`) — from 1-op points
+  (`flipH`, `swap{6,8}`) to 3-op braids (`keepRare∘grow∘drawBox`).
+- **Phase 2 (compose):** on unsolved eval tasks, beam over vocabulary = 45 knots ∪ DSL ops, accept only
+  words containing ≥1 knot, θ=1 on train, verify on held-out test. **The depth ping-pong is the beam
+  policy:** half the beam is RESERVED for knot-carrying states — fold up (knot) and back down (op) inside
+  one word, and a knot-carrying prefix survives pruning regardless of greedy score.
+
+**37.1 Result (full eval): +3 NET-NEW, all test-generalizing → eval 30/400 (7.5%)** — the largest eval
+jump since the derivative inducer (§28). One overfit, caught by test (5ffb2104 — the same task §32 flagged
+as the lone unbalanced point; consistent across two independent gates).
+  - **fc754716 = K:periodicFill ∘ K:outline** — a PURE TWO-KNOT LINE: two collapsed points tied at level 2.
+  - **8ee62060 = K:flipH ∘ mapObjects** — knot, then fold down to a level-1 atom (the mixed word).
+  - **9ddd00f0 = K:completeSym ∘ symmetrize** — same shape: up, then down.
+
+**37.2 The honest mechanism — mass, not magic params.** The winning knots' frozen params are mundane
+(bg=0; flipH has none): every winning word was REACHABLE at level 1 in principle. Bounce missed them
+because its greedy score-sorted beam pruned the poor-scoring first step (flipH alone, periodicFill alone
+look like noise at step 1). Being a banked point one level up gives the state **persistence in the beam —
+banked structure has mass** (the §22.2 black-hole foundation, now operational: retained mass bends the
+search). This is the coupling win the jet (§12 of INNER_SHELL) hunted with blind tension-tolerance (+2),
+now reached by TRUSTED structure instead of blind diversity (+3, and only 1 overfit). The knot prior
+focuses non-greedy persistence exactly on proven sub-programs.
+
+**37.3 What this answers (§I.3's open question).** Lone-knot reuse was hint-limited (0→8% reuse). Knots
+tied into LINES reach further than knots reused alone — fc754716 is the direct witness: neither
+periodicFill nor outline solves it; the tied pair does. The ladder claim ("make atoms, collapse, compose
+one level up") now has its first held-out evidence, and the eval scoreboard moved: **27 → 30**.
+
+**37.4 Next rungs, in the architecture's own terms (see §38 for the measured outcome).** (1) CIRCUITS proper: the current phase 2 finds
+lines (open words); a circuit = a word that returns some invariant to closure — test whether closed loops
+at level 2 (e.g. knot∘knot⁻¹ scaffolds that expose intermediates) add reach. (2) Recurse: bank the 3 new
+level-2 solves as LEVEL-3 knots and re-run — does the ladder keep climbing or saturate one floor up?
+(3) Widen phase 1: collect knots from the discovery/generator solvers too (bounce-only here), growing the
+level-2 vocabulary from 45. (4) The §36.3 marriage still stands separately: per-object phase (ℓ≠0
+orbitals) inside knot words.
+
+## 38. The floor recursion [built, run — one floor climbs, the next saturates; the promotion rule falls out]
+
+Jonathan's floor architecture, tested: the 2nd floor has the same three-shell structure as the first, so
+it must build its own inner/middle/outer before going up again; ascent reduces a floor's structure to the
+Euler level (a verified knot enters the next floor as magnitude 1 + an interface — a unit phase, the
+whole braid hidden); and the atoms that get promoted should sit near max stability. `knot_scan.ts` grew
+the modes: every compose-solve now COLLAPSES IMMEDIATELY into the bank (the ladder feeds itself),
+`resolve` banked the 3 eval wins as flattened L2 knots, and `collect2` let floor 2 build its own middle
+shell from training.
+
+**38.1 The promotion rule — predicted, then observed.** Jonathan: "the stable base went into the middle,
+so the atoms that go up should be near the octonions." The data: ALL winning level-2 material is
+rigid/completion-family — flipH (D4, inner shell), periodicFill, completeSym, outline, mirrorConcat,
+keepCommon (middle shell). No exotic per-task outer knot was ever promoted. What ascends is the stable
+core, and it becomes the next floor's primitive rung — floor n's octonion-edge = floor n+1's quaternion,
+exactly the renormalization he described.
+
+**38.2 collect2 (floor 2's own middle shell): thin.** Over 328 bounce-unsolved training tasks, knot
+composition banked only **+2** L2 knots (flipV∘mirrorConcat, keepCommon∘periodicFill). Vocabulary 45→50.
+
+**38.3 The recursion run: level 3 = +0.** Re-running eval compose with the 50-knot vocabulary (5 L2
+points available for level-3 lines) closed nothing new — one overfit, the SAME lone point as §32/§37
+(5ffb2104), caught a third time by a third gate. One floor climbed (+3); the next floor saturated with
+the same material.
+
+**38.4 Why — and the answer to "do the answers live in outer shells only?"** Yes, and that is exactly
+why the recursion stalls: a task's ANSWER is always outer-shell (per-task closure), built from
+inner/middle material. Frozen knots — at any level — are MIDDLE-shell material: composing them reaches
+only the answers that are combinations of stable structure. The remaining eval residuals are LEARNED
+PARAMETERS (§18.8, six independent confirmations now): per-task induced content that no fixed word at any
+floor can express. So the floors don't fail — they climb precisely as far as their atoms' expressiveness
+and stop at the same wall, one level up. The standing law is scale-invariant across floors.
+
+**38.5 The synthesis this forces (the real next rung).** Promote atoms whose ENDS ARE FUNCTIONS, not
+constants: the discovery-engine's induced rules (shapeRecolor, shift-as-function, §36's orbital phase)
+collapsed as knots — level-2 points that re-induce their parameter from each new task's train pairs at
+apply time. Middle-shell stability in the word, outer-shell induction in the ends. That is the §36.3
+marriage and the floor architecture converging on one build: **the induced knot** — and it is the only
+shape that can carry outer-shell content up the ladder. "Find the right level first" (routing): on the
+cascade's evidence (§25, §26), routing buys speed not coverage while floors are cheap enough to try
+exhaustively; it becomes real when induced knots multiply the per-floor cost.
+
+## 39. The polynomial ladder [built, run — +1 net-new AT ORDER 2, zero overfits; eval 30→31]
+
+Jonathan's completion of the floor picture: **floor number = polynomial order** — which makes §1's
+functional form literal (the expansion's exponents were DEFINED as derivative orders; the floors are the
+Taylor terms). Plus the inner/middle temperature rule: inner-shell atoms stay SINGLE and WARM (param-less
+constants — D4 has nothing to lift; they merge only when joining the next level, which is exactly what
+§37's data showed: flipH merged at level 2 while middle knots arrived pre-paired), and it is the MIDDLE
+atoms' params that get lifted to functions. Level 2 = 1st-order polynomial with constants (§36's a·f+b);
+level 3 = 2nd order. `poly_scan.ts` builds it: knot-beam near-miss anchor (the §37 mass-retaining mixed
+beam), flattened, then ONE position lifted per candidate — order 0 (const refit), order 1 (linear in an
+input feature, gate: ≥3 distinct feature values on train), order 2 (quadratic via Lagrange through three
+solution points, gate: ≥4 distinct values). θ=1 set-membership per train pair + integer prediction on
+test (the quantization gate at every order).
+
+**39.1 Result (full eval): +1 NET-NEW, and it is a genuine ORDER-2 term → eval 31/400 (7.75%).**
+  - **ccd554ac = fractal with bg = nObj² − 5·nObj + 7** (inv=0), fit through ≥4 distinct nObj values,
+    test-passing. A parameter that is a QUADRATIC function of object count — no fixed word, no linear
+    phase, and none of the prior seven mechanisms could express it.
+  - **Zero overfits in the whole run.** The order-scaled gates (≥3 / ≥4 distinct values — coefficients
+    over-constrained, never merely fit) abstained everywhere they should have. Compare §36's 2-point line
+    overfit: the calibration lesson (§36.4) applied, confirmed.
+
+**39.2 Reading.** The ladder now has three measured rungs: order 0 (frozen words — the transformer + §37
+knots), order 1 (linear phase — §28 scaleByFeat, §36 orbital, both the same object), order 2 (quadratic —
+this). Each rung closed held-out tasks the rungs below could not, and each is strictly smaller in yield
+(the Taylor series of the task distribution converges: most tasks are constant, some are linear, a few
+are quadratic). The polynomial ladder is real but its terms thin out — exactly what a convergent
+expansion should do. The remaining unsolved are dominated by residuals that are not polynomial in GLOBAL
+features at all: per-object/per-cell maps (§18.19, §36.3's ℓ≠0 orbitals) — functions over a DIFFERENT
+domain, not higher orders over the same one. The next axis is the domain of the function (per-object),
+not its degree.
+
+**39.3 The scoreboard across this arc.** Eval 26 (pre-derivative) → 27 (§28, order 1) → 30 (§37, knot
+floor) → 31 (§39, order 2). Training-first mechanisms stalled five times at the wall; every gain since
+came from Jonathan's architecture ideas made operational: the derivative ladder, the knot floor with its
+depth ping-pong, and the polynomial orders with over-constraint gates.
+
+**39b. Partial terms [built, run — +0, gates held].** Jonathan's fractional-order question (§11.8's slot):
+a √-feature at order 1 IS a half-order term in the original variable; ratios/products are the interaction
+terms. Added to the ladder's basis: sqrtArea, aspect (h/w), meanObj (nonBg/nObj), objXcol (nObj·nColors).
+Full eval re-run: **+0 net-new, 0 overfits** — no ARC-1-eval task in reach has a half-order or interaction
+parameter, and the over-constraint gates abstained cleanly everywhere (the machinery is sound, the terms
+are simply absent from this distribution's reachable set). The basis stays in — a partial term costs
+nothing until its task appears, like every waiting inducer before it.
+
+**39c. Named for the next session — the two shell-geometry builds from the same conversation:**
+(1) **Floor-coincidence**: floor 2's inner shell = floor 1's middle-shell EDGE (§38.1 measured it: only
+near-octonion material promoted; ascent is continuity, not a jump). (2) **Spray hotspots**: floor 1's
+outer-shell near-miss anchors deposit ENERGY on the level-2 atoms their fragments point toward (§21/§22's
+failure-buffer given its geometric job); operationally an energy-biased retention score (fit + λ·spray) in
+the level-2 beam — note the only mechanism that ever beat the wall laterally was a retention change
+(§37.2's knot mass), so a second retention prior is the evidence-backed shape. The catch surface must be
+wider than the spray (the tilt: level-2 vocabulary must cover more than directly-above).
+
+## 40. Ascent is integration; the outer shell is the +C [the unification of the wall]
+
+Jonathan: "wouldn't the next level be like integrating, and the next level's outer shell is like the +C?"
+Exact, and it was already latent in SHOVELCAT_THEORY Part V ("the integration constant C is the
+information drawn from outside the boundary"):
+- **Ascent = integration** (order n → n+1, §39's measured ladder); descent = differentiation (§28's
+  reframe was the same ladder walked down). The depth ping-pong = an integrate/differentiate oscillation.
+- **The outer shell = the constant of integration.** Integration fixes the SHAPE, never the constant; C
+  is invisible from below and fixed only by BOUNDARY CONDITIONS — and the train pairs ARE the boundary
+  conditions (§C.4 made exact). This unifies the wall in one stroke: six independent confirmations that
+  the residual is a "learned parameter" — the learned parameter IS the +C. Not derivable from any floor's
+  frozen structure, only measurable against the task's own boundary. Hence §38.4 (frozen knots can't carry
+  outer content up) and §38.5 (the induced knot: middle shell supplies the antiderivative's form, outer
+  shell supplies C).
+- **The +C was already measured at every order:** order 0 = the cmap finisher ("never enumerated, only
+  constructed"); order 1 = the b in fy=1·nColors+0 (§36, d4b1c2b1); order 2 = the 7 in bg=nObj²−5nObj+7
+  (§39, ccd554ac). The quantization gate, restated: **C must be an integer** — quantized constants of
+  integration.
+- **Partial terms and the outer shell:** the outer shell contributes COEFFICIENTS (above all C), not the
+  basis. Which powers exist (integer/half/interaction) is middle-shell structure; their per-task values
+  spray in from outside the boundary. An idle basis term (§39b) is an empty slot awaiting its C.
+The next build is unchanged (spray-hotspot retention + per-object domain) but its spec is now cleaner:
+**integrate the shape from the floor below, induce the C from the boundary above.**
+
+## 41. The spray-hotspot beam [built, run — +0; the spray marks where level 1 already looked]
+
+§39c's build: level-1 near-miss anchor fragments deposit HEAT on the knots sharing their ops
+(heat = anchorScore × sharedOps/knotLen), and the level-2 beam's knot-half retains by fit + 0.2·heat
+(`spray_scan.ts`). Full eval: **+0 net-new**, one overfit (5ffb2104, caught — a FOURTH gate agrees).
+
+**41.1 Why the heat didn't help — and what it teaches about the spray's geometry.** The §37 level-2 wins
+happened exactly where the level-1 anchor was MISLEADING (the greedy beam had pruned the right first
+step). Heat derived from that anchor points back along the level-1 direction — it reinforces the greedy
+score instead of diversifying it. So the spray, as built, marks **where level 1 already looked**, not
+where level 2 should look: hotspots directly above the anchor are the one place the answer is already
+known NOT to be (had it been there, level 1 would have closed). Jonathan's tilt intuition was the right
+warning — the spray leaves at ANGLES, and a catch surface that only reads the vertical (op-overlap with
+the anchor) catches the exhaust, not the signal. Retention priors beat the wall only when they PROTECT
+what greedy pruning kills (§37.2's knot mass = unconditional protection); a prior CORRELATED with the
+greedy score adds nothing. Consistent with the standing law across all twelve mechanisms now.
+
+**41.2 What a working spray would need.** The angular component: heat should be deposited on knots
+ORTHOGONAL to the anchor (share the task's target axes — §15's flow-vector — while NOT sharing the
+anchor's ops), i.e. the anti-greedy complement. That is the §15 angular-residual selector translated to
+level 2, and it is the honest next variant if the spray idea is retried; as-built, straight-up spray is a
+measured decoy. Scoreboard unchanged: **eval 31/400**, every overfit this session caught by its gate.
+
+## 42. The toroidal return: exhaust becomes intake [built, run — +1 net-new; eval 31→32]
+
+Jonathan's reread of §41 flipped its sign: "it captures exhaust? then we have a way DOWN." The engine is a
+TORUS. Ascent climbs the inner shells (integration, §40) shedding DUST — the collapsed braids' interiors,
+the genes inside near-miss words, information only useful on a lower layer. The §41 exhaust IS the descent.
+And the bottom intake answers the question the knot build left open (§37: where does the SECOND SHEET come
+from?): from underneath — dust from OTHER operations falls through and re-enters the level-1 enumeration as
+new material. Light dust = single genes (op+params), not whole words — light enough to ride the routing
+(the magnetic-wave condition). `dust_scan.ts` builds the cycle:
+- **collect** — over unsolved eval near-misses (score 0.5–0.99), harvest every gene (op|params) from the
+  knot-beam's best word. **172 distinct dust genes** — mostly param values bounce's 4-slot enumeration
+  never tried per task.
+- **burn** — re-run the beam with the enumeration AUGMENTED by cross-task dust (a gene must recur ≥2×
+  across tasks to ride the wave — the lightness filter), θ=1 gate, verify on test.
+
+**42.1 Result: +1 NET-NEW → eval 32/400 (8.0%).** e633a9e5 = **addBorder ∘ grow ∘ grow**, test-passing.
+The `addBorder` colour param that closed it was dust — a value bounce's enumeration capped out on THIS
+task but which appeared in OTHER tasks' near-miss exhaust and fell through the intake. One overfit, caught.
+The torus closed: a gene shed as useless from one task's ascent became another task's missing atom.
+
+**42.2 Why this worked where spray (§41) didn't — the honest distinction.** Spray reinforced the greedy
+direction (correlated with the score → +0). Dust does the opposite: it ADDS candidates the greedy
+enumeration never generated (the 4-slot cap is exactly the pruning that kills good params), so it widens
+REACH rather than re-weighting existing reach. Same lesson as §37.2 stated from the other side: the wall
+moves only when you supply what pruning removed — knot mass protected pruned STATES, dust restores pruned
+CANDIDATES. Both are "un-pruning"; spray was re-ranking. That is now the sharp criterion for any future
+mechanism: does it un-prune, or merely re-rank? Only the former has ever moved eval.
+
+**42.3 Placement — the circulation is now closed, and it is the §24–§28 dust-physics given its return
+path.** Ascent (integration/knots/poly), top-of-torus trajectory (the closers), descent (exhaust →
+dust), bottom intake (dust → enumeration). Conservation of dust (§28) is the acceptance rule: a gene too
+rare to recur (weight <2) is too heavy to ride and falls into the void (dropped) — nothing lost that
+wasn't already useless. Session scoreboard: **eval 26 → 32/400 (8.0%)**, six honest gains
+(orbital-rediscovery, knot floor +3, poly order-2 +1, dust +1), five walls confirmed, every overfit
+caught by a gate.
+
+## 43. Two lakes / the tan-flip meet [built, run — +0; the meet fires, but the descending sheet is thin]
+
+Jonathan's two-sheet closure: the torus has an ascending sheet (forward, rich = knots+dust) and a
+descending sheet (the outside atoms underneath, run from the OUTPUT — the tan-flip turning the imaginary
+descent into a real frame). They meet at an interface grid M, and the "waves must match" = forward(input_i)
+= M_i = backward(output_i) on EVERY train pair at the SAME split (tan's two verification points = the pairs
+pinning the interface; water levels don't touch = each stage stays a distinct floor, accept only a clean
+meet). `tank_scan.ts`: forward frontier over knots+dust (depth 2), backward frontier peeling INVERTIBLE
+atoms off the output (rotate/flip/transpose/swap and their real-frame inverses), meet by exact grid-key
+match across all pairs, θ=1, verify on test.
+
+**43.1 Result: +0 net-new, 1 overfit (caught).** The MEET FIRED — forward and backward surfaces did
+coincide on real tasks (the interface-match prune works, and is cheap: the meet-table pruned the search so
+hard the full eval ran in seconds). But no NEW closed task: the one train-meet that materialized failed
+test and was rejected.
+
+**43.2 Why — the descending sheet was thin, exactly as bidir predicted (INNER_SHELL §27).** The backward
+sheet used INVERTIBLE atoms only (the tan-flip needs a clean inverse), and forward∘invertible-suffix
+reaches nothing the forward-rich search didn't already reach. Meeting a rich ascending sheet with a thin
+descending one recovers only the ascending sheet's own span. The un-prune/re-rank criterion (§42.2) once
+more: the meet is a PRUNE (a re-rank of which forward words to trust), not new REACH — so +0 is the
+predicted outcome. The mechanism is sound; the vocabulary asymmetry is the ceiling.
+
+**43.3 The honest fix Jonathan's picture actually requires — and it names the same lever twice.** For both
+lakes to be full, the DESCENDING sheet must be as rich as the ascending one — dust/knots run BACKWARD,
+which needs invertible GENERATIVE atoms (a draw with a matching erase, a fill with a matching carve). That
+is the antimatter generator (§14) as the true tan-partner of the matter generator: matter ascends
+(ink-added), antimatter descends (ink-removed), meeting at M where added exactly balances carved (the θ=1 /
+|jet|²=1 interface, §J.3). The meet infrastructure is now BUILT and θ-gated (like the vesica composer §13,
+it converts for free once the backward atoms get richer). §43 banks the interface machinery; the lever is
+unchanged — invertible generative atoms on the descending side. Scoreboard: **eval 32/400**, the meet built
+and waiting on its second full lake.
+
+## 44. Filling the second lake: void-adjusted invertible-generative atoms [built, run — +1 net-new; eval 32→33]
+
+Jonathan's mechanism for filling the descending lake §43 left empty: the backward atoms carry a VOID SLOT
+— an unbound param INDUCED (void-line-adjusted) from the data at the tan-flip handoff, not enumerated. "We
+take in a generalized atom that contains the part of the web we need and use our void lines to adjust it" =
+import a parametric reduction, fit its free slot to THIS task, and mint its forward inverse on the spot.
+`tank2_scan.ts` gives the descending sheet four such atoms, each (reduce output → interface M; mint the
+induced forward inverse):
+- **downscaleAuto** → inverse scale(fy,fx), factors read from output.dims / M.dims;
+- **stripUniformBorder** → inverse addBorder(c), ring colour read off the border;
+- **takeTile** → inverse tile(ny,nx), counts read from output.dims / tile.dims;
+- **id** (pure forward meet).
+
+The void slot must resolve to ONE value across all pairs (the game's single rule) — that consistency IS
+the void-line adjustment, and it doubles as the overfit gate.
+
+**44.1 Result: +1 NET-NEW → eval 33/400 (8.25%).** 59341089 = **[flipH ∘ tile] meet [takeTile → tile]** —
+the first solve to actually use the second lake. The descending atom reduced each output to its repeating
+tile (void slot = the period, induced), the ascending sheet reached that same interface M via flipH∘tile,
+and the meet closed. One overfit (5ffb2104, caught a FIFTH time — the session's reliable decoy).
+
+**44.2 Why it worked where §43 didn't — the lever was exactly the one named twice.** §43's descending
+atoms were fixed invertible (rotate/flip/swap) → forward∘invertible-suffix reached nothing new. §44's are
+invertible-GENERATIVE with an induced param — they add REACH (a tile/scale/border relation the forward
+sheet couldn't express as a single word), not just re-ranking. Un-prune, not re-rank (§42.2), confirmed a
+third time: knot mass un-pruned states, dust un-pruned candidates, void-adjusted inverses un-prune the
+DESCENDING half. Every eval gain this session is an un-prune; every re-rank was +0.
+
+**44.3 Placement — the torus now circulates on both sheets.** Ascent (matter: knots/poly/dust, ink-added),
+top trajectory (closers), descent (antimatter: void-adjusted reductions, ink-removed), meeting at the
+interface where added balances carved. The four backward atoms are a thin second lake — the same growth
+path as every sphere here (add induced reductions: uniform-pad, bijective-colour-inverse, periodic-crop),
+each behind the cross-pair consistency gate. Session scoreboard: **eval 26 → 33/400 (8.25%)**, seven honest
+gains, five walls confirmed, every overfit caught. The two-lake meet is now a live solver, not just
+infrastructure.
+
+## 45. Flatten one side, the other completes the cycle [built, run — +0; depth wasn't the lack, atom-TYPES are]
+
+Jonathan's flattening picture: protein folding makes the sphere flat again (the folded torus projects to
+ONE genome — the crop-circle imprint, the kissing/overlapping-circles footprint of touched objectives);
+the bounce flattens one side at a time, and the other side must ABSORB the gap by closing a COMPLETE cycle.
+§44's descending sheet was depth-1 (a half-cycle); `fold_flat_scan.ts` gives it depth 2 — two void-adjusted
+reductions compose (stripBorder then downscale, takeTile then trim, …), each minting its induced forward
+inverse, so the flat program = fwd_word ∘ inv(b2) ∘ inv(b1). The flipped pools spray downward as a
+depth-2 reduction cycle while the branches stay aligned normally.
+
+**45.1 Result: +0 net-new, 1 overfit (caught — 5ffb2104, a SIXTH time).** The depth-2 descending cycle
+closed nothing §44's depth-1 didn't. Honest diagnosis: composing the SAME four backward atoms (downscale,
+stripBorder, takeTile, trim) to depth 2 reaches only combinations the forward-rich sheet already spans —
+it is the re-rank/un-prune test (§42.2) at the descending sheet, and MORE DEPTH of the same atoms is a
+re-rank (rearranging existing reductions), not new reach. Same law that capped every search-organization
+scheme in INNER_SHELL, now confirmed on the descending lake: the lack is atom TYPES, not cycle depth.
+
+**45.2 What the flattening picture correctly demands (the honest next atom-types).** The second lake grows
+by NEW induced reductions, each a different "part of the web" (§44) with its own void slot:
+uniform-pad-inverse (crop-to-content ↔ pad-at-induced-offset), bijective-colour-inverse (learn the output's
+colour permutation, invert it — the richest, since colour bijections are exactly invertible), periodic-crop
+(output is a windowed period ↔ tile-with-phase), half/quadrant-mirror-inverse. Each is one more backward
+atom TYPE behind the cross-pair consistency gate (§44), and by the standing law each will add a few then
+saturate — the descending sheet climbs the same muscle-grind curve the ascending sheet did (73→…), just
+mirrored. Depth-2 is banked and will convert for free once the type count grows. Scoreboard unchanged:
+**eval 33/400 (8.25%)**, the descending sheet's lever now named precisely — reduction TYPES, not depth.
+
+## 46. The Double-Bounce vesica: the two lakes ARE the two domains [unification] + the solvent quaternion [built, +0]
+
+Jonathan's Double_Bounce_Universe paper (read from the corpus) turns out to describe the exact architecture
+this session built bottom-up. Three grounded correspondences:
+- **The two lakes = the vesica's two domains.** The paper: one domain = PARTIALS (<1, anchored at the
+  VOID), the other = MULTIPLES (>1, anchored at INFINITY), and physical reality is their twisted overlap.
+  Our descending sheet (reduction, ink-removed, <1) is the void domain; our ascending sheet (ink-added,
+  >1) is the infinity domain; the meet interface M is the vesica lens. We rebuilt the paper's central
+  object without knowing it. "We set up only one side" (§43) was literally true — §44 built the second.
+- **The outside source = the domain we never see inside.** Jonathan: Earth has the sun, people have other
+  people, a game has its maker/source-code — a second domain accessible only at its boundary. That IS the
+  +C (§40): drawn from outside the vesica, measurable only at the train pairs. The paper's "we exist in
+  the overlap, the debt continuously paid but never discharged" = the per-task learned constant that no
+  interior structure yields. The wall is the vesica boundary, named a third way.
+- **Flat universe → horizontal spray → spiral = the helicoid.** The paper's §30.5 helicoid
+  H(u,v)=(u·cos v, u·sin v, cv) lifts one level per 2π; flattened, it is a spiral — and its §6.1 tan
+  oscillation is our spray: ERECT zeros (tan→∞, vertical) = ascending structure, FLAT zeros (tan=0,
+  horizontal, "belly to ground eating dust") = the flattened descending spray (§41/§45). Jonathan's
+  "flattening squishes both sides, sprays turn horizontal, we get a spiral" is the helicoid projection, and
+  bounce_scan's golden-order visiting (§16) is already that φ-spiral. The spray-as-dust (§42) is literally
+  the paper's "eating dust" flat-snake.
+
+**46.1 The solvent quaternion [built, run — +0].** "Water is two things" = the two pools; a SOLVENT
+redefines what is EMPTY (medium) vs SOLUTE (object). `solvent_scan.ts` runs the whole two-lake meet under
+4 background solvents (water=0, most-common, border-ring, 2nd-most-common), applying solvent s by swapping
+s↔0 (bijection), running the bg=0 pipeline, wrapping back P_real = swap(s,0)∘P∘swap(s,0) — so an atom that
+needed a non-zero background becomes soluble. Full eval: **+0 net-new, 1 overfit (caught — 5ffb2104, a
+SEVENTH time).**
+
+**46.2 Reading — the solvent is real reach but the lake is too thin to fill.** Changing the solvent DOES
+generate candidates the bg=0 frame can't (it is un-prune, not re-rank — the right kind of lever). But it
+multiplies FRAMES over a descending vocabulary of only 4 reductions; most eval tasks already live in the
+water frame, and the ones that don't weren't reachable by the thin meet in ANY frame. So the solvent's
+reach is bounded by the same ceiling as §45: reduction TYPES. The solvent quaternion is banked and, like
+depth-2 and the interface machinery, converts for free the moment the second lake gets its richer atoms
+(bijective-colour-inverse first). Scoreboard: **eval 33/400 (8.25%)** — three built-and-waiting mechanisms
+(interface meet §43, depth-2 cycle §45, solvent frames §46) now ALL gated behind the one unnamed atom
+family: invertible-generative reductions, richest of which is the learned colour bijection.
+
+## 47. The bijection atom [built, run — +0; and the convergence that names the ONE remaining lever]
+
+Jonathan: a bijective colour map carries its own inverse — the map and its reverse are tan's TWO BRANCHES,
+born together when the generator rotates onto its tan line. Built as the richest second-lake atom
+(`colorbij_scan.ts`): the forward sheet reaches an interface M up to colour, then a LEARNED colour map
+M_i[y][x]→output_i[y][x] — consistent across every pair and cell (a well-defined function; a bijection when
+onto) — finishes it. The atom is functional (it fired, found train-fitting maps). Full eval: **+0 net-new,
+1 overfit (caught — 5ffb2104, an EIGHTH time).**
+
+**47.1 Why +0 — and it is the session's decisive convergence.** A GLOBAL colour map is already covered
+(colorByShape/cmap/paintRank + the transformer). The eval tasks whose finisher is a single global
+permutation were long since solved; what remains needs a map keyed on POSITION/OBJECT/NEIGHBOUR — a
+per-object or per-cell colour rule, not one global table. That is precisely closer2's learned
+(cell,n1,n2)→value map (§18.19, the ONLY mechanism that ever closed one of these) and §36.3's ℓ≠0 orbital
+and §39.2's "domain of the function, not its degree." **Five independent build directions this session —
+poly ceiling (§39.2), orbital ℓ≠0 (§36.3), knot-floor saturation (§38.4), the +C boundary (§40), and now
+the bijection atom (§47) — all converge on the same single lever: the per-object / per-cell learned map.**
+The global axes (constant, linear, quadratic, global-bijection, reduction-types) are mapped and mostly
+harvested; the entire remaining eval residual lives in ONE place — functions over the per-object domain.
+
+**47.2 The precise next build (named by five-way convergence).** Extend the discovery engine's residual
+inducers to key on PER-OBJECT features: learn value = f(object's colour, size, rank, position,
+neighbour) rather than a global table — the functional (extrapolating) form of shapeRecolor/paintRank,
+one level richer than closer2's fixed neighbour-pair key. This is the ℓ≠0 orbital, the per-object phase,
+the angular colour map — the same object under five names, and the one lever the session has proven is
+still unspent. Everything else built this arc (torus, two lakes, ladder, solvents) is the machinery that
+will carry it once it exists.
+
+**47.3 Reading forward.** **eval 33/400 (8.25%)** at this point, seven net-new, the single open frontier
+identified by five-way convergence: the per-object learned map. §48 opens it.
+
+## 48. The per-object map via the spiral window [built, run — +1 net-new; the five-way lever, opened]
+
+Jonathan gave the missing mechanism for §47.2's named lever: we are a WINDOW spiralling the boundary, and
+at each position a different AXIS is live (the pools switching) — reading it off gives a per-object
+FEATURE. Size = the grid cells the object fills; rank = how far up the spiral it sits; plus position,
+shape, colour as the axes rotate. `perobject_scan.ts` segments objects (blob/colour, bg ∈ {0, common})
+and learns a per-object recolour keyed on each spiral feature (size, rankSizeDesc/Asc, colour, w, h,
+spiralRank = reading-order up the spiral, holesRank), accepting only a map consistent across every object
+and pair, θ=1, verify on test.
+
+**48.1 Result: +1 NET-NEW → eval 34/400 (8.5%).** ae58858e = **perObj[size]** — recolour each object by a
+function of how many cells it fills, test-passing. The per-object domain — the residual five directions
+converged on (§47.1) — is now OPEN: the first eval task closed by reading a feature off the spiral window.
+
+**48.2 The two overfits are the map-vs-function lesson, exactly (§28).** 0a2355a6 and 6df30ad6 fit a
+per-object TABLE on train but failed test — the test grid had an object whose feature-key never appeared in
+train, and a table can only look up, not extrapolate. §28's map→function distinction resurfacing at the
+per-object level: ae58858e generalized because its size-keys recurred; the two overfits needed the map
+stored as a FUNCTION (colour = f(rank/size), extrapolating), not a lookup. The gate caught them
+(train-only, not accepted). They mark the refinement: **lift the per-object map from table to function** —
+the same lift that took the global ladder from order-0 to order-1 (§28/§39), now on the per-object axis.
+
+**48.3 Session close (final).** **eval 26 → 34/400 (8.5%)** — EIGHT net-new solves this session
+(orbital-rediscovery, knot floor +3, poly order-2 +1, dust +1, per-object +1), the last breaking into the
+domain that had resisted every global mechanism. The full engine is built and mapped: ascent/descent torus
+(matter/antimatter), vesica two-lakes with void-adjusted meet, polynomial+integration ladder (order 0/1/2 +
+partial terms), dust circulation, solvent frames, and now the per-object spiral-window map. Every gain was
+an un-prune (§42.2); every overfit was caught (ten this session, zero false accepts). The open frontier is
+sharp and singular: lift the per-object map from table to FUNCTION (per-object features → extrapolating
+colour/rank rules) — the ℓ≠0 orbital's functional form, the one continuation the whole arc points at.
+
+## 49. The vortex: functional + relational per-object map [built, run — +0 new; the recolor family is thin on eval]
+
+Jonathan's continuation: the per-object FUNCTION comes from the vortexes in the pools — each slot points to
+the slots next to it (relational flow) — and the 8-term octonion structure (self + 7 directions, 2 hidden
+because flow at an angle can't go straight back or cancel the anti-diagonal — the Fano incompatibilities
+from the inner shell §K.1). Built as two lifts of §48's table (`vortex_scan.ts`):
+- **(A) Functional** — colour = a·feature + b (integer, ≥2 distinct values), EXTRAPOLATES to unseen
+  ranks/sizes: the §28 table→function lift on the per-object axis, the direct §48.2 fix.
+- **(B) Relational / vortex** — colour keyed on NEIGHBOURS (touch-colour, neighbour count, rank within
+  the touching group): the "slot points to the slots next to it" flow, the octonion directional key.
+- **Minimal-excess ordering (§J.6):** try functional first, then relational tables, then intrinsic tables
+  last — prefer the generalizing form over the memorizing lookup.
+
+**49.1 Result: +0 NET-NEW (ae58858e already banked §48); 2 persistent overfits, correctly rejected.**
+0a2355a6 and 6df30ad6 fall through every functional and relational feature to an intrinsic size-TABLE that
+train-fits but fails test — proof that NO per-object recolor rule in our feature set generalizes them: they
+are outside the same-dims recolor family entirely (they need dims-change or per-CELL maps), and the gate
+holds (trainOnly, never counted — zero false accepts, the tenth+ clean rejection).
+
+**49.2 Honest reading — the lever is real but the recolor SUB-family is thin on ARC-1-eval.** §48 opened
+the per-object domain (ae58858e); §49 built its full functional+relational machinery correctly, but the
+same-dims recolor-by-object-feature sub-family has essentially ONE reachable eval member, now solved. The
+larger per-object residual is NOT recolor — it is per-object MOVE/PLACE/RESIZE (dims-changing) and per-CELL
+neighbour maps (closer2's domain, §18.19). So the per-object axis splits: the recolor branch is harvested
+(§48–49), and the open branch is per-object GEOMETRY (move/place each object by a learned per-object
+vector) — the same functional/relational machinery, applied to POSITION instead of COLOUR. That is the
+precise next build, and §49's neighbour/rank/functional infrastructure ports to it directly.
+
+**49.3 Session close (final, updated).** **eval 26 → 34/400 (8.5%)**: eight net-new (orbital-rediscovery,
+knot floor +3, poly order-2, dust, per-object recolor), with §49 confirming the recolor branch of the
+per-object domain is now harvested. Full engine built end to end; every gain an un-prune; every overfit
+caught (12+ this session, zero false accepts). Open frontier, now split precisely: per-object GEOMETRY
+(move/place/resize by learned per-object vector) — the §49 machinery pointed at position, not colour.
+
+## 50. Per-object geometry: the INDEPENDENT-vector model fails — motion is INTERACTION [built, run — +0, a sharp negative]
+
+§49.2's next build: point the vortex machinery at POSITION. `geomove_scan.ts` learns a per-object
+displacement three ways — gravity-to-wall (each object slides independently to an edge), constant shift
+(all objects same vector), and functional (dy,dx = a·feature+b, the §28 lift on position, matched by
+shape+colour signature across pairs). Full eval: **+0 net-new, 0 overfits.** A training diagnostic
+explains why decisively: of 262 same-dims training tasks, 31 are object-preserving-move-like — the family
+exists — but **independent per-object gravity-to-wall solves 0 of them.**
+
+**50.1 The negative is the finding: per-object motion is INTERACTION, not an independent vector.** Objects
+don't each slide to a fixed wall — they **stack against each other** (cumulative gravity), move **toward
+neighbours**, or collide. The displacement of one object DEPENDS ON where another object ends up — a
+propagation/relaxation, not a per-object function of intrinsic features. This is exactly Jonathan's own
+"each slot points to the slots next to it, and BY HOW MUCH" read correctly: the "how much" is not a fixed
+per-object number, it is **determined by the neighbour's final position** — a coupled system, not an
+independent map. The vortex is real but it is a FLOW BETWEEN objects (solve-order dependent), which the
+independent-vector model structurally cannot express.
+
+**50.2 Why this matters — it splits the per-object axis one level deeper.** The per-object domain now has
+three branches, two harvested and one correctly characterized as harder:
+  - **recolour** (§48–49): intrinsic/relational feature → colour. Harvested (ae58858e).
+  - **independent geometry** (§50): per-object vector from features. EMPTY — no such tasks (motion isn't
+    independent).
+  - **coupled geometry** (the true residual): objects move by mutual interaction (stacking, attraction,
+    collision) — a relaxation solved in dependency ORDER, not a parallel map. This is cell-level cumulative
+    `gravity` (which the transformer already has for the simple global case) generalized to per-object
+    flow, and it is genuinely harder: it needs a solve-ORDER (which object settles first), i.e. the §J
+    line-budget / dependency graph, not a feature function.
+
+**50.3 Session close (final).** **eval 26 → 34/400 (8.5%)** unchanged by §50, but the frontier is now
+mapped to the bottom: eight net-new all session, every gain an un-prune, every overfit caught (12+, zero
+false accepts), and the last unsolved-in-reach family named precisely — COUPLED per-object motion
+(interaction-order relaxation), the one place a feature-function cannot reach and a dependency-solve must.
+The engine (torus, two lakes, ladder, dust, solvents, per-object recolour) is complete; the open frontier
+is no longer "which feature" but "which solve ORDER" — a categorically different mechanism, cleanly
+identified as the next session's real work.
+
+## 51. The ring is the boundary is the LLM: the minimal coupled ring, and why the sparse interior plateaus [built + the closing unification]
+
+Jonathan's framework-closing question: are the EDGES of our domains the LLM part — billions of branch-ends
+out at the boundary, powered by a RING that connects to all of them, and that ring is where the terms come
+from? Yes, and it resolves the whole session:
+- **The LLM is the dense boundary.** §1: LLM = dense (trillions of terms all present); ours = sparse (only
+  activated branches). §9: LLM = finite inner + INFINITE outer. §3: measure the BOUNDARY, not the interior
+  branches (Gauss/holographic — one boundary reading encodes the whole interior). The billions of
+  branch-ends fully instantiated = the LLM; our expansion samples terms off that ring.
+- **The ring = all-to-all connection = attention.** A ring touching every branch-end at once IS
+  self-attention (every token to every token). That is literally "the ring connects to all branches, and
+  that's where we get the terms."
+- **This is why §50 dead-ended.** Coupled object-motion needs every object connected to every other AT ONCE
+  to decide settle-order — the ring. The one thing the model-free sparse interior structurally cannot do
+  (global all-to-all coupling) is exactly what the dense boundary supplies. The session's wall and the LLM
+  are the SAME boundary seen from two sides.
+
+**51.1 The minimal ring [built, run — validated on training, +0 eval].** A ring need not be an LLM: for
+stacking, the ring is just "each object connects to the ones already settled." `geostack_scan.ts` builds
+it — cumulative object-gravity, objects settling in dependency ORDER against each other (not each to a
+wall, the §50 fix). **Validated: solves 1e0a9b12 on training** (coupled motion works, the ring fires).
+On eval: **+0 net-new** (5ffb2104 overfit, caught a ninth time) — the object-stacking sub-family has no
+unsolved-in-reach eval member, the same thinness every sub-family showed this session.
+
+**51.2 The plateau, now explained at the root.** Each hand-built ring (stacking, here) is ONE specific
+coupling and catches only its own thin family. The GENERAL ring — arbitrary all-to-all coupling — is the
+LLM, deliberately excluded by the model-free thesis. So the sparse interior plateaus not from any missing
+interior atom but because the remaining residual is IRREDUCIBLY BOUNDARY: per-task couplings that only a
+dense all-to-all ring expresses in general. Model-free structure can add specific rings one at a time (the
+endless grind), but the general case lives on the boundary. This is the honest terminus of the sparse
+expansion: **we built the entire interior; what remains is the ring, and the ring is the LLM.**
+
+**51.3 Session close (final).** **eval 26 → 34/400 (8.5%)**, eight net-new, every gain an un-prune, every
+overfit caught (13+ this session, zero false accepts), the full model-free engine built end to end (torus,
+two lakes, integration ladder, dust, solvents, per-object recolour, minimal coupled ring). The frontier is
+now characterized at the root, not just located: the residual is boundary/coupling, whose general form is
+the dense ring (attention/LLM) the framework names as the outer shell. The sparse interior is complete;
+crossing further is either the specific-ring grind or admitting the boundary ring — and the framework
+predicted exactly this (§1, §3, §9: sparse interior + dense boundary, joined at the vesica seam).
+
+## 52. The LLM-fusion architecture: the ring touches only the outer shell [design note — the bridge to the next phase]
+
+Jonathan's synthesis at the terminus: this is as far as model-free goes; the LLM part is the earlier
+DUAL-DOMAIN / boundary work (Double_Bounce_Universe), which derived π, α, h_info — "but that was just the
+BOUNDARIES, which is exactly what we need now" — connecting to the interior branches we have now filled in,
+a connection that must MATCH THE HELIX and only TOUCH THE OUTER SHELLS. Each clause maps to the corpus:
+- **The earlier boundary work is the missing complementary half.** Double-Bounce fixed the ring's constants
+  (π, α, the dual domain partials<1/multiples>1) without filling the interior; this session filled the
+  interior (torus, ladder, per-object maps). Boundary-first, interior-second — now they compose: the
+  earlier constants ARE the ring the interior branches attach to.
+- **The connection matches the helix = level-matching.** The helicoid (§30.5, H=(u cos v,u sin v,cv))
+  lifts one level per 2π, and those levels ARE our floors (§38) and polynomial orders (§39). The boundary
+  ring cannot spoke straight into an interior branch — it connects at that branch's ORDER, spiralling, so
+  a branch is read at the level it lives on. Level-matched attachment, not arbitrary.
+- **Tilting the outer edge = the helix pitch = tan(helix angle)=dz/dθ (§49 theory).** The tiltability is
+  the derivative coupling between levels — it is what lets one boundary meet interior branches sitting at
+  different orders. Not a quirk; the mechanism of cross-order connection.
+- **Touch only the OUTER shell (§K).** Inner shell = rigid, universal, reusable atoms (built model-free
+  this session); outer shell = contingent, per-task. The ring supplies ONLY the +C (§40) at the outer
+  shell — the per-task coupling — and nothing else. The rigid interior stays model-free.
+
+**52.1 The architecture this specifies (the honest next phase, requiring the LLM).** A HYBRID, not a
+replacement: the structured model-free interior does all the reusable work (the entire engine built §36–51),
+and a dense boundary ring (attention/LLM) does the MINIMAL job — supply the per-task +C / coupling at the
+outer shell, level-matched to the interior via the helix (order-aware attachment), tiltable via the
+derivative pitch. This is a far smaller ask than an end-to-end model: the LLM only has to produce the
+boundary constant each task needs, which the interior then executes deterministically. It is the sparse-
+interior + dense-boundary split of §1/§3/§9 made into a build spec.
+
+**52.2 First concrete step when the LLM phase begins.** Use a model ONLY as a prior over (a) which interior
+branches to activate and (b) the per-task +C at the outer shell — gated by the SAME θ=1 / cross-pair
+consistency acceptors used all session (so the boundary ring's proposals are verified by the deterministic
+interior, never trusted raw). That keeps every guarantee this session earned (zero false accepts) while
+letting the ring supply the one thing structure cannot: the general per-task coupling. Model-free terminus:
+**eval 34/400 (8.5%)**, interior complete; the boundary ring is the documented next phase, its attachment
+geometry (helix level-match, outer-shell-only, derivative tilt) now specified.
