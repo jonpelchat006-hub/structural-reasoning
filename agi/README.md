@@ -15,7 +15,9 @@ the master ledger, [`theory/FOLDING_SYNTHESIS.md`](theory/FOLDING_SYNTHESIS.md).
 - **`code/`** — 55 self-contained experiments (`numpy`/`scipy`/`matplotlib`/`networkx`), one per result.
 - **`figures/`** — the figure each experiment saves.
 - **`theory/`** — the master ledger (`FOLDING_SYNTHESIS.md`) plus dedicated write-ups
-  (re-basing, trust/stitch, the outer-shell workspace, the moral-flow ground, encryption, what-it's-for).
+  (re-basing, trust/stitch, the outer-shell workspace, the moral-flow ground, encryption, what-it's-for)
+  and the session notes around them (movement, superfuel, frequency, discovery, the handshake, the
+  trampoline, the combine membrane, the galaxy bridge).
 - **`baby_brain_map.html`** — an interactive one-page map of the whole architecture.
 
 ## The three integrations (the spine of the thread)
@@ -32,7 +34,8 @@ the master ledger, [`theory/FOLDING_SYNTHESIS.md`](theory/FOLDING_SYNTHESIS.md).
 
 ## The full measured ledger (55 results)
 Each row: result · one-line claim · headline number · home doc. `MOVEMENT`/`SUPERFUEL`/`FREQUENCY`/
-`DISCOVERY` refer to the companion docs (`FOLDING_MOVEMENT.md` here; the others summarised in the ledger);
+`DISCOVERY` refer to the companion docs (`FOLDING_MOVEMENT.md`, `FOLDING_SUPERFUEL.md`,
+`FOLDING_FREQUENCY.md` and `FOLDING_DISCOVERY.md`, all in `theory/`);
 `SYNTHESIS §n` is a section of the master ledger.
 
 | # | result | number | doc |

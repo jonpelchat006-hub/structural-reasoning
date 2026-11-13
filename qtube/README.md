@@ -17,6 +17,7 @@ development on a known public level.
 
 - [`ACTIVE_GAME_AGENT.md`](ACTIVE_GAME_AGENT.md) — Active quaternion agent: first real level
 - [`LITERATURE_GAPS.md`](LITERATURE_GAPS.md) — QTUBE: literature gaps and the next executable experiment
+- [`NESTED_QUATERNION_MODEL.md`](NESTED_QUATERNION_MODEL.md) — The nested quaternion model (the Q-tube): design notes (Oct 31 - Nov 1, 2026)
 - [`REAL_GAME_LOOP.md`](REAL_GAME_LOOP.md) — Observed contact learning in the real ARC engine
 - [`ROUND6_NOTES.md`](ROUND6_NOTES.md) — Quaternion model: round 6, November 1, 2026
 - [`cayley.py`](cayley.py) — cayley.py - Cayley-Dickson doubling (reals -> complex -> quaternions -> octonions -> sedenions) and a check of where

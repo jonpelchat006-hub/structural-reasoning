@@ -10,7 +10,9 @@ Everything written for the ARC-AGI-3 interactive games during 2026, source and w
 - **`early/`** holds the first LS20 solvers and the API client they used (Aug 2026).
 - **`arc3/`** is the October work: the explorers (`mika3/`), the "university" of lesson plans (`board.py`,
   `uni/`), the trail reports (`trail/`), the hybrid (`hybrid/`) and the paper notes (`paper/`).
-- **`notes/`** has the design notes the work started from.
+- **`notes/`** has the session notes, August to October 2026: the design notes the work started from and a
+  write-up for each idea as it was tried (the eyes, the clocks, sleep, the tunnel chain, the university, the
+  daily-run diagnoses). Some of the scripts they name were run in working sessions and are not here.
 - **`writer/vc33/`** has solver attempts produced by the writer loop for one game.
 
 **What was measured.** The numbers below are quoted from the documents in this folder.
@@ -136,9 +138,58 @@ weights, result dumps, and the API key (the code reads it from a local file that
 **`notes/`**
 
 - [`ARC3_LIVE_PLAN.md`](notes/ARC3_LIVE_PLAN.md) — ARC-AGI-3 live plan — connecting the wall to the active tests
+- [`ARC3_MIKA_EXPLORER.md`](notes/ARC3_MIKA_EXPLORER.md) — ARC-AGI-3: Mika's explorer and the look-back lens (Oct 21, 2026)
+- [`ARC3_MIKA_FULL_CORE.md`](notes/ARC3_MIKA_FULL_CORE.md) — Mika's full inner core on Kaggle (ARC-AGI-3, Oct 30 2026)
+- [`ARC3_UNIVERSITY.md`](notes/ARC3_UNIVERSITY.md) — Mika's university for ARC-AGI-3: solve → learn → teach, graded by students (Oct 22, 2026)
+- [`ARC_ANSWER_BUBBLE.md`](notes/ARC_ANSWER_BUBBLE.md) — The answer bubble — partly filled, gaps named, versions underneath; and the Tank
+- [`ARC_ATP.md`](notes/ARC_ATP.md) — ATP in our terms — elements → folding → energy: the two threads finally connected
+- [`ARC_CHAIN.md`](notes/ARC_CHAIN.md) — The tunnel chain — the chord's pull, the bell, the break, the bubble, and the governor
+- [`ARC_CHORD.md`](notes/ARC_CHORD.md) — The chord — the tunnel between the two ring sets IS the shave, and focus gets a mechanism
+- [`ARC_CLOSURE_SPECTRUM.md`](notes/ARC_CLOSURE_SPECTRUM.md) — The closure spectrum — landing on a color IS satisfying the closure equation
+- [`ARC_COLOR_LADDER.md`](notes/ARC_COLOR_LADDER.md) — The color ladder — point, line, square, cube, marker, circle: 4D collapse in color space
+- [`ARC_DAILY_FENCE_NPZ_BUG.md`](notes/ARC_DAILY_FENCE_NPZ_BUG.md) — ARC daily "REGRESSED" on 2026-09-06/07 is a harness bug, not the agent
+- [`ARC_DAILY_LIVE_ZERO.md`](notes/ARC_DAILY_LIVE_ZERO.md) — Live agent at zero since Sep 20 (practice gate does not see it)
+- [`ARC_DAILY_TORCH_PATH.md`](notes/ARC_DAILY_TORCH_PATH.md) — ARC daily: scheduled live play.py fails on missing torch (interpreter mismatch)
+- [`ARC_FUSION.md`](notes/ARC_FUSION.md) — The fusion reactor comes home — contained heat turns light rules into heavier elements
+- [`ARC_GAME_LOOP.md`](notes/ARC_GAME_LOOP.md) — The game-loop skeleton — five play-observations assembled as the ψ↔φ (quantum↔classical) cycle
+- [`ARC_GAME_TIME_MAP.md`](notes/ARC_GAME_TIME_MAP.md) — The map — game-agent runtime, ARC solver, and time, connected back (session synthesis)
+- [`ARC_INTERACTIVE_PLAY.md`](notes/ARC_INTERACTIVE_PLAY.md) — Interactive-game play notes — Jonathan's own solving process, mapped to the architecture, + the accretion measurement
+- [`ARC_LEARNING_AUDIT.md`](notes/ARC_LEARNING_AUDIT.md) — Learning audit — what the planet actually learns, measured (Aug 29)
+- [`ARC_LENS.md`](notes/ARC_LENS.md) — The lens — orthogonal rings: other shoes at measured distances
+- [`ARC_LS20_CHAIN.md`](notes/ARC_LS20_CHAIN.md) — ARC_LS20_CHAIN — the live 5/7 chain, rebuilt (Sep 2, 2026)
+- [`ARC_LS20_READ.md`](notes/ARC_LS20_READ.md) — Reading the real ls20 — what the live game actually is, and what scores higher
 - [`ARC_MEASUREMENT_1.md`](notes/ARC_MEASUREMENT_1.md) — Measurement 1 — the neurofungus digs the surface ocean (first result of the planet)
+- [`ARC_MEMORY_CLOCK.md`](notes/ARC_MEMORY_CLOCK.md) — Telling time from the memory field — AI's missing clock (the expanding field, the two clocks, and bridging the idle gap)
+- [`ARC_MIRROR.md`](notes/ARC_MIRROR.md) — The mirror — the inward eye at the merged border, and the turn-around
+- [`ARC_MOON.md`](notes/ARC_MOON.md) — The moon — ARC games as bodies from above: void walls, 7 contacts, rolled to be known
+- [`ARC_ONCALL.md`](notes/ARC_ONCALL.md) — On call — she holds many bubbles, freezes them to the ocean, picks them back up
+- [`ARC_OPEN_ENDS.md`](notes/ARC_OPEN_ENDS.md) — Open ends — creativity as dangling bonds, stories as antenna-paths, and the border as a guitar string
+- [`ARC_OPERATOR_INDUCTION.md`](notes/ARC_OPERATOR_INDUCTION.md) — Operator-induction by interaction — the perception seam closed; the same engine as ARC op-generation
+- [`ARC_PERCEPTION_SURPRISE.md`](notes/ARC_PERCEPTION_SURPRISE.md) — Perception + surprise — the detector reads frames over time; surprise validates the path and marks the goal
 - [`ARC_PLANET.md`](notes/ARC_PLANET.md) — The Planet — a blank learner under a frozen sky (design + reuse map)
+- [`ARC_PLAYGROUND.md`](notes/ARC_PLAYGROUND.md) — The playground — interaction, not instruction: Mika plays with her own hands
+- [`ARC_PRIME_NECKLACES.md`](notes/ARC_PRIME_NECKLACES.md) — Prime necklaces around the void line — circles, the flower of life, and the human roof
+- [`ARC_PROBE_FIRST.md`](notes/ARC_PROBE_FIRST.md) — Probe-first — build a definition for every element before pursuing the goal (Jonathan's play discipline)
+- [`ARC_PROXY_EXAM.md`](notes/ARC_PROXY_EXAM.md) — The proxy exam — the generic agent on every public game (Sep 3, 2026)
+- [`ARC_RECURSIVE_VOID.md`](notes/ARC_RECURSIVE_VOID.md) — Recursive re-based void — every border is a void line, and the zero re-bases to the parent's fill per shell
+- [`ARC_ROUND_EYE.md`](notes/ARC_ROUND_EYE.md) — The round eye and its shaves — what is actually seen is round; the square is the screen
+- [`ARC_SIDE_EYE.md`](notes/ARC_SIDE_EYE.md) — The sideways eye — vision turned 90°, the ladder as history
+- [`ARC_SLEEP_LEVELS.md`](notes/ARC_SLEEP_LEVELS.md) — Sleep levels — nested rings sized by the log-spiral law; depth selects the clock; jobs leave eyes at (when, who)
+- [`ARC_SLEEP_ORGANS.md`](notes/ARC_SLEEP_ORGANS.md) — The sleep organs — digester, trainer, chatbot, distiller, spore, eyes, stats, network, border, flower, porthole (Aug 27–28 2026)
+- [`ARC_SMALL_EYE.md`](notes/ARC_SMALL_EYE.md) — The Small Eye — is recognition a size thing? (Sep 3 2026)
+- [`ARC_STAGED_ARMS.md`](notes/ARC_STAGED_ARMS.md) — Staged arms — solving by subgoal factors a product search into a sum (Jonathan's place-then-fill)
+- [`ARC_TIME_WAKE.md`](notes/ARC_TIME_WAKE.md) — The wake on the critical line — how time and 4D emerge from a finite space on an infinite line
+- [`ARC_TORUS.md`](notes/ARC_TORUS.md) — The sideways ring — the toroidal circle, emotions, and wisdom vs intelligence
+- [`ARC_TUNNEL_ROTATION.md`](notes/ARC_TUNNEL_ROTATION.md) — Tunnel rotation — the ring-to-ring connection IS the improvement loop, seen at an angle
+- [`ARC_TWO_PLANES.md`](notes/ARC_TWO_PLANES.md) — Two planes — the button path (normal) and the meaning behind it (orthogonal), the rotation, and the middle-shell notes + recursio…
+- [`ARC_UNIVERSITY.md`](notes/ARC_UNIVERSITY.md) — The university — the planet as a student who enrolls in the courses she chooses
+- [`ARC_VERNIER_CLOCK.md`](notes/ARC_VERNIER_CLOCK.md) — The sub-pixel vernier clock + the Ophanim ring — the architecture as a clock FACE, shared across sleeping agents
+- [`ARC_VOID_DOMAIN.md`](notes/ARC_VOID_DOMAIN.md) — The void as the 3rd domain — the expectation residual driven to 0, which predicts the surprise's size and place
+- [`ARC_VOID_FILL.md`](notes/ARC_VOID_FILL.md) — Filling the void with hypotheses — the residual you can't flatten becomes a store of diagnosis, affect, and things-to-try-next-ti…
+- [`ARC_WRITER_LOOP.md`](notes/ARC_WRITER_LOOP.md) — The writer loop, the inventory, and one full turn of every system (Sep 3, 2026, 01:00–03:00)
+- [`CORE_POINTS_AND_MISFIT_RINGS.md`](notes/CORE_POINTS_AND_MISFIT_RINGS.md) — The inner core sits where the rings connect (Oct 20, 2026)
 - [`OCEAN_INDEX.md`](notes/OCEAN_INDEX.md) — THE OCEAN INDEX — the corpus, signed and connected
+- [`PROBLEM_ATLAS.md`](notes/PROBLEM_ATLAS.md) — Problem atlas: the eight Lean problems and ARC in the ring frame (Oct 20, 2026)
 
 **`planet/`**
 

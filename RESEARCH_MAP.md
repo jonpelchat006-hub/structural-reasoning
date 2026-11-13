@@ -42,28 +42,92 @@ each folder below has its own README with a file-by-file index.
   detector's benchmark photos.
 - **Third-party material:** the ARC task files, and the language-model harness the ARC-AGI-3 hybrid builds on.
 - **Private material:** API keys, contact details and the detector's web app.
-- **Some of the session write-ups.** The catalogue below lists every write-up and says which ones have been
-  copied into this repository so far.
+- **Admin and product notes:** the funding list, the competition entry forms and drafts, the product spec
+  and the notes on the detector's web site. They are not research write-ups and are not listed below.
 
 ## Catalogue of write-ups
 
-One line per write-up, newest first within each group. A path means the text is in this repository. "Not
-copied yet" means it was written during the work and has not been brought over.
+One line per write-up, newest first within each group, with its place in this repository.
+
+The 112 write-ups marked † existed only as session notes until November 2026, when they were copied into
+this repository by hand. They were retyped, not exported, so a slip in a number or a name is possible. One
+private link was removed from one of them, which says so at that spot.
+
+Session notes name the scripts that produced their numbers. Many of those scripts are in this repository,
+in the same thread's folder. Others are not: most of them were run in working sessions and were not in the
+folders this repository was assembled from, and a few belong to older work that was left out. For those
+runs the note is the only record.
 
 ### ARC-AGI (ARC_*, ARC3_*)
 
+- ARC3_MIKA_FULL_CORE (2026-10-30): [`arc-agi-3/notes/ARC3_MIKA_FULL_CORE.md`](arc-agi-3/notes/ARC3_MIKA_FULL_CORE.md) †
 - ARC3_FAILURE_MAP (2026-10-30): [`arc-agi-3/arc3/hybrid/ARC3_FAILURE_MAP.md`](arc-agi-3/arc3/hybrid/ARC3_FAILURE_MAP.md)
 - ARC3_CORE_CARD (2026-10-23): [`arc-agi-3/arc3/paper/ARC3_CORE_CARD.md`](arc-agi-3/arc3/paper/ARC3_CORE_CARD.md)
 - ARC3_HYBRID (2026-10-23): [`arc-agi-3/arc3/hybrid/ARC3_HYBRID.md`](arc-agi-3/arc3/hybrid/ARC3_HYBRID.md)
+- ARC3_UNIVERSITY (2026-10-22): [`arc-agi-3/notes/ARC3_UNIVERSITY.md`](arc-agi-3/notes/ARC3_UNIVERSITY.md) †
+- ARC3_MIKA_EXPLORER (2026-10-21): [`arc-agi-3/notes/ARC3_MIKA_EXPLORER.md`](arc-agi-3/notes/ARC3_MIKA_EXPLORER.md) †
+- ARC_SLOT_FILLER (2026-10-21): [`arc-agi-1/notes/ARC_SLOT_FILLER.md`](arc-agi-1/notes/ARC_SLOT_FILLER.md) †
+- PROBLEM_ATLAS (2026-10-21): [`arc-agi-3/notes/PROBLEM_ATLAS.md`](arc-agi-3/notes/PROBLEM_ATLAS.md) †
+- CORE_POINTS_AND_MISFIT_RINGS (2026-10-20): [`arc-agi-3/notes/CORE_POINTS_AND_MISFIT_RINGS.md`](arc-agi-3/notes/CORE_POINTS_AND_MISFIT_RINGS.md) †
+- ARC_DAILY_TORCH_PATH (2026-09-28): [`arc-agi-3/notes/ARC_DAILY_TORCH_PATH.md`](arc-agi-3/notes/ARC_DAILY_TORCH_PATH.md) †
+- ARC_DAILY_LIVE_ZERO (2026-09-21): [`arc-agi-3/notes/ARC_DAILY_LIVE_ZERO.md`](arc-agi-3/notes/ARC_DAILY_LIVE_ZERO.md) †
+- ARC_DAILY_FENCE_NPZ_BUG (2026-09-07): [`arc-agi-3/notes/ARC_DAILY_FENCE_NPZ_BUG.md`](arc-agi-3/notes/ARC_DAILY_FENCE_NPZ_BUG.md) †
+- ARC_SMALL_EYE (2026-09-03): [`arc-agi-3/notes/ARC_SMALL_EYE.md`](arc-agi-3/notes/ARC_SMALL_EYE.md) †
+- ARC_WRITER_LOOP (2026-09-03): [`arc-agi-3/notes/ARC_WRITER_LOOP.md`](arc-agi-3/notes/ARC_WRITER_LOOP.md) †
+- ARC_PROXY_EXAM (2026-09-03): [`arc-agi-3/notes/ARC_PROXY_EXAM.md`](arc-agi-3/notes/ARC_PROXY_EXAM.md) †
+- ARC_ANSWER_BUBBLE (2026-09-03): [`arc-agi-3/notes/ARC_ANSWER_BUBBLE.md`](arc-agi-3/notes/ARC_ANSWER_BUBBLE.md) †
+- ARC_ONCALL (2026-09-03): [`arc-agi-3/notes/ARC_ONCALL.md`](arc-agi-3/notes/ARC_ONCALL.md) †
+- ARC_CHAIN (2026-09-03): [`arc-agi-3/notes/ARC_CHAIN.md`](arc-agi-3/notes/ARC_CHAIN.md) †
+- ARC_CHORD (2026-09-02): [`arc-agi-3/notes/ARC_CHORD.md`](arc-agi-3/notes/ARC_CHORD.md) †
+- ARC_SIDE_EYE (2026-09-02): [`arc-agi-3/notes/ARC_SIDE_EYE.md`](arc-agi-3/notes/ARC_SIDE_EYE.md) †
+- ARC_TORUS (2026-09-02): [`arc-agi-3/notes/ARC_TORUS.md`](arc-agi-3/notes/ARC_TORUS.md) †
+- ARC_LS20_CHAIN (2026-09-02): [`arc-agi-3/notes/ARC_LS20_CHAIN.md`](arc-agi-3/notes/ARC_LS20_CHAIN.md) †
+- ARC_LS20_READ (2026-09-02): [`arc-agi-3/notes/ARC_LS20_READ.md`](arc-agi-3/notes/ARC_LS20_READ.md) †
+- ARC_UNIVERSITY (2026-09-02): [`arc-agi-3/notes/ARC_UNIVERSITY.md`](arc-agi-3/notes/ARC_UNIVERSITY.md) †
+- ARC_CLOSURE_SPECTRUM (2026-09-02): [`arc-agi-3/notes/ARC_CLOSURE_SPECTRUM.md`](arc-agi-3/notes/ARC_CLOSURE_SPECTRUM.md) †
+- ARC_COLOR_LADDER (2026-09-02): [`arc-agi-3/notes/ARC_COLOR_LADDER.md`](arc-agi-3/notes/ARC_COLOR_LADDER.md) †
+- ARC_LENS (2026-09-01): [`arc-agi-3/notes/ARC_LENS.md`](arc-agi-3/notes/ARC_LENS.md) †
+- ARC_FUSION (2026-09-01): [`arc-agi-3/notes/ARC_FUSION.md`](arc-agi-3/notes/ARC_FUSION.md) †
+- ARC_MIRROR (2026-09-01): [`arc-agi-3/notes/ARC_MIRROR.md`](arc-agi-3/notes/ARC_MIRROR.md) †
+- ARC_PLAYGROUND (2026-09-01): [`arc-agi-3/notes/ARC_PLAYGROUND.md`](arc-agi-3/notes/ARC_PLAYGROUND.md) †
+- ARC_ATP (2026-09-01): [`arc-agi-3/notes/ARC_ATP.md`](arc-agi-3/notes/ARC_ATP.md) †
+- ARC_MOON (2026-08-31): [`arc-agi-3/notes/ARC_MOON.md`](arc-agi-3/notes/ARC_MOON.md) †
+- ARC_TUNNEL_ROTATION (2026-08-31): [`arc-agi-3/notes/ARC_TUNNEL_ROTATION.md`](arc-agi-3/notes/ARC_TUNNEL_ROTATION.md) †
+- ARC_TIME_WAKE (2026-08-31): [`arc-agi-3/notes/ARC_TIME_WAKE.md`](arc-agi-3/notes/ARC_TIME_WAKE.md) †
+- ARC_ROUND_EYE (2026-08-31): [`arc-agi-3/notes/ARC_ROUND_EYE.md`](arc-agi-3/notes/ARC_ROUND_EYE.md) †
+- ARC_LEARNING_AUDIT (2026-08-29): [`arc-agi-3/notes/ARC_LEARNING_AUDIT.md`](arc-agi-3/notes/ARC_LEARNING_AUDIT.md) †
+- ARC_OPEN_ENDS (2026-08-29): [`arc-agi-3/notes/ARC_OPEN_ENDS.md`](arc-agi-3/notes/ARC_OPEN_ENDS.md) †
+- ARC_SLEEP_ORGANS (2026-08-29): [`arc-agi-3/notes/ARC_SLEEP_ORGANS.md`](arc-agi-3/notes/ARC_SLEEP_ORGANS.md) †
+- ARC_PRIME_NECKLACES (2026-08-28): [`arc-agi-3/notes/ARC_PRIME_NECKLACES.md`](arc-agi-3/notes/ARC_PRIME_NECKLACES.md) †
 - ARC_MEASUREMENT_1 (2026-08-26): [`arc-agi-3/notes/ARC_MEASUREMENT_1.md`](arc-agi-3/notes/ARC_MEASUREMENT_1.md)
 - ARC_PLANET (2026-08-26): [`arc-agi-3/notes/ARC_PLANET.md`](arc-agi-3/notes/ARC_PLANET.md)
 - OCEAN_INDEX (2026-08-25): [`arc-agi-3/notes/OCEAN_INDEX.md`](arc-agi-3/notes/OCEAN_INDEX.md)
 - ARC3_LIVE_PLAN (2026-08-25): [`arc-agi-3/notes/ARC3_LIVE_PLAN.md`](arc-agi-3/notes/ARC3_LIVE_PLAN.md)
-
-Not copied yet: ARC3_MIKA_FULL_CORE (10-30), ARC3_UNIVERSITY (10-22), ARC3_MIKA_EXPLORER (10-21), ARC_SLOT_FILLER (10-21), PROBLEM_ATLAS (10-21), CORE_POINTS_AND_MISFIT_RINGS (10-20), ARC_DAILY_TORCH_PATH (09-28), ARC_DAILY_LIVE_ZERO (09-21), ARC_DAILY_FENCE_NPZ_BUG (09-07), ARC_SMALL_EYE (09-03), ARC_WRITER_LOOP (09-03), ARC_PROXY_EXAM (09-03), ARC_ANSWER_BUBBLE (09-03), ARC_ONCALL (09-03), ARC_CHAIN (09-03), ARC_CHORD (09-02), ARC_SIDE_EYE (09-02), ARC_TORUS (09-02), ARC_LS20_CHAIN (09-02), ARC_LS20_READ (09-02), ARC_UNIVERSITY (09-02), ARC_CLOSURE_SPECTRUM (09-02), ARC_COLOR_LADDER (09-02), ARC_LENS (09-01), ARC_FUSION (09-01), ARC_MIRROR (09-01), ARC_PLAYGROUND (09-01), ARC_ATP (09-01), ARC_MOON (08-31), ARC_TUNNEL_ROTATION (08-31), ARC_TIME_WAKE (08-31), ARC_ROUND_EYE (08-31), ARC_LEARNING_AUDIT (08-29), ARC_OPEN_ENDS (08-29), ARC_SLEEP_ORGANS (08-29), ARC_PRIME_NECKLACES (08-28), ARC_GAME_TIME_MAP (08-20), ARC_SLEEP_LEVELS (08-19), ARC_VERNIER_CLOCK (08-19), ARC_VOID_DOMAIN (08-19), ARC_MEMORY_CLOCK (08-19), ARC_PAINT_VOID (08-19), ARC_TWO_PLANES (08-19), ARC_OPGEN (08-19), ARC_HYPOTHESIS_TEST (08-19), ARC_VOID_FILL (08-19), ARC_OPERATOR_INDUCTION (08-19), ARC_RECURSIVE_VOID (08-18), ARC_PERCEPTION_SURPRISE (08-18), ARC_GAME_LOOP (08-18), ARC_PROBE_FIRST (08-18), ARC_STAGED_ARMS (08-18), ARC_INTERACTIVE_PLAY (08-18), ARC_DRONES (08-18), ARC_SOLVER_V1 (08-18), ARC_RATCHET (08-18), ARC_GAP_ANALYSIS (08-18).
+- ARC_GAME_TIME_MAP (2026-08-20): [`arc-agi-3/notes/ARC_GAME_TIME_MAP.md`](arc-agi-3/notes/ARC_GAME_TIME_MAP.md) †
+- ARC_SLEEP_LEVELS (2026-08-19): [`arc-agi-3/notes/ARC_SLEEP_LEVELS.md`](arc-agi-3/notes/ARC_SLEEP_LEVELS.md) †
+- ARC_VERNIER_CLOCK (2026-08-19): [`arc-agi-3/notes/ARC_VERNIER_CLOCK.md`](arc-agi-3/notes/ARC_VERNIER_CLOCK.md) †
+- ARC_VOID_DOMAIN (2026-08-19): [`arc-agi-3/notes/ARC_VOID_DOMAIN.md`](arc-agi-3/notes/ARC_VOID_DOMAIN.md) †
+- ARC_MEMORY_CLOCK (2026-08-19): [`arc-agi-3/notes/ARC_MEMORY_CLOCK.md`](arc-agi-3/notes/ARC_MEMORY_CLOCK.md) †
+- ARC_PAINT_VOID (2026-08-19): [`arc-agi-1/notes/ARC_PAINT_VOID.md`](arc-agi-1/notes/ARC_PAINT_VOID.md) †
+- ARC_TWO_PLANES (2026-08-19): [`arc-agi-3/notes/ARC_TWO_PLANES.md`](arc-agi-3/notes/ARC_TWO_PLANES.md) †
+- ARC_OPGEN (2026-08-19): [`arc-agi-1/notes/ARC_OPGEN.md`](arc-agi-1/notes/ARC_OPGEN.md) †
+- ARC_HYPOTHESIS_TEST (2026-08-19): [`arc-agi-1/notes/ARC_HYPOTHESIS_TEST.md`](arc-agi-1/notes/ARC_HYPOTHESIS_TEST.md) †
+- ARC_VOID_FILL (2026-08-19): [`arc-agi-3/notes/ARC_VOID_FILL.md`](arc-agi-3/notes/ARC_VOID_FILL.md) †
+- ARC_OPERATOR_INDUCTION (2026-08-19): [`arc-agi-3/notes/ARC_OPERATOR_INDUCTION.md`](arc-agi-3/notes/ARC_OPERATOR_INDUCTION.md) †
+- ARC_RECURSIVE_VOID (2026-08-18): [`arc-agi-3/notes/ARC_RECURSIVE_VOID.md`](arc-agi-3/notes/ARC_RECURSIVE_VOID.md) †
+- ARC_PERCEPTION_SURPRISE (2026-08-18): [`arc-agi-3/notes/ARC_PERCEPTION_SURPRISE.md`](arc-agi-3/notes/ARC_PERCEPTION_SURPRISE.md) †
+- ARC_GAME_LOOP (2026-08-18): [`arc-agi-3/notes/ARC_GAME_LOOP.md`](arc-agi-3/notes/ARC_GAME_LOOP.md) †
+- ARC_PROBE_FIRST (2026-08-18): [`arc-agi-3/notes/ARC_PROBE_FIRST.md`](arc-agi-3/notes/ARC_PROBE_FIRST.md) †
+- ARC_STAGED_ARMS (2026-08-18): [`arc-agi-3/notes/ARC_STAGED_ARMS.md`](arc-agi-3/notes/ARC_STAGED_ARMS.md) †
+- ARC_INTERACTIVE_PLAY (2026-08-18): [`arc-agi-3/notes/ARC_INTERACTIVE_PLAY.md`](arc-agi-3/notes/ARC_INTERACTIVE_PLAY.md) †
+- ARC_DRONES (2026-08-18): [`arc-agi-1/notes/ARC_DRONES.md`](arc-agi-1/notes/ARC_DRONES.md) †
+- ARC_SOLVER_V1 (2026-08-18): [`arc-agi-1/notes/ARC_SOLVER_V1.md`](arc-agi-1/notes/ARC_SOLVER_V1.md) †
+- ARC_RATCHET (2026-08-18): [`arc-agi-1/notes/ARC_RATCHET.md`](arc-agi-1/notes/ARC_RATCHET.md) †
+- ARC_GAP_ANALYSIS (2026-08-18): [`arc-agi-1/notes/ARC_GAP_ANALYSIS.md`](arc-agi-1/notes/ARC_GAP_ANALYSIS.md) †
 
 ### Alignment
 
+- ARC_ALIGNMENT_REFUSAL (2026-09-27): [`alignment/ARC_ALIGNMENT_REFUSAL.md`](alignment/ARC_ALIGNMENT_REFUSAL.md) †
 - ARC_ALIGNMENT_TESTS (2026-09-26): [`alignment/ARC_ALIGNMENT_TESTS.md`](alignment/ARC_ALIGNMENT_TESTS.md)
 - ARC_ALIGNMENT_PHASES (2026-09-22): [`alignment/ARC_ALIGNMENT_PHASES.md`](alignment/ARC_ALIGNMENT_PHASES.md)
 - ARC_ALIGNMENT_REVIEW_SEP22 (2026-09-22): [`alignment/ARC_ALIGNMENT_REVIEW_SEP22.md`](alignment/ARC_ALIGNMENT_REVIEW_SEP22.md)
@@ -71,12 +135,17 @@ Not copied yet: ARC3_MIKA_FULL_CORE (10-30), ARC3_UNIVERSITY (10-22), ARC3_MIKA_
 - ARC_ALIGNMENT_GRID (2026-09-19): [`alignment/ARC_ALIGNMENT_GRID.md`](alignment/ARC_ALIGNMENT_GRID.md)
 - ARC_ALIGNMENT (2026-09-19): [`alignment/ARC_ALIGNMENT.md`](alignment/ARC_ALIGNMENT.md)
 
-Not copied yet: ARC_ALIGNMENT_REFUSAL (09-27).
-
 ### Mika, the library and the Q-tube
 
-
-Not copied yet: NESTED_QUATERNION_MODEL (11-01), MIKA_CORE (10-27), MIKA_THINK (10-27), MIKA_PARTS_INVENTORY (10-27), MIKA_TREE (10-16), MARKET_CUBE (10-14), LIVING_LIBRARY (10-13), OLD_IDEAS_MAP (10-13), MIKA_AGENT (10-13).
+- NESTED_QUATERNION_MODEL (2026-11-01): [`qtube/NESTED_QUATERNION_MODEL.md`](qtube/NESTED_QUATERNION_MODEL.md) †
+- MIKA_CORE (2026-10-27): [`mika/notes/MIKA_CORE.md`](mika/notes/MIKA_CORE.md) †
+- MIKA_THINK (2026-10-27): [`mika/notes/MIKA_THINK.md`](mika/notes/MIKA_THINK.md) †
+- MIKA_PARTS_INVENTORY (2026-10-27): [`mika/notes/MIKA_PARTS_INVENTORY.md`](mika/notes/MIKA_PARTS_INVENTORY.md) †
+- MIKA_TREE (2026-10-16): [`mika/notes/MIKA_TREE.md`](mika/notes/MIKA_TREE.md) †
+- MARKET_CUBE (2026-10-14): [`mika/notes/MARKET_CUBE.md`](mika/notes/MARKET_CUBE.md) †
+- LIVING_LIBRARY (2026-10-13): [`mika/notes/LIVING_LIBRARY.md`](mika/notes/LIVING_LIBRARY.md) †
+- OLD_IDEAS_MAP (2026-10-13): [`mika/notes/OLD_IDEAS_MAP.md`](mika/notes/OLD_IDEAS_MAP.md) †
+- MIKA_AGENT (2026-10-13): [`mika/notes/MIKA_AGENT.md`](mika/notes/MIKA_AGENT.md) †
 
 ### Navier–Stokes theta
 
@@ -86,10 +155,17 @@ Not copied yet: NESTED_QUATERNION_MODEL (11-01), MIKA_CORE (10-27), MIKA_THINK (
 
 ### Lean and P vs NP
 
+- LEAN_REVIEW_NOV12 (2026-11-12): [`lean/notes/LEAN_REVIEW_NOV12.md`](lean/notes/LEAN_REVIEW_NOV12.md) †
+- PVSNP_FLOOR_FLOW (2026-10-29): the floor-flow write-up in pvsnp-lean, [`experiments/floor_flow/README.md`](https://github.com/jonpelchat006-hub/pvsnp-lean/blob/main/experiments/floor_flow/README.md), which is the later and longer version
 - LEAN_PVSNP (2026-10-28): the README of [pvsnp-lean](https://github.com/jonpelchat006-hub/pvsnp-lean)
+- LEAN_PERMANENT_V8T (2026-10-27): [`lean/notes/LEAN_PERMANENT_V8T.md`](lean/notes/LEAN_PERMANENT_V8T.md) †
+- LEAN_PARTITION_V6 (2026-10-26): [`lean/notes/LEAN_PARTITION_V6.md`](lean/notes/LEAN_PARTITION_V6.md) †
+- LEAN_PERMANENT_V8 (2026-10-25): [`lean/notes/LEAN_PERMANENT_V8.md`](lean/notes/LEAN_PERMANENT_V8.md) †
+- LEAN_POLYDISC_V9 (2026-10-21): [`lean/notes/LEAN_POLYDISC_V9.md`](lean/notes/LEAN_POLYDISC_V9.md) †
+- LEAN_POLYDISC_PACKED (2026-10-19): [`lean/notes/LEAN_POLYDISC_PACKED.md`](lean/notes/LEAN_POLYDISC_PACKED.md) †
+- LEAN_FIB_PLANNER (2026-10-18): [`lean/notes/LEAN_FIB_PLANNER.md`](lean/notes/LEAN_FIB_PLANNER.md) †
+- LEAN_KERNEL_CHALLENGE_V4 (2026-10-04): [`lean/notes/LEAN_KERNEL_CHALLENGE_V4.md`](lean/notes/LEAN_KERNEL_CHALLENGE_V4.md) †
 - LEAN_KERNEL_CHALLENGE (2026-10-01): [`lean/kernel-challenge/LEAN_KERNEL_CHALLENGE.md`](lean/kernel-challenge/LEAN_KERNEL_CHALLENGE.md)
-
-Not copied yet: LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PERMANENT_V8T (10-27), LEAN_PARTITION_V6 (10-26), LEAN_PERMANENT_V8 (10-25), LEAN_POLYDISC_V9 (10-21), LEAN_POLYDISC_PACKED (10-19), LEAN_FIB_PLANNER (10-18), LEAN_KERNEL_CHALLENGE_V4 (10-04).
 
 ### Folding, cognitive architecture, detector and critical line (FOLDING_*)
 
@@ -102,8 +178,42 @@ Not copied yet: LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PERMAN
 - FOLDING_WHAT_ITS_FOR (2026-08-16): [`agi/theory/FOLDING_WHAT_ITS_FOR.md`](agi/theory/FOLDING_WHAT_ITS_FOR.md)
 - FOLDING_MORAL_FLOW (2026-08-15): [`agi/theory/FOLDING_MORAL_FLOW.md`](agi/theory/FOLDING_MORAL_FLOW.md)
 - FOLDING_ENCRYPTION (2026-08-15): [`agi/theory/FOLDING_ENCRYPTION.md`](agi/theory/FOLDING_ENCRYPTION.md)
+- FOLDING_DISCOVERY (2026-08-14): [`agi/theory/FOLDING_DISCOVERY.md`](agi/theory/FOLDING_DISCOVERY.md) †
+- FOLDING_FREQUENCY (2026-08-14): [`agi/theory/FOLDING_FREQUENCY.md`](agi/theory/FOLDING_FREQUENCY.md) †
+- FOLDING_SUPERFUEL (2026-08-14): [`agi/theory/FOLDING_SUPERFUEL.md`](agi/theory/FOLDING_SUPERFUEL.md) †
 - FOLDING_MOVEMENT (2026-08-13): [`agi/theory/FOLDING_MOVEMENT.md`](agi/theory/FOLDING_MOVEMENT.md)
+- FOLDING_GALAXY_BRIDGE (2026-08-12): [`agi/theory/FOLDING_GALAXY_BRIDGE.md`](agi/theory/FOLDING_GALAXY_BRIDGE.md) †
+- FOLDING_HANDSHAKE (2026-08-11): [`agi/theory/FOLDING_HANDSHAKE.md`](agi/theory/FOLDING_HANDSHAKE.md) †
+- FOLDING_TRAMPOLINE (2026-08-10): [`agi/theory/FOLDING_TRAMPOLINE.md`](agi/theory/FOLDING_TRAMPOLINE.md) †
+- FOLDING_COMBINE_MEMBRANE (2026-08-01): [`agi/theory/FOLDING_COMBINE_MEMBRANE.md`](agi/theory/FOLDING_COMBINE_MEMBRANE.md) †
+- FOLDING_DIVERGENCE_WEIGHT (2026-07-31): [`detector/theory/FOLDING_DIVERGENCE_WEIGHT.md`](detector/theory/FOLDING_DIVERGENCE_WEIGHT.md) †
+- FOLDING_FROZEN_VIDEO_FLOW (2026-07-29): [`detector/theory/FOLDING_FROZEN_VIDEO_FLOW.md`](detector/theory/FOLDING_FROZEN_VIDEO_FLOW.md) †
+- FOLDING_VOID_COLLAPSE (2026-07-29): [`detector/theory/FOLDING_VOID_COLLAPSE.md`](detector/theory/FOLDING_VOID_COLLAPSE.md) †
+- FOLDING_THE_TRACE_IS_THE_REPORT (2026-07-28): [`detector/theory/FOLDING_THE_TRACE_IS_THE_REPORT.md`](detector/theory/FOLDING_THE_TRACE_IS_THE_REPORT.md) †
+- FOLDING_PARTIAL_ATTACHMENT (2026-07-28): [`detector/theory/FOLDING_PARTIAL_ATTACHMENT.md`](detector/theory/FOLDING_PARTIAL_ATTACHMENT.md) †
+- FOLDING_WINDOW_COVERAGE (2026-07-28): [`detector/theory/FOLDING_WINDOW_COVERAGE.md`](detector/theory/FOLDING_WINDOW_COVERAGE.md) †
+- FOLDING_ARMS_AND_BRACING (2026-07-28): [`detector/theory/FOLDING_ARMS_AND_BRACING.md`](detector/theory/FOLDING_ARMS_AND_BRACING.md) †
+- FOLDING_EVIDENCE_NOT_VERDICTS (2026-07-28): [`detector/theory/FOLDING_EVIDENCE_NOT_VERDICTS.md`](detector/theory/FOLDING_EVIDENCE_NOT_VERDICTS.md) †
+- FOLDING_CAMERA5_HUMAN_ARM (2026-07-28): [`detector/theory/FOLDING_CAMERA5_HUMAN_ARM.md`](detector/theory/FOLDING_CAMERA5_HUMAN_ARM.md) †
+- FOLDING_EFFORT_BUDGET (2026-07-28): [`detector/theory/FOLDING_EFFORT_BUDGET.md`](detector/theory/FOLDING_EFFORT_BUDGET.md) †
+- FOLDING_DISCRETE_IMAGINARY_CAMERA (2026-07-28): [`detector/theory/FOLDING_DISCRETE_IMAGINARY_CAMERA.md`](detector/theory/FOLDING_DISCRETE_IMAGINARY_CAMERA.md) †
+- FOLDING_BLUE_VOID_AND_PER_LENS (2026-07-28): [`detector/theory/FOLDING_BLUE_VOID_AND_PER_LENS.md`](detector/theory/FOLDING_BLUE_VOID_AND_PER_LENS.md) †
+- FOLDING_OPPONENT_COLOUR (2026-07-27): [`detector/theory/FOLDING_OPPONENT_COLOUR.md`](detector/theory/FOLDING_OPPONENT_COLOUR.md) †
+- FOLDING_SHADING (2026-07-27): [`detector/theory/FOLDING_SHADING.md`](detector/theory/FOLDING_SHADING.md) †
+- FOLDING_ROBUSTNESS (2026-07-27): [`detector/theory/FOLDING_ROBUSTNESS.md`](detector/theory/FOLDING_ROBUSTNESS.md) †
+- FOLDING_PER_SENSOR (2026-07-27): [`detector/theory/FOLDING_PER_SENSOR.md`](detector/theory/FOLDING_PER_SENSOR.md) †
+- FOLDING_CAMERA3 (2026-07-27): [`detector/theory/FOLDING_CAMERA3.md`](detector/theory/FOLDING_CAMERA3.md) †
+- FOLDING_IMAGINARY_CAMERA (2026-07-27): [`detector/theory/FOLDING_IMAGINARY_CAMERA.md`](detector/theory/FOLDING_IMAGINARY_CAMERA.md) †
+- FOLDING_STACK_THICKNESS (2026-07-27): [`detector/theory/FOLDING_STACK_THICKNESS.md`](detector/theory/FOLDING_STACK_THICKNESS.md) †
+- FOLDING_EDGE_OBSERVERS (2026-07-27): [`detector/theory/FOLDING_EDGE_OBSERVERS.md`](detector/theory/FOLDING_EDGE_OBSERVERS.md) †
+- FOLDING_PRNU_LOCALISATION (2026-07-27): [`detector/theory/FOLDING_PRNU_LOCALISATION.md`](detector/theory/FOLDING_PRNU_LOCALISATION.md) †
+- FOLDING_PRNU (2026-07-26): [`detector/theory/FOLDING_PRNU.md`](detector/theory/FOLDING_PRNU.md) †
+- FOLDING_CLEAN_HISTORY (2026-07-26): [`detector/theory/FOLDING_CLEAN_HISTORY.md`](detector/theory/FOLDING_CLEAN_HISTORY.md) †
+- FOLDING_TWO_CHANNEL_LOOP (2026-07-26): [`detector/theory/FOLDING_TWO_CHANNEL_LOOP.md`](detector/theory/FOLDING_TWO_CHANNEL_LOOP.md) †
+- FOLDING_RATCHET_AND_ROUTING (2026-07-26): [`detector/theory/FOLDING_RATCHET_AND_ROUTING.md`](detector/theory/FOLDING_RATCHET_AND_ROUTING.md) †
+- FOLDING_SEAM_REBUILD_AND_DENSITY (2026-07-26): [`detector/theory/FOLDING_SEAM_REBUILD_AND_DENSITY.md`](detector/theory/FOLDING_SEAM_REBUILD_AND_DENSITY.md) †
 - STATE_OF_THE_DETECTOR (2026-07-26): [`detector/theory/STATE_OF_THE_DETECTOR.md`](detector/theory/STATE_OF_THE_DETECTOR.md)
+- FOLDING_PHOTO_SET_AUTOPSY (2026-07-26): [`detector/theory/FOLDING_PHOTO_SET_AUTOPSY.md`](detector/theory/FOLDING_PHOTO_SET_AUTOPSY.md) †
 - FOLDING_TWO_CONES (2026-07-26): [`detector/theory/FOLDING_TWO_CONES.md`](detector/theory/FOLDING_TWO_CONES.md)
 - FOLDING_BALANCE_LAW (2026-07-26): [`detector/theory/FOLDING_BALANCE_LAW.md`](detector/theory/FOLDING_BALANCE_LAW.md)
 - FOLDING_WITHIN_IMAGE (2026-07-26): [`detector/theory/FOLDING_WITHIN_IMAGE.md`](detector/theory/FOLDING_WITHIN_IMAGE.md)
@@ -123,6 +233,9 @@ Not copied yet: LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PERMAN
 - FOLDING_CONTEXT_ROUTER (2026-07-24): [`detector/theory/FOLDING_CONTEXT_ROUTER.md`](detector/theory/FOLDING_CONTEXT_ROUTER.md)
 - FOLDING_OUTER_SLOT (2026-07-24): [`detector/theory/FOLDING_OUTER_SLOT.md`](detector/theory/FOLDING_OUTER_SLOT.md)
 - FOLDING_VOID_LINE_DRAW (2026-07-24): [`detector/theory/FOLDING_VOID_LINE_DRAW.md`](detector/theory/FOLDING_VOID_LINE_DRAW.md)
+- FOLDING_SKIN_DETECTOR (2026-07-24): [`theory/folding/FOLDING_SKIN_DETECTOR.md`](theory/folding/FOLDING_SKIN_DETECTOR.md) †
+- FOLDING_SKIN_TEST (2026-07-24): [`theory/folding/FOLDING_SKIN_TEST.md`](theory/folding/FOLDING_SKIN_TEST.md) †
+- FOLDING_SKIN (2026-07-23): [`theory/folding/FOLDING_SKIN.md`](theory/folding/FOLDING_SKIN.md) †
 - FOLDING_PAIR_ALIGNMENT (2026-07-23): [`theory/folding/FOLDING_PAIR_ALIGNMENT.md`](theory/folding/FOLDING_PAIR_ALIGNMENT.md)
 - FOLDING_METAL_WELLS (2026-07-23): [`theory/folding/FOLDING_METAL_WELLS.md`](theory/folding/FOLDING_METAL_WELLS.md)
 - FOLDING_SOLVENT_SUPPLY (2026-07-23): [`theory/folding/FOLDING_SOLVENT_SUPPLY.md`](theory/folding/FOLDING_SOLVENT_SUPPLY.md)
@@ -188,8 +301,6 @@ Not copied yet: LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PERMAN
 - FOLDING_ARC_RESULTS (2026-07-12): [`theory/folding/FOLDING_ARC_RESULTS.md`](theory/folding/FOLDING_ARC_RESULTS.md)
 - SPRING_TEST_RESULTS (2026-07-12): [`theory/folding/SPRING_TEST_RESULTS.md`](theory/folding/SPRING_TEST_RESULTS.md)
 
-Not copied yet: FOLDING_DISCOVERY (08-14), FOLDING_FREQUENCY (08-14), FOLDING_SUPERFUEL (08-14), FOLDING_GALAXY_BRIDGE (08-12), FOLDING_HANDSHAKE (08-11), FOLDING_TRAMPOLINE (08-10), FOLDING_COMBINE_MEMBRANE (08-01), FOLDING_DIVERGENCE_WEIGHT (07-31), FOLDING_FROZEN_VIDEO_FLOW (07-29), FOLDING_VOID_COLLAPSE (07-29), FOLDING_THE_TRACE_IS_THE_REPORT (07-28), FOLDING_PARTIAL_ATTACHMENT (07-28), FOLDING_WINDOW_COVERAGE (07-28), FOLDING_ARMS_AND_BRACING (07-28), FOLDING_EVIDENCE_NOT_VERDICTS (07-28), FOLDING_CAMERA5_HUMAN_ARM (07-28), FOLDING_EFFORT_BUDGET (07-28), FOLDING_DISCRETE_IMAGINARY_CAMERA (07-28), FOLDING_BLUE_VOID_AND_PER_LENS (07-28), FOLDING_OPPONENT_COLOUR (07-27), FOLDING_SHADING (07-27), FOLDING_ROBUSTNESS (07-27), FOLDING_PER_SENSOR (07-27), FOLDING_CAMERA3 (07-27), FOLDING_IMAGINARY_CAMERA (07-27), FOLDING_STACK_THICKNESS (07-27), FOLDING_EDGE_OBSERVERS (07-27), FOLDING_PRNU_LOCALISATION (07-27), FOLDING_PRNU (07-26), FOLDING_CLEAN_HISTORY (07-26), FOLDING_TWO_CHANNEL_LOOP (07-26), FOLDING_RATCHET_AND_ROUTING (07-26), FOLDING_SEAM_REBUILD_AND_DENSITY (07-26), FOLDING_PHOTO_SET_AUTOPSY (07-26), FOLDING_SKIN_DETECTOR (07-24), FOLDING_SKIN_TEST (07-24), FOLDING_SKIN (07-23).
-
 ### Framework results and theory
 
 - RESULTS (2026-07-04): [`theory/framework/RESULTS.md`](theory/framework/RESULTS.md)
@@ -210,4 +321,4 @@ Not copied yet: FOLDING_DISCOVERY (08-14), FOLDING_FREQUENCY (08-14), FOLDING_SU
 - SPHERE_GENERATOR (2026-07-04): [`theory/framework/SPHERE_GENERATOR.md`](theory/framework/SPHERE_GENERATOR.md)
 - SHOVELCAT_THEORY (2026-07-04): [`theory/framework/SHOVELCAT_THEORY.md`](theory/framework/SHOVELCAT_THEORY.md)
 
-*129 write-ups are listed with their place in this repository and 113 have not been copied yet (dates are month-day, 2026).*
+*242 write-ups are listed with their place in this repository. Nothing is waiting to be copied.*

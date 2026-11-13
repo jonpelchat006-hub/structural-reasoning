@@ -10,6 +10,10 @@ Source for thread 1 of the top-level README: an ARC-AGI-1 solver with no languag
   `arc-proposer/src/` imports from `../../arc-slice/src/`, so the two folders must stay side by side. The
   analysis write-ups for this layer are in [`../theory/framework/`](../theory/framework/) (RESULTS.md,
   ISOLATION_TEST.md, TRUST_AUDIT_RESULTS.md, SPARSE_VESICA_EXPANSION.md and the others).
+- **`notes/`** has the session notes: seven from August 2026 on a separate Python solver that was built and
+  measured in working sessions (the drones, the ratchet, the gap analysis, the hypothesis test, op-generation,
+  paint-void), and the October note on the verified slot filler. Most of the scripts the August notes name
+  were run in those sessions and are not here.
 
 **Not included:** the ARC task files. The solver reads the 400 public training tasks from `arc-slice/data/`
 and the evaluation tasks from `arc-slice/data-eval/`; get them from <https://github.com/fchollet/ARC-AGI>.
@@ -202,3 +206,14 @@ held-out test pair; the write-ups say plainly that this is not competitive with 
 - [`verify.ts`](arc-slice/src/verify.ts) — Smooth score in [0,1] for the search to climb (1.0 only if every pair is exact).
 - [`vesica.ts`](arc-slice/src/vesica.ts) — vesica.ts — the Sparse Vesica Expansion superposition (cos²θ Born + antimatter setups).
 - [`vortex_scan.ts`](arc-slice/src/vortex_scan.ts) — vortex_scan.ts — §49: THE VORTEX / OCTONION PER-OBJECT FUNCTION (Jonathan). §48 read INTRINSIC features
+
+**`notes/`**
+
+- [`ARC_DRONES.md`](notes/ARC_DRONES.md) — ARC drones — many programs land the same spot, they mostly agree (confidence) and sometimes diverge (under-determination)
+- [`ARC_GAP_ANALYSIS.md`](notes/ARC_GAP_ANALYSIS.md) — ARC-AGI-1 gap analysis — where the solves live (the "analyze first" step)
+- [`ARC_HYPOTHESIS_TEST.md`](notes/ARC_HYPOTHESIS_TEST.md) — Trying the framework myself — a self-generated, pre-registered hypothesis on the circlers (1 holds, 1 fails)
+- [`ARC_OPGEN.md`](notes/ARC_OPGEN.md) — ARC op-generation — the grind ledger (the middle shell PROPOSES ops; the eval wall keeps moving)
+- [`ARC_PAINT_VOID.md`](notes/ARC_PAINT_VOID.md) — Imagination-paint — give the cramped drones room by painting a hypothesis over the void, then re-perceive
+- [`ARC_RATCHET.md`](notes/ARC_RATCHET.md) — ARC ratchet + drones — the mechanism works, but the circlers need new ops, not more depth
+- [`ARC_SLOT_FILLER.md`](notes/ARC_SLOT_FILLER.md) — ARC — the verified slot filler (Oct 21, 2026)
+- [`ARC_SOLVER_V1.md`](notes/ARC_SOLVER_V1.md) — ARC-AGI-1 solver v1/v2/v3 — the verified library, the eval wall, the composition arm, and induction

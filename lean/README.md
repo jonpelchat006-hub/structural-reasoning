@@ -132,3 +132,14 @@ Nov 12 2026 00:00 UTC. Lower is better.
 **`kernel-challenge/submissions_v6/permanent/`**
 
 - [`README_v8d.md`](kernel-challenge/submissions_v6/permanent/README_v8d.md) — permanent v8 — packed generating-function DP for d = 16
+
+**`notes/`**
+
+- [`LEAN_FIB_PLANNER.md`](notes/LEAN_FIB_PLANNER.md) — Lean Kernel Challenge — the fib planner, fib v8 (Oct 18) and fib v9 (Oct 24, 2026)
+- [`LEAN_KERNEL_CHALLENGE_V4.md`](notes/LEAN_KERNEL_CHALLENGE_V4.md) — Lean Kernel Challenge — optimisation pass v4 (Oct 3, 2026; latest: fib v7, polydisc v7, ca-rule110 v7, permanent v7)
+- [`LEAN_PARTITION_V6.md`](notes/LEAN_PARTITION_V6.md) — Lean Kernel Challenge — partition v6 and the cost floor (Oct 26, 2026)
+- [`LEAN_PERMANENT_V8.md`](notes/LEAN_PERMANENT_V8.md) — Lean Kernel Challenge — permanent v8 (Oct 25, 2026)
+- [`LEAN_PERMANENT_V8T.md`](notes/LEAN_PERMANENT_V8T.md) — Lean Kernel Challenge — permanent v8t (Oct 27, 2026)
+- [`LEAN_POLYDISC_PACKED.md`](notes/LEAN_POLYDISC_PACKED.md) — Lean Kernel Challenge — polydisc v8: packed lanes (Oct 19, 2026)
+- [`LEAN_POLYDISC_V9.md`](notes/LEAN_POLYDISC_V9.md) — Lean Kernel Challenge — polydisc v9: the D5 core, proved once (Oct 20, 2026)
+- [`LEAN_REVIEW_NOV12.md`](notes/LEAN_REVIEW_NOV12.md) — Lean Kernel Challenge: the newer research, the board on Nov 12, and a Rule 110 lead

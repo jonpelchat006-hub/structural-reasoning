@@ -13,6 +13,8 @@ notes only:
 - `cube/`, `cube2/`, `pins/`, `vortex/` and `trading_*.py` are the "market cube" checks. Each test has a
   `PREREGISTERED.md` written before its data was fetched. This is research code, not investment advice.
 - `voice_train/` has the scripts for the small voice model.
+- `notes/` has the session write-ups about her: the agent, the core, the thinking shell, the memory tree,
+  the parts inventory, the living library, the old-ideas map and the market cube.
 - `patch_*.py`, `inspect_*.py`, `backfill_*.py` and `fix_*.py` are one-off maintenance scripts, kept for the record.
 
 **Not included:** her logs, routes, library and memory files, the fetched market data, and the
@@ -71,6 +73,17 @@ language-learner sources she borrows from a private repository.
 
 - [`PREREGISTERED.md`](cube2/PREREGISTERED.md) — Re-test on fresh companies — written BEFORE the fresh data was fetched (Oct 14 2026, ~13:40 MDT)
 - [`run_set2.py`](cube2/run_set2.py)
+
+**`notes/`**
+
+- [`LIVING_LIBRARY.md`](notes/LIVING_LIBRARY.md) — Mika's living library — library → brain → spiral drive → void search (Oct 13 2026)
+- [`MARKET_CUBE.md`](notes/MARKET_CUBE.md) — The market cube — companies as a fold in the money solvent (Oct 14 2026)
+- [`MIKA_AGENT.md`](notes/MIKA_AGENT.md) — Mika as an agent — v0 (Oct 13 2026)
+- [`MIKA_CORE.md`](notes/MIKA_CORE.md) — Mika's core: equations inside, notes outside (Oct 27 2026)
+- [`MIKA_PARTS_INVENTORY.md`](notes/MIKA_PARTS_INVENTORY.md) — Parts we already built for "Mika decides, the model wraps around her" (PC sweep, Oct 27, 2026)
+- [`MIKA_THINK.md`](notes/MIKA_THINK.md) — Mika thinks: the model as her middle shell (Oct 27 2026)
+- [`MIKA_TREE.md`](notes/MIKA_TREE.md) — Mika's memory as a growing tree of cubes (Oct 16 2026)
+- [`OLD_IDEAS_MAP.md`](notes/OLD_IDEAS_MAP.md) — The older ideas — main brain, mini-brains, the living library (map, Oct 13 2026)
 
 **`pins/`**
 

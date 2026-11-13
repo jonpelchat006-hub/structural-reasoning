@@ -24,3 +24,12 @@ parity-enforcing benchmarks. The benchmark photos, the cached model outputs and 
 included, so the scripts document the method but will not rerun as they are. The design and measurement docs
 are in [`theory/`](theory/): `STATE_OF_THE_DETECTOR.md` is the short state-of note and
 `STATE_OF_THE_DETECTOR_FULL_2026-07-26.md` is the longer version from the day of the rewrite.
+
+**Session notes, July 26–31 2026.** `theory/` also has the working notes written after the state-of note;
+[RESEARCH_MAP.md](../RESEARCH_MAP.md) lists them by date. They cover the PRNU sensor-fingerprint tests, the
+per-lens and colour tests, the container-layout test ("the discrete imaginary camera"), the arms, coverage
+and report-format notes, and the committee's divergence rule. Later notes correct earlier ones in places, and
+say so. Some of the scripts they name are in `code/`. The rest, from July 27 on (`shading_observer.py`,
+`robustness.py`, `toolchain3.py`, `arms.py`, `verdict.py`, `void_collapse.py` and others), were run in
+working sessions and were not in the folder this code was copied from, so for those runs the note is the
+only record.

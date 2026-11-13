@@ -19,6 +19,7 @@ The code for the tests is in [`../arc-agi-3/planet/`](../arc-agi-3/planet/) (`al
 - [`ARC_ALIGNMENT.md`](ARC_ALIGNMENT.md) — Alignment as Water — the planet's water cycle is the anchor, information is what the water carries
 - [`ARC_ALIGNMENT_GRID.md`](ARC_ALIGNMENT_GRID.md) — The Alignment Grid — bars are people with closed cycles; a task's votes are the domains it crosses
 - [`ARC_ALIGNMENT_PHASES.md`](ARC_ALIGNMENT_PHASES.md) — The Five Substrates on the θ Ladder — and the tower rotated into a map
+- [`ARC_ALIGNMENT_REFUSAL.md`](ARC_ALIGNMENT_REFUSAL.md) — Test 3: the refusal battery, plus perspective slots on the Cayley–Dickson ladder
 - [`ARC_ALIGNMENT_REVIEW_SEP22.md`](ARC_ALIGNMENT_REVIEW_SEP22.md) — Review of the Sep 19–22 alignment work — what landed, what drifted, what to run next
 - [`ARC_ALIGNMENT_TESTS.md`](ARC_ALIGNMENT_TESTS.md) — Testing the Alignment Tower — seven measurements, what each would falsify, and the order to run them
 - [`ARC_ALIGNMENT_WITNESS.md`](ARC_ALIGNMENT_WITNESS.md) — The Witness — model makers witness the instrument, not the act; and the same family is the weakest witness
