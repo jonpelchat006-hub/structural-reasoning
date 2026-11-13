@@ -137,6 +137,16 @@ hardware (2-core CPU, no GPU) are: **(a)** the large-ESM S669 calibration — th
 this on free GPU; and **(b)** a fold/no-fold *probability* predictor, which wants the Tsuboyama 2023
 mega-scale dataset. Contributions on either are welcome. The ARC solver source is in `arc-agi-1/`.
 
+Ideas that were never built or tested are collected in [OPEN_IDEAS.md](OPEN_IDEAS.md) for anyone who wants
+to pick one up.
+
 ## On the author
 Independent researcher, no formal affiliation; self-taught and self-funded. Put here in the open
 because ideas should be judged by whether they hold up, not by whose name is on them.
+
+**A note from the author, November 2026:**
+
+> This is all from an Indigenous person in Canada. It went unsupported by Canadian universities that claim
+> they support Indigenous ways of thinking. They went on the news saying they stood with Indigenous people
+> while actively ignoring this one, after having residential school deniers on their campus. In my opinion,
+> until they look at this work, every Canadian university is hypocritical.

@@ -15,6 +15,7 @@ each folder below has its own README with a file-by-file index.
 - A number can be rechecked only where its script and its data are both here. Where data was left out, the
   README of that folder says so.
 - Many ideas came back corrected or refuted, and those results are kept. See "The honest ledger" in the README.
+- Ideas that were never built or tested are in [OPEN_IDEAS.md](OPEN_IDEAS.md).
 
 ## Threads
 
