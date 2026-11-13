@@ -1,0 +1,110 @@
+{
+  "problem": "sha256",
+  "metric": "local Windows synchronous Kernel.Environment.addDeclCore wall time, not official score",
+  "lean_version": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "source_sha256": {
+    "Submission.lean": "73c655aa3d7261a4fcfb0f1a555e319cc5cd503b14cf78ba1a80eb47876166ed",
+    "Baseline.lean": "ddebd7685d5b82f54567f89b4ae00dc47d591c2b9846a5077d68c93da6dfb646",
+    "Spec.lean": "e2046c1dc9f979d37e36fda738892db78f6847facf6e61dadabf888c09e8480e"
+  },
+  "repeats": 5,
+  "cases": [
+    {
+      "n": 17179869185,
+      "samples_ns": {
+        "Baseline": [
+          8897700,
+          10362600,
+          9851700,
+          9729700,
+          8860100
+        ],
+        "Submission": [
+          7306300,
+          8120200,
+          8674700,
+          6823800,
+          8429400
+        ]
+      },
+      "median_ns": {
+        "Baseline": 9729700,
+        "Submission": 8120200
+      },
+      "candidate_over_baseline": 0.834578661212576
+    },
+    {
+      "n": 17179869186,
+      "samples_ns": {
+        "Baseline": [
+          10566600,
+          9293900,
+          6523500,
+          8812700,
+          10885500
+        ],
+        "Submission": [
+          5724900,
+          7924100,
+          6310800,
+          7697900,
+          9221900
+        ]
+      },
+      "median_ns": {
+        "Baseline": 9293900,
+        "Submission": 7697900
+      },
+      "candidate_over_baseline": 0.8282744595917753
+    },
+    {
+      "n": 137438953473,
+      "samples_ns": {
+        "Baseline": [
+          88072500,
+          86601500,
+          80448000,
+          90140400,
+          80542000
+        ],
+        "Submission": [
+          68012400,
+          70211900,
+          74245600,
+          64055300,
+          62075300
+        ]
+      },
+      "median_ns": {
+        "Baseline": 86601500,
+        "Submission": 68012400
+      },
+      "candidate_over_baseline": 0.7853489835626404
+    },
+    {
+      "n": 137438953474,
+      "samples_ns": {
+        "Baseline": [
+          83708800,
+          66078600,
+          80605500,
+          70505900,
+          77122900
+        ],
+        "Submission": [
+          62228100,
+          66499700,
+          72512800,
+          67225800,
+          69025100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 77122900,
+        "Submission": 67225800
+      },
+      "candidate_over_baseline": 0.8716710600872114
+    }
+  ],
+  "stdout": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Baseline.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\nSAMPLE Baseline 17179869185 0 8897700\nSAMPLE Submission 17179869185 0 7306300\nSAMPLE Submission 17179869185 1 8120200\nSAMPLE Baseline 17179869185 1 10362600\nSAMPLE Baseline 17179869185 2 9851700\nSAMPLE Submission 17179869185 2 8674700\nSAMPLE Submission 17179869185 3 6823800\nSAMPLE Baseline 17179869185 3 9729700\nSAMPLE Baseline 17179869185 4 8860100\nSAMPLE Submission 17179869185 4 8429400\nSAMPLE Baseline 17179869186 0 10566600\nSAMPLE Submission 17179869186 0 5724900\nSAMPLE Submission 17179869186 1 7924100\nSAMPLE Baseline 17179869186 1 9293900\nSAMPLE Baseline 17179869186 2 6523500\nSAMPLE Submission 17179869186 2 6310800\nSAMPLE Submission 17179869186 3 7697900\nSAMPLE Baseline 17179869186 3 8812700\nSAMPLE Baseline 17179869186 4 10885500\nSAMPLE Submission 17179869186 4 9221900\nSAMPLE Baseline 137438953473 0 88072500\nSAMPLE Submission 137438953473 0 68012400\nSAMPLE Submission 137438953473 1 70211900\nSAMPLE Baseline 137438953473 1 86601500\nSAMPLE Baseline 137438953473 2 80448000\nSAMPLE Submission 137438953473 2 74245600\nSAMPLE Submission 137438953473 3 64055300\nSAMPLE Baseline 137438953473 3 90140400\nSAMPLE Baseline 137438953473 4 80542000\nSAMPLE Submission 137438953473 4 62075300\nSAMPLE Baseline 137438953474 0 83708800\nSAMPLE Submission 137438953474 0 62228100\nSAMPLE Submission 137438953474 1 66499700\nSAMPLE Baseline 137438953474 1 66078600\nSAMPLE Baseline 137438953474 2 80605500\nSAMPLE Submission 137438953474 2 72512800\nSAMPLE Submission 137438953474 3 67225800\nSAMPLE Baseline 137438953474 3 70505900\nSAMPLE Baseline 137438953474 4 77122900\nSAMPLE Submission 137438953474 4 69025100\n"
+}

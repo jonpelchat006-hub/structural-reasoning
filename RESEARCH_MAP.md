@@ -32,7 +32,7 @@ each folder below has its own README with a file-by-file index.
 | Navier–Stokes theta | [`navier-stokes-theta/`](navier-stokes-theta/) | Has its own claim ledger (`INDEX.md`): established, suggestive, negative, untested |
 | Shovelcat / vesica framework | `theory/framework/` | Speculative; the origin of the rest |
 | P vs NP in Lean, and the floor_flow experiments | [pvsnp-lean](https://github.com/jonpelchat006-hub/pvsnp-lean) | A kernel-checked Lean library. Its README states that P vs NP is open and that nothing there claims to resolve it |
-| Lean Kernel Challenge entries | not here yet | Entries to the 2026 Lean Kernel Challenge, held back until the challenge closes on Nov 20 2026 |
+| Lean Kernel Challenge entries | [`lean/`](lean/) | Every round of entries to the 2026 challenge and the research behind them. Board scores as of Nov 12 are in its README |
 | Erdős incidence geometry | [erdos-incidence-geometry](https://github.com/jonpelchat006-hub/erdos-incidence-geometry) | Separate repository |
 | Earlier physics and security scripts | [Shovelcat-Alpha](https://github.com/jonpelchat006-hub/Shovelcat-Alpha), [Shovelcat-Security](https://github.com/jonpelchat006-hub/Shovelcat-Security) | Separate repositories; earlier work |
 
@@ -86,8 +86,10 @@ Not copied yet: NESTED_QUATERNION_MODEL (11-01), MIKA_CORE (10-27), MIKA_THINK (
 
 ### Lean and P vs NP
 
+- LEAN_PVSNP (2026-10-28): the README of [pvsnp-lean](https://github.com/jonpelchat006-hub/pvsnp-lean)
+- LEAN_KERNEL_CHALLENGE (2026-10-01): [`lean/kernel-challenge/LEAN_KERNEL_CHALLENGE.md`](lean/kernel-challenge/LEAN_KERNEL_CHALLENGE.md)
 
-Not copied yet (the challenge write-ups are held back until it closes; LEAN_PVSNP is the README of pvsnp-lean): LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PVSNP (10-28), LEAN_PERMANENT_V8T (10-27), LEAN_PARTITION_V6 (10-26), LEAN_PERMANENT_V8 (10-25), LEAN_POLYDISC_V9 (10-21), LEAN_POLYDISC_PACKED (10-19), LEAN_FIB_PLANNER (10-18), LEAN_KERNEL_CHALLENGE_V4 (10-04), LEAN_KERNEL_CHALLENGE (10-01).
+Not copied yet: LEAN_REVIEW_NOV12 (11-12), PVSNP_FLOOR_FLOW (10-29), LEAN_PERMANENT_V8T (10-27), LEAN_PARTITION_V6 (10-26), LEAN_PERMANENT_V8 (10-25), LEAN_POLYDISC_V9 (10-21), LEAN_POLYDISC_PACKED (10-19), LEAN_FIB_PLANNER (10-18), LEAN_KERNEL_CHALLENGE_V4 (10-04).
 
 ### Folding, cognitive architecture, detector and critical line (FOLDING_*)
 
@@ -208,4 +210,4 @@ Not copied yet: FOLDING_DISCOVERY (08-14), FOLDING_FREQUENCY (08-14), FOLDING_SU
 - SPHERE_GENERATOR (2026-07-04): [`theory/framework/SPHERE_GENERATOR.md`](theory/framework/SPHERE_GENERATOR.md)
 - SHOVELCAT_THEORY (2026-07-04): [`theory/framework/SHOVELCAT_THEORY.md`](theory/framework/SHOVELCAT_THEORY.md)
 
-*127 write-ups are in this repository and 115 have not been copied yet (dates are month-day, 2026).*
+*129 write-ups are listed with their place in this repository and 113 have not been copied yet (dates are month-day, 2026).*

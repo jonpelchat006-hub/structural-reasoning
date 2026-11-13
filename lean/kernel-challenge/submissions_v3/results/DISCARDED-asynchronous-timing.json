@@ -1,0 +1,177 @@
+{
+  "problem": "permanent",
+  "metric": "local Windows Lean.addDecl wall time, not official score",
+  "repeats": 7,
+  "cases": [
+    {
+      "n": 25769803777,
+      "samples_ns": {
+        "Baseline": [
+          895600,
+          18400,
+          401000,
+          19400,
+          251600,
+          17800,
+          422400
+        ],
+        "Submission": [
+          451700,
+          653200,
+          454800,
+          763700,
+          541900,
+          646700,
+          448500
+        ]
+      },
+      "median_ns": {
+        "Baseline": 251600,
+        "Submission": 541900
+      },
+      "candidate_over_baseline": 2.1538155802861687
+    },
+    {
+      "n": 25769803778,
+      "samples_ns": {
+        "Baseline": [
+          421900,
+          28300,
+          24600,
+          30900,
+          30100,
+          23400,
+          53800
+        ],
+        "Submission": [
+          743700,
+          642500,
+          688100,
+          454100,
+          728500,
+          453500,
+          673100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 30100,
+        "Submission": 673100
+      },
+      "candidate_over_baseline": 22.362126245847175
+    },
+    {
+      "n": 51539607553,
+      "samples_ns": {
+        "Baseline": [
+          308000,
+          22200,
+          31800,
+          42100,
+          27500,
+          35300,
+          28500
+        ],
+        "Submission": [
+          1142400,
+          447300,
+          722200,
+          930100,
+          575800,
+          565900,
+          458600
+        ]
+      },
+      "median_ns": {
+        "Baseline": 31800,
+        "Submission": 575800
+      },
+      "candidate_over_baseline": 18.10691823899371
+    },
+    {
+      "n": 51539607554,
+      "samples_ns": {
+        "Baseline": [
+          284900,
+          24600,
+          24700,
+          24000,
+          23200,
+          23700,
+          19200
+        ],
+        "Submission": [
+          457500,
+          445200,
+          441400,
+          442700,
+          475400,
+          518300,
+          867000
+        ]
+      },
+      "median_ns": {
+        "Baseline": 24000,
+        "Submission": 457500
+      },
+      "candidate_over_baseline": 19.0625
+    },
+    {
+      "n": 68719476737,
+      "samples_ns": {
+        "Baseline": [
+          261200,
+          34400,
+          39400,
+          34700,
+          31100,
+          35600,
+          26800
+        ],
+        "Submission": [
+          836700,
+          704100,
+          602400,
+          809900,
+          517100,
+          450000,
+          659000
+        ]
+      },
+      "median_ns": {
+        "Baseline": 34700,
+        "Submission": 659000
+      },
+      "candidate_over_baseline": 18.99135446685879
+    },
+    {
+      "n": 68719476738,
+      "samples_ns": {
+        "Baseline": [
+          246800,
+          37500,
+          35200,
+          29700,
+          35800,
+          38900,
+          55000
+        ],
+        "Submission": [
+          456200,
+          648400,
+          776500,
+          820700,
+          799600,
+          838400,
+          656500
+        ]
+      },
+      "median_ns": {
+        "Baseline": 37500,
+        "Submission": 776500
+      },
+      "candidate_over_baseline": 20.706666666666667
+    }
+  ],
+  "stdout": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Baseline.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\nSAMPLE Baseline 25769803777 0 895600\nSAMPLE Submission 25769803777 0 451700\nSAMPLE Submission 25769803777 1 653200\nSAMPLE Baseline 25769803777 1 18400\nSAMPLE Baseline 25769803777 2 401000\nSAMPLE Submission 25769803777 2 454800\nSAMPLE Submission 25769803777 3 763700\nSAMPLE Baseline 25769803777 3 19400\nSAMPLE Baseline 25769803777 4 251600\nSAMPLE Submission 25769803777 4 541900\nSAMPLE Submission 25769803777 5 646700\nSAMPLE Baseline 25769803777 5 17800\nSAMPLE Baseline 25769803777 6 422400\nSAMPLE Submission 25769803777 6 448500\nSAMPLE Baseline 25769803778 0 421900\nSAMPLE Submission 25769803778 0 743700\nSAMPLE Submission 25769803778 1 642500\nSAMPLE Baseline 25769803778 1 28300\nSAMPLE Baseline 25769803778 2 24600\nSAMPLE Submission 25769803778 2 688100\nSAMPLE Submission 25769803778 3 454100\nSAMPLE Baseline 25769803778 3 30900\nSAMPLE Baseline 25769803778 4 30100\nSAMPLE Submission 25769803778 4 728500\nSAMPLE Submission 25769803778 5 453500\nSAMPLE Baseline 25769803778 5 23400\nSAMPLE Baseline 25769803778 6 53800\nSAMPLE Submission 25769803778 6 673100\nSAMPLE Baseline 51539607553 0 308000\nSAMPLE Submission 51539607553 0 1142400\nSAMPLE Submission 51539607553 1 447300\nSAMPLE Baseline 51539607553 1 22200\nSAMPLE Baseline 51539607553 2 31800\nSAMPLE Submission 51539607553 2 722200\nSAMPLE Submission 51539607553 3 930100\nSAMPLE Baseline 51539607553 3 42100\nSAMPLE Baseline 51539607553 4 27500\nSAMPLE Submission 51539607553 4 575800\nSAMPLE Submission 51539607553 5 565900\nSAMPLE Baseline 51539607553 5 35300\nSAMPLE Baseline 51539607553 6 28500\nSAMPLE Submission 51539607553 6 458600\nSAMPLE Baseline 51539607554 0 284900\nSAMPLE Submission 51539607554 0 457500\nSAMPLE Submission 51539607554 1 445200\nSAMPLE Baseline 51539607554 1 24600\nSAMPLE Baseline 51539607554 2 24700\nSAMPLE Submission 51539607554 2 441400\nSAMPLE Submission 51539607554 3 442700\nSAMPLE Baseline 51539607554 3 24000\nSAMPLE Baseline 51539607554 4 23200\nSAMPLE Submission 51539607554 4 475400\nSAMPLE Submission 51539607554 5 518300\nSAMPLE Baseline 51539607554 5 23700\nSAMPLE Baseline 51539607554 6 19200\nSAMPLE Submission 51539607554 6 867000\nSAMPLE Baseline 68719476737 0 261200\nSAMPLE Submission 68719476737 0 836700\nSAMPLE Submission 68719476737 1 704100\nSAMPLE Baseline 68719476737 1 34400\nSAMPLE Baseline 68719476737 2 39400\nSAMPLE Submission 68719476737 2 602400\nSAMPLE Submission 68719476737 3 809900\nSAMPLE Baseline 68719476737 3 34700\nSAMPLE Baseline 68719476737 4 31100\nSAMPLE Submission 68719476737 4 517100\nSAMPLE Submission 68719476737 5 450000\nSAMPLE Baseline 68719476737 5 35600\nSAMPLE Baseline 68719476737 6 26800\nSAMPLE Submission 68719476737 6 659000\nSAMPLE Baseline 68719476738 0 246800\nSAMPLE Submission 68719476738 0 456200\nSAMPLE Submission 68719476738 1 648400\nSAMPLE Baseline 68719476738 1 37500\nSAMPLE Baseline 68719476738 2 35200\nSAMPLE Submission 68719476738 2 776500\nSAMPLE Submission 68719476738 3 820700\nSAMPLE Baseline 68719476738 3 29700\nSAMPLE Baseline 68719476738 4 35800\nSAMPLE Submission 68719476738 4 799600\nSAMPLE Submission 68719476738 5 838400\nSAMPLE Baseline 68719476738 5 38900\nSAMPLE Baseline 68719476738 6 55000\nSAMPLE Submission 68719476738 6 656500\n",
+  "INVALID": "Discard: measured asynchronous addDecl scheduling, not kernel completion."
+}

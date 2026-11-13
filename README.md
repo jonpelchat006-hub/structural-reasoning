@@ -82,6 +82,7 @@ together.
 | [`mika/`](mika/) | the Mika agent's own folder: daily runs, diary, library tools |
 | [`qtube/`](qtube/) | the nested-quaternion model |
 | [`navier-stokes-theta/`](navier-stokes-theta/) | Navier–Stokes theta experiments, with their own claim ledger |
+| [`lean/`](lean/) | the Lean Kernel Challenge entries and the research behind them |
 
 Related public repositories: [pvsnp-lean](https://github.com/jonpelchat006-hub/pvsnp-lean) (a kernel-checked
 Lean library around P vs NP, which is open and which nothing there claims to resolve, plus the floor_flow
@@ -103,7 +104,7 @@ theory/
   framework/ The Shovelcat / vesica / sphere-generator framework and the ARC-AGI-1 result logs
 notebooks/   colab_s669_calibration.ipynb — free-GPU big-model calibration
 
-agi/  detector/  critical-line/  arc-agi-1/  arc-agi-3/  alignment/  mika/  qtube/  navier-stokes-theta/
+agi/  detector/  critical-line/  arc-agi-1/  arc-agi-3/  alignment/  mika/  qtube/  navier-stokes-theta/  lean/
              The other threads, each with its own README (see RESEARCH_MAP.md)
 ```
 

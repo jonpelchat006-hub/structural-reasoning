@@ -1,0 +1,36 @@
+{
+  "permanent": {
+    "path": "submissions_v3\\permanent\\Submission.lean",
+    "sha256": "229f1eebff8ab0f1820a59bc2a22dbed65e4813007e50187469cf434a523228d",
+    "bytes": 31948,
+    "strict_build": true,
+    "locked_solution_bridge": true,
+    "axioms": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  },
+  "sha256": {
+    "path": "submissions_v3\\sha256\\Submission.lean",
+    "sha256": "73c655aa3d7261a4fcfb0f1a555e319cc5cd503b14cf78ba1a80eb47876166ed",
+    "bytes": 92917,
+    "strict_build": true,
+    "locked_solution_bridge": true,
+    "axioms": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  },
+  "ca-rule110": {
+    "path": "submissions_v3\\ca-rule110\\Submission.lean",
+    "sha256": "065a6204c6d995e2d9fd46e1c946aaaa439cbf1a7f7746502ed65f83267640e3",
+    "bytes": 32215,
+    "strict_build": true,
+    "locked_solution_bridge": true,
+    "axioms": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  },
+  "polydisc": {
+    "path": "submissions_v3\\polydisc\\Submission.lean",
+    "sha256": "a15bf3921328ce4e634c5be5828e7b769dd2613bf7c54ccf95084e02a26517b1",
+    "bytes": 388748,
+    "strict_build": true,
+    "locked_solution_bridge": true,
+    "axioms": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  },
+  "v2_unchanged": true,
+  "lean_version": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

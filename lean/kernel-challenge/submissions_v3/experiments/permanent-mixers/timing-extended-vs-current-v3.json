@@ -1,0 +1,630 @@
+{
+  "problem": "permanent",
+  "metric": "local Windows synchronous Kernel.Environment.addDeclCore wall time, not official score",
+  "lean_version": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "source_sha256": {
+    "Submission.lean": "229f1eebff8ab0f1820a59bc2a22dbed65e4813007e50187469cf434a523228d",
+    "Baseline.lean": "baf78422e740fd6aca4ac5ea0085f82fa5f72e696d9adbc1f17ba8bbd52d8567",
+    "Spec.lean": "12dc7095ec1642e7cfe78bce065164397cb7e8f12c970e00ea8c711894ce5403"
+  },
+  "repeats": 15,
+  "cases": [
+    {
+      "n": 0,
+      "samples_ns": {
+        "Baseline": [
+          1319100,
+          159200,
+          171700,
+          143600,
+          139000,
+          141900,
+          134800,
+          131500,
+          130000,
+          145200,
+          146900,
+          140100,
+          145900,
+          144700,
+          140400
+        ],
+        "Submission": [
+          266600,
+          226600,
+          147200,
+          141000,
+          134300,
+          135800,
+          135300,
+          133700,
+          137200,
+          155300,
+          146400,
+          143700,
+          159700,
+          148800,
+          137900
+        ]
+      },
+      "median_ns": {
+        "Baseline": 143600,
+        "Submission": 143700
+      },
+      "candidate_over_baseline": 1.0006963788300836
+    },
+    {
+      "n": 1,
+      "samples_ns": {
+        "Baseline": [
+          145700,
+          135400,
+          134200,
+          134500,
+          165000,
+          151500,
+          143400,
+          135600,
+          134100,
+          136000,
+          137500,
+          132800,
+          131400,
+          138500,
+          269100
+        ],
+        "Submission": [
+          148400,
+          137700,
+          130500,
+          127500,
+          175800,
+          202700,
+          150500,
+          143800,
+          133400,
+          138200,
+          140800,
+          134000,
+          130100,
+          128400,
+          264100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 136000,
+        "Submission": 138200
+      },
+      "candidate_over_baseline": 1.0161764705882352
+    },
+    {
+      "n": 8589934592,
+      "samples_ns": {
+        "Baseline": [
+          1845100,
+          1622700,
+          1530900,
+          2046600,
+          1995500,
+          1597000,
+          1481400,
+          1491900,
+          1892100,
+          2206700,
+          2191200,
+          2035400,
+          2030200,
+          2085100,
+          2109600
+        ],
+        "Submission": [
+          1556200,
+          1530800,
+          1554200,
+          1693400,
+          1928400,
+          1643000,
+          1697100,
+          1503900,
+          2148800,
+          2038800,
+          2130400,
+          2093700,
+          2002600,
+          1987500,
+          2163500
+        ]
+      },
+      "median_ns": {
+        "Baseline": 1995500,
+        "Submission": 1928400
+      },
+      "candidate_over_baseline": 0.9663743422701078
+    },
+    {
+      "n": 12884901888,
+      "samples_ns": {
+        "Baseline": [
+          221100,
+          168200,
+          159600,
+          162600,
+          158700,
+          171300,
+          163900,
+          160800,
+          162500,
+          162200,
+          171100,
+          157800,
+          153100,
+          180500,
+          183200
+        ],
+        "Submission": [
+          200200,
+          166800,
+          168000,
+          159200,
+          169000,
+          159800,
+          169500,
+          156600,
+          162700,
+          158300,
+          162500,
+          156500,
+          172200,
+          172800,
+          182900
+        ]
+      },
+      "median_ns": {
+        "Baseline": 162600,
+        "Submission": 166800
+      },
+      "candidate_over_baseline": 1.0258302583025831
+    },
+    {
+      "n": 17179869184,
+      "samples_ns": {
+        "Baseline": [
+          238700,
+          226800,
+          221000,
+          254000,
+          241900,
+          193600,
+          174700,
+          176800,
+          164200,
+          151400,
+          141700,
+          275200,
+          161700,
+          185000,
+          145400
+        ],
+        "Submission": [
+          230100,
+          213500,
+          224600,
+          223200,
+          227900,
+          208900,
+          172500,
+          161800,
+          142400,
+          137400,
+          176500,
+          224900,
+          217500,
+          246200,
+          157700
+        ]
+      },
+      "median_ns": {
+        "Baseline": 185000,
+        "Submission": 213500
+      },
+      "candidate_over_baseline": 1.154054054054054
+    },
+    {
+      "n": 25769803776,
+      "samples_ns": {
+        "Baseline": [
+          203300,
+          206900,
+          192100,
+          277800,
+          208300,
+          190800,
+          188100,
+          183100,
+          184500,
+          184300,
+          223300,
+          190200,
+          188300,
+          192900,
+          350100
+        ],
+        "Submission": [
+          207200,
+          268700,
+          194500,
+          187000,
+          193500,
+          187500,
+          188200,
+          180400,
+          184400,
+          187200,
+          202900,
+          191200,
+          187700,
+          184200,
+          267600
+        ]
+      },
+      "median_ns": {
+        "Baseline": 192100,
+        "Submission": 188200
+      },
+      "candidate_over_baseline": 0.9796980739198334
+    },
+    {
+      "n": 25769803783,
+      "samples_ns": {
+        "Baseline": [
+          253800,
+          237000,
+          257800,
+          209600,
+          200400,
+          201200,
+          192900,
+          190200,
+          191200,
+          186400,
+          182500,
+          185100,
+          183100,
+          198600,
+          188000
+        ],
+        "Submission": [
+          249400,
+          234400,
+          276700,
+          215900,
+          199000,
+          191600,
+          191800,
+          185500,
+          190100,
+          184400,
+          186600,
+          188800,
+          184600,
+          185200,
+          193100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 192900,
+        "Submission": 191600
+      },
+      "candidate_over_baseline": 0.993260756868844
+    },
+    {
+      "n": 30064771071,
+      "samples_ns": {
+        "Baseline": [
+          197000,
+          191200,
+          182400,
+          189800,
+          180900,
+          293400,
+          358300,
+          239800,
+          191800,
+          188900,
+          194500,
+          194300,
+          247900,
+          251100,
+          234800
+        ],
+        "Submission": [
+          193500,
+          196100,
+          183900,
+          178800,
+          182000,
+          183100,
+          317800,
+          203100,
+          191200,
+          184100,
+          191900,
+          186100,
+          317200,
+          266000,
+          238000
+        ]
+      },
+      "median_ns": {
+        "Baseline": 194500,
+        "Submission": 191900
+      },
+      "candidate_over_baseline": 0.9866323907455012
+    },
+    {
+      "n": 51539607552,
+      "samples_ns": {
+        "Baseline": [
+          916400,
+          901800,
+          706900,
+          547900,
+          486200,
+          569100,
+          592500,
+          589300,
+          586400,
+          860500,
+          660800,
+          782500,
+          683800,
+          737100,
+          595800
+        ],
+        "Submission": [
+          688400,
+          851900,
+          731300,
+          583500,
+          484900,
+          504300,
+          539400,
+          526800,
+          534700,
+          556000,
+          568700,
+          655200,
+          534400,
+          510200,
+          533800
+        ]
+      },
+      "median_ns": {
+        "Baseline": 660800,
+        "Submission": 539400
+      },
+      "candidate_over_baseline": 0.8162832929782082
+    },
+    {
+      "n": 51539607559,
+      "samples_ns": {
+        "Baseline": [
+          665700,
+          649500,
+          572600,
+          532000,
+          482300,
+          468900,
+          473400,
+          470500,
+          466600,
+          799300,
+          528800,
+          468100,
+          552800,
+          886300,
+          632600
+        ],
+        "Submission": [
+          573800,
+          508500,
+          510400,
+          461500,
+          420000,
+          394200,
+          412100,
+          419200,
+          412300,
+          442900,
+          436300,
+          465800,
+          592700,
+          689200,
+          458800
+        ]
+      },
+      "median_ns": {
+        "Baseline": 532000,
+        "Submission": 458800
+      },
+      "candidate_over_baseline": 0.862406015037594
+    },
+    {
+      "n": 55834574847,
+      "samples_ns": {
+        "Baseline": [
+          569100,
+          608400,
+          550000,
+          458400,
+          448900,
+          441800,
+          436800,
+          433000,
+          397400,
+          435300,
+          417700,
+          476200,
+          411600,
+          436600,
+          620700
+        ],
+        "Submission": [
+          518400,
+          557300,
+          459300,
+          414100,
+          405000,
+          410200,
+          422700,
+          406600,
+          404600,
+          396800,
+          537200,
+          524700,
+          400200,
+          430100,
+          854000
+        ]
+      },
+      "median_ns": {
+        "Baseline": 441800,
+        "Submission": 422700
+      },
+      "candidate_over_baseline": 0.9567677682209145
+    },
+    {
+      "n": 68719476736,
+      "samples_ns": {
+        "Baseline": [
+          9083300,
+          8487900,
+          8047000,
+          8358400,
+          7803800,
+          9406400,
+          7717100,
+          7356800,
+          6986900,
+          8464400,
+          7029500,
+          9079700,
+          7080700,
+          8525000,
+          6506000
+        ],
+        "Submission": [
+          8221000,
+          7510500,
+          8292900,
+          7160000,
+          7248900,
+          6065600,
+          7261600,
+          7074300,
+          6965400,
+          9791300,
+          7305300,
+          8440000,
+          6936000,
+          7251200,
+          6548100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 8047000,
+        "Submission": 7251200
+      },
+      "candidate_over_baseline": 0.9011060022368584
+    },
+    {
+      "n": 68719476743,
+      "samples_ns": {
+        "Baseline": [
+          6711900,
+          6181300,
+          8189800,
+          8152000,
+          8971100,
+          6743300,
+          8333400,
+          6685100,
+          7028200,
+          6975100,
+          6562900,
+          7340300,
+          6544300,
+          8820100,
+          6637600
+        ],
+        "Submission": [
+          5990500,
+          7515900,
+          6115300,
+          8821600,
+          6834400,
+          7976300,
+          7258300,
+          8987000,
+          7162000,
+          6234800,
+          6984300,
+          6592800,
+          7361100,
+          8738000,
+          7842800
+        ]
+      },
+      "median_ns": {
+        "Baseline": 6975100,
+        "Submission": 7258300
+      },
+      "candidate_over_baseline": 1.0406015684362948
+    },
+    {
+      "n": 73014444031,
+      "samples_ns": {
+        "Baseline": [
+          6103000,
+          6636700,
+          7059300,
+          5849000,
+          7002000,
+          5753200,
+          5468900,
+          6281400,
+          4205500,
+          3946900,
+          3373300,
+          4492800,
+          3072900,
+          4361200,
+          3596400
+        ],
+        "Submission": [
+          7155600,
+          5521200,
+          5512900,
+          7315800,
+          5819900,
+          3264200,
+          4988100,
+          3543000,
+          4725400,
+          3296400,
+          3687600,
+          6294300,
+          5278100,
+          6708700,
+          4492200
+        ]
+      },
+      "median_ns": {
+        "Baseline": 5468900,
+        "Submission": 5278100
+      },
+      "candidate_over_baseline": 0.9651118140759568
+    }
+  ],
+  "stdout": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Baseline.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\nSAMPLE Baseline 0 0 1319100\nSAMPLE Submission 0 0 266600\nSAMPLE Submission 0 1 226600\nSAMPLE Baseline 0 1 159200\nSAMPLE Baseline 0 2 171700\nSAMPLE Submission 0 2 147200\nSAMPLE Submission 0 3 141000\nSAMPLE Baseline 0 3 143600\nSAMPLE Baseline 0 4 139000\nSAMPLE Submission 0 4 134300\nSAMPLE Submission 0 5 135800\nSAMPLE Baseline 0 5 141900\nSAMPLE Baseline 0 6 134800\nSAMPLE Submission 0 6 135300\nSAMPLE Submission 0 7 133700\nSAMPLE Baseline 0 7 131500\nSAMPLE Baseline 0 8 130000\nSAMPLE Submission 0 8 137200\nSAMPLE Submission 0 9 155300\nSAMPLE Baseline 0 9 145200\nSAMPLE Baseline 0 10 146900\nSAMPLE Submission 0 10 146400\nSAMPLE Submission 0 11 143700\nSAMPLE Baseline 0 11 140100\nSAMPLE Baseline 0 12 145900\nSAMPLE Submission 0 12 159700\nSAMPLE Submission 0 13 148800\nSAMPLE Baseline 0 13 144700\nSAMPLE Baseline 0 14 140400\nSAMPLE Submission 0 14 137900\nSAMPLE Baseline 1 0 145700\nSAMPLE Submission 1 0 148400\nSAMPLE Submission 1 1 137700\nSAMPLE Baseline 1 1 135400\nSAMPLE Baseline 1 2 134200\nSAMPLE Submission 1 2 130500\nSAMPLE Submission 1 3 127500\nSAMPLE Baseline 1 3 134500\nSAMPLE Baseline 1 4 165000\nSAMPLE Submission 1 4 175800\nSAMPLE Submission 1 5 202700\nSAMPLE Baseline 1 5 151500\nSAMPLE Baseline 1 6 143400\nSAMPLE Submission 1 6 150500\nSAMPLE Submission 1 7 143800\nSAMPLE Baseline 1 7 135600\nSAMPLE Baseline 1 8 134100\nSAMPLE Submission 1 8 133400\nSAMPLE Submission 1 9 138200\nSAMPLE Baseline 1 9 136000\nSAMPLE Baseline 1 10 137500\nSAMPLE Submission 1 10 140800\nSAMPLE Submission 1 11 134000\nSAMPLE Baseline 1 11 132800\nSAMPLE Baseline 1 12 131400\nSAMPLE Submission 1 12 130100\nSAMPLE Submission 1 13 128400\nSAMPLE Baseline 1 13 138500\nSAMPLE Baseline 1 14 269100\nSAMPLE Submission 1 14 264100\nSAMPLE Baseline 8589934592 0 1845100\nSAMPLE Submission 8589934592 0 1556200\nSAMPLE Submission 8589934592 1 1530800\nSAMPLE Baseline 8589934592 1 1622700\nSAMPLE Baseline 8589934592 2 1530900\nSAMPLE Submission 8589934592 2 1554200\nSAMPLE Submission 8589934592 3 1693400\nSAMPLE Baseline 8589934592 3 2046600\nSAMPLE Baseline 8589934592 4 1995500\nSAMPLE Submission 8589934592 4 1928400\nSAMPLE Submission 8589934592 5 1643000\nSAMPLE Baseline 8589934592 5 1597000\nSAMPLE Baseline 8589934592 6 1481400\nSAMPLE Submission 8589934592 6 1697100\nSAMPLE Submission 8589934592 7 1503900\nSAMPLE Baseline 8589934592 7 1491900\nSAMPLE Baseline 8589934592 8 1892100\nSAMPLE Submission 8589934592 8 2148800\nSAMPLE Submission 8589934592 9 2038800\nSAMPLE Baseline 8589934592 9 2206700\nSAMPLE Baseline 8589934592 10 2191200\nSAMPLE Submission 8589934592 10 2130400\nSAMPLE Submission 8589934592 11 2093700\nSAMPLE Baseline 8589934592 11 2035400\nSAMPLE Baseline 8589934592 12 2030200\nSAMPLE Submission 8589934592 12 2002600\nSAMPLE Submission 8589934592 13 1987500\nSAMPLE Baseline 8589934592 13 2085100\nSAMPLE Baseline 8589934592 14 2109600\nSAMPLE Submission 8589934592 14 2163500\nSAMPLE Baseline 12884901888 0 221100\nSAMPLE Submission 12884901888 0 200200\nSAMPLE Submission 12884901888 1 166800\nSAMPLE Baseline 12884901888 1 168200\nSAMPLE Baseline 12884901888 2 159600\nSAMPLE Submission 12884901888 2 168000\nSAMPLE Submission 12884901888 3 159200\nSAMPLE Baseline 12884901888 3 162600\nSAMPLE Baseline 12884901888 4 158700\nSAMPLE Submission 12884901888 4 169000\nSAMPLE Submission 12884901888 5 159800\nSAMPLE Baseline 12884901888 5 171300\nSAMPLE Baseline 12884901888 6 163900\nSAMPLE Submission 12884901888 6 169500\nSAMPLE Submission 12884901888 7 156600\nSAMPLE Baseline 12884901888 7 160800\nSAMPLE Baseline 12884901888 8 162500\nSAMPLE Submission 12884901888 8 162700\nSAMPLE Submission 12884901888 9 158300\nSAMPLE Baseline 12884901888 9 162200\nSAMPLE Baseline 12884901888 10 171100\nSAMPLE Submission 12884901888 10 162500\nSAMPLE Submission 12884901888 11 156500\nSAMPLE Baseline 12884901888 11 157800\nSAMPLE Baseline 12884901888 12 153100\nSAMPLE Submission 12884901888 12 172200\nSAMPLE Submission 12884901888 13 172800\nSAMPLE Baseline 12884901888 13 180500\nSAMPLE Baseline 12884901888 14 183200\nSAMPLE Submission 12884901888 14 182900\nSAMPLE Baseline 17179869184 0 238700\nSAMPLE Submission 17179869184 0 230100\nSAMPLE Submission 17179869184 1 213500\nSAMPLE Baseline 17179869184 1 226800\nSAMPLE Baseline 17179869184 2 221000\nSAMPLE Submission 17179869184 2 224600\nSAMPLE Submission 17179869184 3 223200\nSAMPLE Baseline 17179869184 3 254000\nSAMPLE Baseline 17179869184 4 241900\nSAMPLE Submission 17179869184 4 227900\nSAMPLE Submission 17179869184 5 208900\nSAMPLE Baseline 17179869184 5 193600\nSAMPLE Baseline 17179869184 6 174700\nSAMPLE Submission 17179869184 6 172500\nSAMPLE Submission 17179869184 7 161800\nSAMPLE Baseline 17179869184 7 176800\nSAMPLE Baseline 17179869184 8 164200\nSAMPLE Submission 17179869184 8 142400\nSAMPLE Submission 17179869184 9 137400\nSAMPLE Baseline 17179869184 9 151400\nSAMPLE Baseline 17179869184 10 141700\nSAMPLE Submission 17179869184 10 176500\nSAMPLE Submission 17179869184 11 224900\nSAMPLE Baseline 17179869184 11 275200\nSAMPLE Baseline 17179869184 12 161700\nSAMPLE Submission 17179869184 12 217500\nSAMPLE Submission 17179869184 13 246200\nSAMPLE Baseline 17179869184 13 185000\nSAMPLE Baseline 17179869184 14 145400\nSAMPLE Submission 17179869184 14 157700\nSAMPLE Baseline 25769803776 0 203300\nSAMPLE Submission 25769803776 0 207200\nSAMPLE Submission 25769803776 1 268700\nSAMPLE Baseline 25769803776 1 206900\nSAMPLE Baseline 25769803776 2 192100\nSAMPLE Submission 25769803776 2 194500\nSAMPLE Submission 25769803776 3 187000\nSAMPLE Baseline 25769803776 3 277800\nSAMPLE Baseline 25769803776 4 208300\nSAMPLE Submission 25769803776 4 193500\nSAMPLE Submission 25769803776 5 187500\nSAMPLE Baseline 25769803776 5 190800\nSAMPLE Baseline 25769803776 6 188100\nSAMPLE Submission 25769803776 6 188200\nSAMPLE Submission 25769803776 7 180400\nSAMPLE Baseline 25769803776 7 183100\nSAMPLE Baseline 25769803776 8 184500\nSAMPLE Submission 25769803776 8 184400\nSAMPLE Submission 25769803776 9 187200\nSAMPLE Baseline 25769803776 9 184300\nSAMPLE Baseline 25769803776 10 223300\nSAMPLE Submission 25769803776 10 202900\nSAMPLE Submission 25769803776 11 191200\nSAMPLE Baseline 25769803776 11 190200\nSAMPLE Baseline 25769803776 12 188300\nSAMPLE Submission 25769803776 12 187700\nSAMPLE Submission 25769803776 13 184200\nSAMPLE Baseline 25769803776 13 192900\nSAMPLE Baseline 25769803776 14 350100\nSAMPLE Submission 25769803776 14 267600\nSAMPLE Baseline 25769803783 0 253800\nSAMPLE Submission 25769803783 0 249400\nSAMPLE Submission 25769803783 1 234400\nSAMPLE Baseline 25769803783 1 237000\nSAMPLE Baseline 25769803783 2 257800\nSAMPLE Submission 25769803783 2 276700\nSAMPLE Submission 25769803783 3 215900\nSAMPLE Baseline 25769803783 3 209600\nSAMPLE Baseline 25769803783 4 200400\nSAMPLE Submission 25769803783 4 199000\nSAMPLE Submission 25769803783 5 191600\nSAMPLE Baseline 25769803783 5 201200\nSAMPLE Baseline 25769803783 6 192900\nSAMPLE Submission 25769803783 6 191800\nSAMPLE Submission 25769803783 7 185500\nSAMPLE Baseline 25769803783 7 190200\nSAMPLE Baseline 25769803783 8 191200\nSAMPLE Submission 25769803783 8 190100\nSAMPLE Submission 25769803783 9 184400\nSAMPLE Baseline 25769803783 9 186400\nSAMPLE Baseline 25769803783 10 182500\nSAMPLE Submission 25769803783 10 186600\nSAMPLE Submission 25769803783 11 188800\nSAMPLE Baseline 25769803783 11 185100\nSAMPLE Baseline 25769803783 12 183100\nSAMPLE Submission 25769803783 12 184600\nSAMPLE Submission 25769803783 13 185200\nSAMPLE Baseline 25769803783 13 198600\nSAMPLE Baseline 25769803783 14 188000\nSAMPLE Submission 25769803783 14 193100\nSAMPLE Baseline 30064771071 0 197000\nSAMPLE Submission 30064771071 0 193500\nSAMPLE Submission 30064771071 1 196100\nSAMPLE Baseline 30064771071 1 191200\nSAMPLE Baseline 30064771071 2 182400\nSAMPLE Submission 30064771071 2 183900\nSAMPLE Submission 30064771071 3 178800\nSAMPLE Baseline 30064771071 3 189800\nSAMPLE Baseline 30064771071 4 180900\nSAMPLE Submission 30064771071 4 182000\nSAMPLE Submission 30064771071 5 183100\nSAMPLE Baseline 30064771071 5 293400\nSAMPLE Baseline 30064771071 6 358300\nSAMPLE Submission 30064771071 6 317800\nSAMPLE Submission 30064771071 7 203100\nSAMPLE Baseline 30064771071 7 239800\nSAMPLE Baseline 30064771071 8 191800\nSAMPLE Submission 30064771071 8 191200\nSAMPLE Submission 30064771071 9 184100\nSAMPLE Baseline 30064771071 9 188900\nSAMPLE Baseline 30064771071 10 194500\nSAMPLE Submission 30064771071 10 191900\nSAMPLE Submission 30064771071 11 186100\nSAMPLE Baseline 30064771071 11 194300\nSAMPLE Baseline 30064771071 12 247900\nSAMPLE Submission 30064771071 12 317200\nSAMPLE Submission 30064771071 13 266000\nSAMPLE Baseline 30064771071 13 251100\nSAMPLE Baseline 30064771071 14 234800\nSAMPLE Submission 30064771071 14 238000\nSAMPLE Baseline 51539607552 0 916400\nSAMPLE Submission 51539607552 0 688400\nSAMPLE Submission 51539607552 1 851900\nSAMPLE Baseline 51539607552 1 901800\nSAMPLE Baseline 51539607552 2 706900\nSAMPLE Submission 51539607552 2 731300\nSAMPLE Submission 51539607552 3 583500\nSAMPLE Baseline 51539607552 3 547900\nSAMPLE Baseline 51539607552 4 486200\nSAMPLE Submission 51539607552 4 484900\nSAMPLE Submission 51539607552 5 504300\nSAMPLE Baseline 51539607552 5 569100\nSAMPLE Baseline 51539607552 6 592500\nSAMPLE Submission 51539607552 6 539400\nSAMPLE Submission 51539607552 7 526800\nSAMPLE Baseline 51539607552 7 589300\nSAMPLE Baseline 51539607552 8 586400\nSAMPLE Submission 51539607552 8 534700\nSAMPLE Submission 51539607552 9 556000\nSAMPLE Baseline 51539607552 9 860500\nSAMPLE Baseline 51539607552 10 660800\nSAMPLE Submission 51539607552 10 568700\nSAMPLE Submission 51539607552 11 655200\nSAMPLE Baseline 51539607552 11 782500\nSAMPLE Baseline 51539607552 12 683800\nSAMPLE Submission 51539607552 12 534400\nSAMPLE Submission 51539607552 13 510200\nSAMPLE Baseline 51539607552 13 737100\nSAMPLE Baseline 51539607552 14 595800\nSAMPLE Submission 51539607552 14 533800\nSAMPLE Baseline 51539607559 0 665700\nSAMPLE Submission 51539607559 0 573800\nSAMPLE Submission 51539607559 1 508500\nSAMPLE Baseline 51539607559 1 649500\nSAMPLE Baseline 51539607559 2 572600\nSAMPLE Submission 51539607559 2 510400\nSAMPLE Submission 51539607559 3 461500\nSAMPLE Baseline 51539607559 3 532000\nSAMPLE Baseline 51539607559 4 482300\nSAMPLE Submission 51539607559 4 420000\nSAMPLE Submission 51539607559 5 394200\nSAMPLE Baseline 51539607559 5 468900\nSAMPLE Baseline 51539607559 6 473400\nSAMPLE Submission 51539607559 6 412100\nSAMPLE Submission 51539607559 7 419200\nSAMPLE Baseline 51539607559 7 470500\nSAMPLE Baseline 51539607559 8 466600\nSAMPLE Submission 51539607559 8 412300\nSAMPLE Submission 51539607559 9 442900\nSAMPLE Baseline 51539607559 9 799300\nSAMPLE Baseline 51539607559 10 528800\nSAMPLE Submission 51539607559 10 436300\nSAMPLE Submission 51539607559 11 465800\nSAMPLE Baseline 51539607559 11 468100\nSAMPLE Baseline 51539607559 12 552800\nSAMPLE Submission 51539607559 12 592700\nSAMPLE Submission 51539607559 13 689200\nSAMPLE Baseline 51539607559 13 886300\nSAMPLE Baseline 51539607559 14 632600\nSAMPLE Submission 51539607559 14 458800\nSAMPLE Baseline 55834574847 0 569100\nSAMPLE Submission 55834574847 0 518400\nSAMPLE Submission 55834574847 1 557300\nSAMPLE Baseline 55834574847 1 608400\nSAMPLE Baseline 55834574847 2 550000\nSAMPLE Submission 55834574847 2 459300\nSAMPLE Submission 55834574847 3 414100\nSAMPLE Baseline 55834574847 3 458400\nSAMPLE Baseline 55834574847 4 448900\nSAMPLE Submission 55834574847 4 405000\nSAMPLE Submission 55834574847 5 410200\nSAMPLE Baseline 55834574847 5 441800\nSAMPLE Baseline 55834574847 6 436800\nSAMPLE Submission 55834574847 6 422700\nSAMPLE Submission 55834574847 7 406600\nSAMPLE Baseline 55834574847 7 433000\nSAMPLE Baseline 55834574847 8 397400\nSAMPLE Submission 55834574847 8 404600\nSAMPLE Submission 55834574847 9 396800\nSAMPLE Baseline 55834574847 9 435300\nSAMPLE Baseline 55834574847 10 417700\nSAMPLE Submission 55834574847 10 537200\nSAMPLE Submission 55834574847 11 524700\nSAMPLE Baseline 55834574847 11 476200\nSAMPLE Baseline 55834574847 12 411600\nSAMPLE Submission 55834574847 12 400200\nSAMPLE Submission 55834574847 13 430100\nSAMPLE Baseline 55834574847 13 436600\nSAMPLE Baseline 55834574847 14 620700\nSAMPLE Submission 55834574847 14 854000\nSAMPLE Baseline 68719476736 0 9083300\nSAMPLE Submission 68719476736 0 8221000\nSAMPLE Submission 68719476736 1 7510500\nSAMPLE Baseline 68719476736 1 8487900\nSAMPLE Baseline 68719476736 2 8047000\nSAMPLE Submission 68719476736 2 8292900\nSAMPLE Submission 68719476736 3 7160000\nSAMPLE Baseline 68719476736 3 8358400\nSAMPLE Baseline 68719476736 4 7803800\nSAMPLE Submission 68719476736 4 7248900\nSAMPLE Submission 68719476736 5 6065600\nSAMPLE Baseline 68719476736 5 9406400\nSAMPLE Baseline 68719476736 6 7717100\nSAMPLE Submission 68719476736 6 7261600\nSAMPLE Submission 68719476736 7 7074300\nSAMPLE Baseline 68719476736 7 7356800\nSAMPLE Baseline 68719476736 8 6986900\nSAMPLE Submission 68719476736 8 6965400\nSAMPLE Submission 68719476736 9 9791300\nSAMPLE Baseline 68719476736 9 8464400\nSAMPLE Baseline 68719476736 10 7029500\nSAMPLE Submission 68719476736 10 7305300\nSAMPLE Submission 68719476736 11 8440000\nSAMPLE Baseline 68719476736 11 9079700\nSAMPLE Baseline 68719476736 12 7080700\nSAMPLE Submission 68719476736 12 6936000\nSAMPLE Submission 68719476736 13 7251200\nSAMPLE Baseline 68719476736 13 8525000\nSAMPLE Baseline 68719476736 14 6506000\nSAMPLE Submission 68719476736 14 6548100\nSAMPLE Baseline 68719476743 0 6711900\nSAMPLE Submission 68719476743 0 5990500\nSAMPLE Submission 68719476743 1 7515900\nSAMPLE Baseline 68719476743 1 6181300\nSAMPLE Baseline 68719476743 2 8189800\nSAMPLE Submission 68719476743 2 6115300\nSAMPLE Submission 68719476743 3 8821600\nSAMPLE Baseline 68719476743 3 8152000\nSAMPLE Baseline 68719476743 4 8971100\nSAMPLE Submission 68719476743 4 6834400\nSAMPLE Submission 68719476743 5 7976300\nSAMPLE Baseline 68719476743 5 6743300\nSAMPLE Baseline 68719476743 6 8333400\nSAMPLE Submission 68719476743 6 7258300\nSAMPLE Submission 68719476743 7 8987000\nSAMPLE Baseline 68719476743 7 6685100\nSAMPLE Baseline 68719476743 8 7028200\nSAMPLE Submission 68719476743 8 7162000\nSAMPLE Submission 68719476743 9 6234800\nSAMPLE Baseline 68719476743 9 6975100\nSAMPLE Baseline 68719476743 10 6562900\nSAMPLE Submission 68719476743 10 6984300\nSAMPLE Submission 68719476743 11 6592800\nSAMPLE Baseline 68719476743 11 7340300\nSAMPLE Baseline 68719476743 12 6544300\nSAMPLE Submission 68719476743 12 7361100\nSAMPLE Submission 68719476743 13 8738000\nSAMPLE Baseline 68719476743 13 8820100\nSAMPLE Baseline 68719476743 14 6637600\nSAMPLE Submission 68719476743 14 7842800\nSAMPLE Baseline 73014444031 0 6103000\nSAMPLE Submission 73014444031 0 7155600\nSAMPLE Submission 73014444031 1 5521200\nSAMPLE Baseline 73014444031 1 6636700\nSAMPLE Baseline 73014444031 2 7059300\nSAMPLE Submission 73014444031 2 5512900\nSAMPLE Submission 73014444031 3 7315800\nSAMPLE Baseline 73014444031 3 5849000\nSAMPLE Baseline 73014444031 4 7002000\nSAMPLE Submission 73014444031 4 5819900\nSAMPLE Submission 73014444031 5 3264200\nSAMPLE Baseline 73014444031 5 5753200\nSAMPLE Baseline 73014444031 6 5468900\nSAMPLE Submission 73014444031 6 4988100\nSAMPLE Submission 73014444031 7 3543000\nSAMPLE Baseline 73014444031 7 6281400\nSAMPLE Baseline 73014444031 8 4205500\nSAMPLE Submission 73014444031 8 4725400\nSAMPLE Submission 73014444031 9 3296400\nSAMPLE Baseline 73014444031 9 3946900\nSAMPLE Baseline 73014444031 10 3373300\nSAMPLE Submission 73014444031 10 3687600\nSAMPLE Submission 73014444031 11 6294300\nSAMPLE Baseline 73014444031 11 4492800\nSAMPLE Baseline 73014444031 12 3072900\nSAMPLE Submission 73014444031 12 5278100\nSAMPLE Submission 73014444031 13 6708700\nSAMPLE Baseline 73014444031 13 4361200\nSAMPLE Baseline 73014444031 14 3596400\nSAMPLE Submission 73014444031 14 4492200\n"
+}

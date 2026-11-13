@@ -1,0 +1,18 @@
+{
+  "candidate": {
+    "path": "submissions_v3/experiments/permanent-mixers/Submission.lean",
+    "sha256": "229f1eebff8ab0f1820a59bc2a22dbed65e4813007e50187469cf434a523228d"
+  },
+  "baseline_current_v3": {
+    "path": ".v3-work\\permanent-mixers\\BaselineCurrentV3.lean",
+    "sha256": "baf78422e740fd6aca4ac5ea0085f82fa5f72e696d9adbc1f17ba8bbd52d8567"
+  },
+  "baseline_v2": {
+    "path": ".v3-work\\permanent-mixers\\Baseline.lean",
+    "sha256": "b0289f9c6d0b21d2b754ae577056ce3dbefc70e4c94701237192e7c1eb147543"
+  },
+  "spec": {
+    "path": ".v3-work\\permanent-mixers\\Spec.lean",
+    "sha256": "12dc7095ec1642e7cfe78bce065164397cb7e8f12c970e00ea8c711894ce5403"
+  }
+}

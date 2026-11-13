@@ -1,0 +1,134 @@
+{
+  "problem": "sha256",
+  "metric": "local Windows synchronous Kernel.Environment.addDeclCore wall time, not official score",
+  "lean_version": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "source_sha256": {
+    "Submission.lean": "73c655aa3d7261a4fcfb0f1a555e319cc5cd503b14cf78ba1a80eb47876166ed",
+    "Baseline.lean": "ddebd7685d5b82f54567f89b4ae00dc47d591c2b9846a5077d68c93da6dfb646",
+    "Spec.lean": "e2046c1dc9f979d37e36fda738892db78f6847facf6e61dadabf888c09e8480e"
+  },
+  "repeats": 3,
+  "cases": [
+    {
+      "n": 17179869185,
+      "samples_ns": {
+        "Baseline": [
+          13310100,
+          8637900,
+          6728900
+        ],
+        "Submission": [
+          7943500,
+          7967400,
+          5274100
+        ]
+      },
+      "median_ns": {
+        "Baseline": 8637900,
+        "Submission": 7943500
+      },
+      "candidate_over_baseline": 0.9196100904154945
+    },
+    {
+      "n": 17179869186,
+      "samples_ns": {
+        "Baseline": [
+          6057600,
+          6488900,
+          6315300
+        ],
+        "Submission": [
+          5488600,
+          5627200,
+          5112400
+        ]
+      },
+      "median_ns": {
+        "Baseline": 6315300,
+        "Submission": 5488600
+      },
+      "candidate_over_baseline": 0.8690956882491726
+    },
+    {
+      "n": 137438953473,
+      "samples_ns": {
+        "Baseline": [
+          83657200,
+          66878000,
+          68075400
+        ],
+        "Submission": [
+          61778300,
+          61957000,
+          67030700
+        ]
+      },
+      "median_ns": {
+        "Baseline": 68075400,
+        "Submission": 61957000
+      },
+      "candidate_over_baseline": 0.9101231869368377
+    },
+    {
+      "n": 137438953474,
+      "samples_ns": {
+        "Baseline": [
+          85903800,
+          91906800,
+          79031200
+        ],
+        "Submission": [
+          52081400,
+          62944700,
+          62175400
+        ]
+      },
+      "median_ns": {
+        "Baseline": 85903800,
+        "Submission": 62175400
+      },
+      "candidate_over_baseline": 0.7237793904344162
+    },
+    {
+      "n": 2199023255553,
+      "samples_ns": {
+        "Baseline": [
+          2430500600,
+          1921212800,
+          1965687300
+        ],
+        "Submission": [
+          1412483800,
+          1480726200,
+          1426357000
+        ]
+      },
+      "median_ns": {
+        "Baseline": 1965687300,
+        "Submission": 1426357000
+      },
+      "candidate_over_baseline": 0.7256276214431461
+    },
+    {
+      "n": 2199023255554,
+      "samples_ns": {
+        "Baseline": [
+          1975932700,
+          2010014900,
+          1922526200
+        ],
+        "Submission": [
+          1455697200,
+          1503246300,
+          1446035200
+        ]
+      },
+      "median_ns": {
+        "Baseline": 1975932700,
+        "Submission": 1455697200
+      },
+      "candidate_over_baseline": 0.7367139579197206
+    }
+  ],
+  "stdout": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Baseline.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\nSAMPLE Baseline 17179869185 0 13310100\nSAMPLE Submission 17179869185 0 7943500\nSAMPLE Submission 17179869185 1 7967400\nSAMPLE Baseline 17179869185 1 8637900\nSAMPLE Baseline 17179869185 2 6728900\nSAMPLE Submission 17179869185 2 5274100\nSAMPLE Baseline 17179869186 0 6057600\nSAMPLE Submission 17179869186 0 5488600\nSAMPLE Submission 17179869186 1 5627200\nSAMPLE Baseline 17179869186 1 6488900\nSAMPLE Baseline 17179869186 2 6315300\nSAMPLE Submission 17179869186 2 5112400\nSAMPLE Baseline 137438953473 0 83657200\nSAMPLE Submission 137438953473 0 61778300\nSAMPLE Submission 137438953473 1 61957000\nSAMPLE Baseline 137438953473 1 66878000\nSAMPLE Baseline 137438953473 2 68075400\nSAMPLE Submission 137438953473 2 67030700\nSAMPLE Baseline 137438953474 0 85903800\nSAMPLE Submission 137438953474 0 52081400\nSAMPLE Submission 137438953474 1 62944700\nSAMPLE Baseline 137438953474 1 91906800\nSAMPLE Baseline 137438953474 2 79031200\nSAMPLE Submission 137438953474 2 62175400\nSAMPLE Baseline 2199023255553 0 2430500600\nSAMPLE Submission 2199023255553 0 1412483800\nSAMPLE Submission 2199023255553 1 1480726200\nSAMPLE Baseline 2199023255553 1 1921212800\nSAMPLE Baseline 2199023255553 2 1965687300\nSAMPLE Submission 2199023255553 2 1426357000\nSAMPLE Baseline 2199023255554 0 1975932700\nSAMPLE Submission 2199023255554 0 1455697200\nSAMPLE Submission 2199023255554 1 1503246300\nSAMPLE Baseline 2199023255554 1 2010014900\nSAMPLE Baseline 2199023255554 2 1922526200\nSAMPLE Submission 2199023255554 2 1446035200\n"
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": "73c655aa3d7261a4fcfb0f1a555e319cc5cd503b14cf78ba1a80eb47876166ed",
+  "bytes": 92917,
+  "strict_build": true,
+  "locked_solution_bridge": true,
+  "axioms": "'Submission.impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'impl_correct' depends on axioms: [propext, Classical.choice, Quot.sound]",
+  "v2_sha256_unchanged": true,
+  "lean_version": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

@@ -1,0 +1,8 @@
+name = "v9dev"
+defaultTargets = ["V9"]
+
+[[lean_lib]]
+name = "Spec"
+
+[[lean_lib]]
+name = "V9"
